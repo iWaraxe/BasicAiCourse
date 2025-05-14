@@ -1,7 +1,11 @@
+# Beginners AI. Mastering modern AI tools
 ## Lecture 2. Practical AI Application - Text, Code and Visuals
+
 ### 1. Introduction: From Theory to Practice
 
-#### 1.1. Script
+##### Introduction
+
+###### SCRIPT
 
 "Welcome back, everyone! I hope you enjoyed your first deep dive into the world of AI in our previous lecture. We met the major players—ChatGPT, Claude, Gemini, Perplexity, and Mistral—and discovered that, while these systems are impressive, they're far from perfect. We also explored the boundaries of AI by witnessing firsthand its biases, hallucinations, and occasional lapses in logic.
 
@@ -11,9 +15,8 @@ Our focus is not just on results, but also on comparing how different tools perf
 
 So—ready to put theory into practice? Let’s begin."
 
----
 
-#### 1.2. Slide
+###### VISUAL
 
 **Slide Title: "From Theory to Practice"**
 
@@ -29,18 +32,16 @@ So—ready to put theory into practice? Let’s begin."
 
 Visuals: Icons representing each category (pen for writing, brackets for code, eye for visual, magnifying glass for analysis)
 
----
 
-#### 1.3. Slide Notes
+###### NOTES
 
 - Recap the emotional tone from Lecture 1: exploration, caution, surprise.
 - Add fun fact: The first AI writing assistant was developed in the 1980s and was basically a glorified spell-checker.
 - Joke: “Last time, we caught AI making things up. Today, we see if it can help us write a birthday card, fix our code, and maybe even explain a pie chart.”
 - Mention: Today’s demos include ChatGPT, Claude, Gemini, Perplexity—live comparisons!
 
----
 
-#### 1.4. Demonstration (Optional)
+###### DEMONSTRATION
 
 **Title: "Then vs Now: Writing Help"**
 
@@ -58,9 +59,9 @@ Visuals: Icons representing each category (pen for writing, brackets for code, e
 
 ### 2. Text Generation and Editing
 
-#### 2.1. Writing and Editing Assistance
+##### Writing and Editing Assistance
 
-##### 2.1.1. Script
+###### SCRIPT
 
 "Let’s start with something that nearly everyone here has done: writing. Whether it’s an email, a blog post, or a heartfelt thank-you note, generative AI has become an incredibly useful assistant for writing and editing.
 
@@ -68,9 +69,7 @@ Modern tools like ChatGPT, Claude, and Gemini are not just spelling and grammar 
 
 Let’s see how they handle writing from scratch, and then how they revise something that needs improvement."
 
----
-
-##### 2.1.2. Slide
+###### VISUAL
 
 **Slide Title: "Writing & Editing with AI"**
 
@@ -80,17 +79,14 @@ Let’s see how they handle writing from scratch, and then how they revise somet
 	- Edit drafts for clarity, grammar, conciseness
 - Visual: Screenshot of ChatGPT editing interface + Claude writing suggestions box
 
----
-
-##### 2.1.3. Slide Notes
+###### NOTES
 
 - Mention: Gemini can write directly inside Google Docs; ChatGPT Pro can use memory to personalize tone over time.
 - Joke: "It's like having a co-writer who never complains about deadlines."
 - Tip: Show examples of how tone changes with a simple prompt tweak (e.g., "make it sound more friendly")
 
----
 
-##### 2.1.4. Demonstrations
+###### DEMONSTRATION
 
 **Demo 1 – Prompt:** "Generate a 500-word blog post about the benefits of AI in education, focusing on how it enhances personalized learning. Write in an engaging and conversational tone."
 
@@ -108,9 +104,9 @@ Let’s see how they handle writing from scratch, and then how they revise somet
 
 ---
 
-#### 2.2. Translation and Language Processing
+##### Translation and Language Processing
 
-##### 2.2.1. Script
+###### SCRIPT
 
 "Next up: language translation and contextual phrasing. AI tools can now translate texts not just word-for-word, but with nuance, tone, and even regional flavor.
 
@@ -118,9 +114,8 @@ This is incredibly useful for global communication—whether you're preparing an
 
 Let’s test their abilities in formal and informal translation—and see how they handle idioms and culturally complex expressions."
 
----
 
-##### 2.2.2. Slide
+###### VISUAL
 
 **Slide Title: "AI-Powered Translation & Language Processing"**
 
@@ -130,18 +125,15 @@ Let’s test their abilities in formal and informal translation—and see how th
 	- Tone adjustment based on audience
 - Visual: Side-by-side translation example (English → Spanish, English → French)
 
----
-
-##### 2.2.3. Slide Notes
+###### NOTES
 
 - Mention: Gemini is deeply integrated with Google Translate and Gmail.
 - Claude tends to explain its translation logic.
 - Joke: “They might not pass a Turing test in Spanish... but they’ll help you pass that French test.”
 - Trivia: The phrase "It's raining cats and dogs" has no direct equivalent in most other languages—watch how each model handles that!
 
----
 
-##### 2.2.4. Demonstrations
+###### DEMONSTRATION
 
 **Demo 1 – Prompt:** "Translate the following text into Spanish, maintaining a formal tone: ‘Artificial Intelligence is revolutionizing the way we work and learn. It offers solutions to complex problems and creates new opportunities for innovation.’"
 
@@ -160,9 +152,9 @@ Let’s test their abilities in formal and informal translation—and see how th
 
 ### 3. Code Generation and Debugging
 
-#### 3.1. Code Generation
+##### Code Generation
 
-##### 3.1.1. Script
+###### SCRIPT
 
 "Now let’s jump into something a bit more technical—code generation.
 
@@ -170,9 +162,8 @@ Whether you’re a seasoned developer or someone who’s just starting, generati
 
 Let’s begin with a simple example—generating a Python script for the Fibonacci sequence, with comments to explain each step. This will show how well the models handle both logic and readability."
 
----
 
-##### 3.1.2. Slide
+###### VISUAL
 
 **Slide Title: "Let AI Write the Code"**
 
@@ -182,18 +173,15 @@ Let’s begin with a simple example—generating a Python script for the Fibonac
 	- Create quick utilities and automation scripts
 - Visual: Screenshot of ChatGPT generating a Python snippet
 
----
 
-##### 3.1.3. Slide Notes
+###### NOTES
 
 - Mention: Claude often provides more detailed explanations; ChatGPT is faster and usually more concise.
 - Gemini may include code with a visual explanation or annotations.
 - Joke: "The only intern who never gets tired and doesn’t drink your coffee."
 - Tip: Highlight best use case—quick prototypes and boilerplate code
 
----
-
-##### 3.1.4. Demonstration
+###### DEMONSTRATION
 
 **Prompt:** "Write a Python script to calculate the Fibonacci sequence up to the 50th number. Include comments explaining each step."
 
@@ -209,9 +197,9 @@ Let’s begin with a simple example—generating a Python script for the Fibonac
 
 ---
 
-#### 3.2. Debugging Assistance
+##### Debugging Assistance
 
-##### 3.2.1. Script
+###### SCRIPT
 
 "Of course, no one writes perfect code all the time—that’s where debugging comes in.
 
@@ -219,9 +207,8 @@ Many AI tools now assist in identifying and fixing code errors. What’s even mo
 
 Let’s take a buggy Python and JavaScript snippet and ask our AI companions to help us out."
 
----
 
-##### 3.2.2. Slide
+###### VISUAL
 
 **Slide Title: "Fixing Code with AI"**
 
@@ -231,17 +218,15 @@ Let’s take a buggy Python and JavaScript snippet and ask our AI companions to 
 	- Suggest fixes and improvements
 - Visual: Side-by-side before-and-after of buggy vs fixed code
 
----
 
-##### 3.2.3. Slide Notes
+###### NOTES
 
 - Gemini and Claude are especially good at interpreting screenshot-based prompts
 - Joke: “AI doesn’t get frustrated with typos. Wish we could say the same for our colleagues.”
 - Mention: You can feed error logs or even ask "Why is this code not working?"
 
----
 
-##### 3.2.4. Demonstrations
+###### DEMONSTRATION
 
 **Demo 1 – Prompt:** "Here’s a piece of Python code with an error. Find the bug and fix it:
 
@@ -265,17 +250,11 @@ def greet(name)
 
 ---
 
-Next up: **4. Visual and Document Analysis**?
-
-````
-
----
-
 ### 4. Visual and Document Analysis
 
-#### 4.1. Image Understanding and Generation
+##### Image Understanding and Generation
 
-##### 4.1.1. Script
+###### SCRIPT
 
 "Let’s now shift our focus to the **visual** side of AI.
 
@@ -283,9 +262,8 @@ Today’s top models aren’t limited to text—they’re increasingly capable o
 
 We’ll begin by uploading diagrams, charts, and other visuals to see how well the AI understands them. Then, we’ll flip the script and ask the AI to generate creative images from a description."
 
----
 
-##### 4.1.2. Slide
+###### VISUAL
 
 **Slide Title: "From Pixels to Understanding"**
 
@@ -295,17 +273,15 @@ We’ll begin by uploading diagrams, charts, and other visuals to see how well t
 	- Generate new images from prompts
 - Visual: Split screen—image upload interface + generated image result
 
----
 
-##### 4.1.3. Slide Notes
+###### NOTES
 
 - Mention Gemini and GPT-4V (DALL·E integration) as top tools for visual tasks.
 - Claude can interpret diagrams and describe their components clearly.
 - Joke: “AI can’t draw a horse very well… but it might draw you a futuristic city with a flying horse!”
 
----
 
-##### 4.1.4. Demonstrations
+###### DEMONSTRATION
 
 **Demo 1 – Prompt (Image Upload):** "Analyze this image of a flowchart (upload an image) and summarize the process it represents."
 
@@ -322,9 +298,9 @@ We’ll begin by uploading diagrams, charts, and other visuals to see how well t
 
 ---
 
-#### 4.2. Document Analysis and Data Extraction
+##### Document Analysis and Data Extraction
 
-##### 4.2.1. Script
+###### SCRIPT
 
 "Visuals aren’t just about images—we also deal with complex documents every day.
 
@@ -332,9 +308,8 @@ AI can now analyze uploaded PDFs, contracts, research papers, invoices—you nam
 
 This has huge implications for fields like law, education, and business. Let’s see how well our models summarize and extract data from documents."
 
----
 
-##### 4.2.2. Slide
+###### VISUAL
 
 **Slide Title: "AI Meets PDFs & Docs"**
 
@@ -344,18 +319,16 @@ This has huge implications for fields like law, education, and business. Let’s
 	- Improve accessibility and document search
 - Visual: Screenshot of PDF + summary panel next to it
 
----
 
-##### 4.2.3. Slide Notes
+###### NOTES
 
 - Perplexity can cite and summarize documents with web-based tools.
 - Claude is particularly good at parsing large text blocks and legal content.
 - Joke: “Give AI your tax return and see if it panics less than you.”
 - Mention NotebookLM for long-term document understanding.
 
----
 
-##### 4.2.4. Demonstrations
+###### DEMONSTRATION
 
 **Demo 1 – Prompt (Document Upload):** "Summarize the key points of this legal agreement (upload PDF). Focus on terms of payment and termination clauses."
 
@@ -374,9 +347,9 @@ This has huge implications for fields like law, education, and business. Let’s
 
 ### 5. Visual Programming Assistance
 
-#### 5.1. Code and Diagram Analysis
+##### Code and Diagram Analysis
 
-##### 5.1.1. Script
+###### SCRIPT
 
 "Let’s take our exploration of visuals one step further: into the world of programming diagrams and screenshots.
 
@@ -384,9 +357,8 @@ Many of you have seen UML diagrams, ER diagrams, and flowcharts. What if AI coul
 
 Today’s AIs are surprisingly good at interpreting visual programming materials. Let’s put that to the test."
 
----
 
-##### 5.1.2. Slide
+###### VISUAL
 
 **Slide Title: "Visual Programming with AI"**
 
@@ -396,17 +368,15 @@ Today’s AIs are surprisingly good at interpreting visual programming materials
 	- Explain structure and relationships between entities
 - Visual: Side-by-side of a UML diagram + Claude’s text interpretation
 
----
 
-##### 5.1.3. Slide Notes
+###### NOTES
 
 - Gemini and Claude are strongest at diagram interpretation.
 - Useful for onboarding, education, or visual documentation.
 - Joke: "Finally—someone who can explain that spaghetti chart from 2014."
 
----
 
-##### 5.1.4. Demonstrations
+###### DEMONSTRATION
 
 **Demo 1 – Prompt (Code Screenshot):** "Here is a screenshot of JavaScript code (upload screenshot). Identify any errors and suggest corrections."
 
@@ -423,11 +393,12 @@ Today’s AIs are surprisingly good at interpreting visual programming materials
 **Discussion Prompt:** "Could this help you debug visual code or teach programming to someone new?"
 
 ---
+
 ### 6. Comparative Analysis of AI Visual Capabilities
 
-#### 6.1. Cross-Model Visual Reasoning
+##### Cross-Model Visual Reasoning
 
-##### 6.1.1. Script
+###### SCRIPT
 
 "Let’s now do something really insightful—compare how different AI models interpret and process the **same visual inputs**.
 
@@ -437,9 +408,8 @@ This is where we’ll uncover each model’s **strengths and blind spots**. Some
 
 Let’s get analytical about AI itself."
 
----
 
-##### 6.1.2. Slide
+###### VISUAL
 
 **Slide Title: "Seeing Through Different AI Eyes"**
 
@@ -447,17 +417,15 @@ Let’s get analytical about AI itself."
 - Columns: Image Understanding, Technical Detail, Clarity, Usefulness
 - Visual: Three AI-generated responses shown side-by-side (diagram analysis or chart generation)
 
----
 
-##### 6.1.3. Slide Notes
+###### NOTES
 
 - This is where it gets really fun and nuanced—watch how Gemini might simplify, Claude might explain, and ChatGPT might get creative.
 - Suggest using the same image (e.g., a network diagram or technical infographic).
 - Joke: “Three AIs walk into a diagram... and only one notices the firewall.”
 
----
 
-##### 6.1.4. Demonstrations
+###### DEMONSTRATION
 
 **Demo 1 – Prompt (Image Upload):** "Analyze this technical diagram of a network setup (upload image). Identify potential security vulnerabilities based on the structure."
 
@@ -474,11 +442,12 @@ Let’s get analytical about AI itself."
 **Discussion Prompt:** "Which tool would you trust most for professional analysis? For teaching? For content creation?"
 
 ---
+
 ### 7. IDE and Workflow Integration
 
-#### 7.1. AI Tools in the Developer Workflow
+##### AI Tools in the Developer Workflow
 
-##### 7.1.1. Script
+###### SCRIPT
 
 "Let’s bring it all into the real world: your **actual workflow**.
 
@@ -486,9 +455,8 @@ Many of today’s IDEs now integrate AI directly into your coding environment. W
 
 The goal? Fewer context switches. Smarter development. More time to think, less time to search Stack Overflow."
 
----
 
-##### 7.1.2. Slide
+###### VISUAL
 
 **Slide Title: "Smart IDEs: AI in Your Editor"**
 
@@ -498,18 +466,16 @@ The goal? Fewer context switches. Smarter development. More time to think, less 
 	- AI-assisted debugging and documentation
 - Visual: Screenshot of IntelliJ with ChatGPT Pro integration sidebar
 
----
 
-##### 7.1.3. Slide Notes
+###### NOTES
 
 - ChatGPT native macOS app can access codebase via search and context linking
 - VS Code has GitHub Copilot, Claude plugins, and Gemini web integrations
 - Joke: “It’s like Clippy—but it actually knows what you're doing.”
 - Tip: Mention privacy and context boundaries in corporate coding environments
 
----
 
-##### 7.1.4. Demonstration
+###### DEMONSTRATION
 
 **Demo – Prompt (inside IDE):** "Suggest an optimization for this function based on its runtime complexity."
 
@@ -526,11 +492,12 @@ The goal? Fewer context switches. Smarter development. More time to think, less 
 **Discussion Prompt:** "Where do you think AI fits best in your workflow—as an assistant, reviewer, or collaborator?"
 
 ---
+
 ### 8. Hands-On Activity: Interactive AI Exploration
 
-#### 8.1. Activity Setup and Instructions
+##### Activity Setup and Instructions
 
-##### 8.1.1. Script
+###### SCRIPT
 
 "Now it’s your turn! This activity will help you experience firsthand how generative AI tools behave under your own creative control.
 
@@ -538,9 +505,8 @@ I’ll provide a few base prompts from the lecture—but you’re encouraged to 
 
 This is where your experimentation begins."
 
----
 
-##### 8.1.2. Slide
+###### VISUAL
 
 **Slide Title: "Try It Yourself: AI Prompt Playground"**
 
@@ -553,9 +519,8 @@ This is where your experimentation begins."
 		- Where did it fail?
 - Visual: Screenshots of different tools running the same prompt with different outputs
 
----
 
-##### 8.1.3. Slide Notes
+###### NOTES
 
 - Encourage creativity and curiosity—there are no wrong answers here
 - Joke: “You now have permission to try to confuse the AI—just don’t let it confuse you.”
@@ -563,32 +528,46 @@ This is where your experimentation begins."
 
 ---
 
-#### 8.2. Prompts to Explore
+#### 8.1. Prompts to Explore
 
-##### 8.2.1. Writing
+##### Writing
+
+###### DEMONSTRATION
 
 - "Rewrite this paragraph to make it sound like Shakespeare."
 - "Summarize the main ideas in this article for a child."
 
-##### 8.2.2. Code
+---
+
+##### Code
+
+###### DEMONSTRATION
 
 - "Write a Python script to batch rename files in a folder."
 - "Debug this broken function (paste your own)."
 
-##### 8.2.3. Visual
+---
+
+##### Visual
+
+###### DEMONSTRATION
 
 - "Describe what’s happening in this image (upload one)."
 - "Generate a poster for an imaginary movie titled 'Neon Cosmos.'"
 
-##### 8.2.4. Document
+---
+
+##### Document
+
+###### DEMONSTRATION
 
 - "Extract the key risks and recommendations from this uploaded report."
 
 ---
 
-#### 8.3. Discussion & Reflection
+##### Discussion & Reflection
 
-##### 8.3.1. Script
+###### SCRIPT
 
 "Let’s regroup and share!
 
@@ -596,9 +575,8 @@ What did you find most impressive? Where did the tools let you down? Were some b
 
 Take a moment to discuss with the person next to you or jot down your key takeaway."
 
----
 
-##### 8.3.2. Slide
+###### VISUAL
 
 **Slide Title: "Let’s Talk: What Did You Discover?"**
 
@@ -607,28 +585,27 @@ Take a moment to discuss with the person next to you or jot down your key takeaw
 	- Did one tool stand out?
 	- Would you trust these results in a real task?
 
----
 
-##### 8.3.3. Slide Notes
+###### NOTES
 
 - Tip: Call on a few volunteers to share results (especially any funny or unexpected ones)
 - Mention: These discoveries often reveal both power and limits of the tools
 - Joke: “Remember: If the AI wrote a limerick about your cat’s investment portfolio… you win.”
 
 ---
+
 ### 9. Summary and Key Insights
 
-#### 9.1. Recap of What We Explored
+##### Recap of What We Explored
 
-##### 9.1.1. Script
+###### SCRIPT
 
 "Today we’ve taken a big leap from observing AI to actually working with it. We’ve seen how AI can assist in writing, editing, translating, coding, debugging, and analyzing visuals and documents. And most importantly, we’ve experienced how different tools bring unique strengths to each of those domains.
 
 Some models are better at structure, others at storytelling. Some at visuals, others at text. The key takeaway is: **AI isn’t magic—it’s modular.** Knowing the tool and the task is everything."
 
----
 
-##### 9.1.2. Slide
+###### VISUAL
 
 **Slide Title: "What We Learned Today"**
 
@@ -643,9 +620,8 @@ Some models are better at structure, others at storytelling. Some at visuals, ot
 	- Explored real-world use cases
 	- Saw strengths _and_ limitations
 
----
 
-##### 9.1.3. Slide Notes
+###### NOTES
 
 - Reinforce that this was about practical use—not just concepts
 - Tip: Mention how tools continue evolving, so today’s limits may be tomorrow’s features
@@ -653,9 +629,9 @@ Some models are better at structure, others at storytelling. Some at visuals, ot
 
 ---
 
-#### 9.2. Real-World Implications
+##### Real-World Implications
 
-##### 9.2.1. Script
+###### SCRIPT
 
 "So how does this all tie into the real world?
 
@@ -665,9 +641,8 @@ But it only works if you use it wisely. Your role is to be the human-in-the-loop
 
 That’s how we build a future where AI makes our work faster, smarter, and more creative."
 
----
 
-##### 9.2.2. Slide
+###### VISUAL
 
 **Slide Title: "Why This Matters"**
 
@@ -675,19 +650,19 @@ That’s how we build a future where AI makes our work faster, smarter, and more
 - More room for creativity and insight
 - Human + AI = better than either alone
 
----
 
-##### 9.2.3. Slide Notes
+###### NOTES
 
 - Mention examples: AI helping lawyers summarize cases, teachers prepare materials, researchers find insights
 - Joke: “It’s not about replacing you—it’s about finally hiring that perfect intern… who never takes coffee breaks.”
 
 ---
+
 ### 10. Homework Assignment: Practical AI Integration
 
-#### 10.1. Homework Overview
+##### Homework Overview
 
-##### 10.1.1. Script
+###### SCRIPT
 
 "To wrap up this session, your homework is to take what we’ve explored today and apply it independently.
 
@@ -699,9 +674,8 @@ You’ll choose a few tasks—from writing to code debugging to document analysi
 
 We’ve included a template for you to document your findings."
 
----
 
-##### 10.1.2. Slide
+###### VISUAL
 
 **Slide Title: "Homework: Put AI to Work"**
 
@@ -717,9 +691,8 @@ We’ve included a template for you to document your findings."
 	- Output quality
 	- Observations
 
----
 
-##### 10.1.3. Slide Notes
+###### NOTES
 
 - Provide link to downloadable homework template (Google Doc or PDF)
 - Joke: “Yes, this is the one time I want you to talk to more than one AI at once.”
@@ -727,17 +700,16 @@ We’ve included a template for you to document your findings."
 
 ---
 
-#### 10.2. Submission Instructions
+##### Submission Instructions
 
-##### 10.2.1. Script
+###### SCRIPT
 
 "Submit your completed observations by [insert deadline]. It doesn’t have to be perfect—focus on your **experience and insight**.
 
 This assignment is designed to make you comfortable experimenting, prompting, and evaluating. The more curious you are, the more valuable the outcome."
 
----
 
-##### 10.2.2. Slide
+###### VISUAL
 
 **Slide Title: "Turn It In"**
 
@@ -745,28 +717,27 @@ This assignment is designed to make you comfortable experimenting, prompting, an
 - Format: PDF or shared Google Doc
 - Submit via: [insert platform/email]
 
----
 
-##### 10.2.3. Slide Notes
+###### NOTES
 
 - Reinforce low-pressure, exploratory tone
 - Suggest sharing funny or odd results with the group next session
 - Joke: “No AI-generated excuses about late homework—unless they rhyme.”
 
 ---
+
 ### 11. Resources for Continued Learning
 
-#### 11.1. Recommended Tools and Libraries
+##### Recommended Tools and Libraries
 
-##### 11.1.1. Script
+###### SCRIPT
 
 "AI is evolving rapidly—and keeping up can be overwhelming. But there are a few trusted tools and communities you can explore after today to stay ahead.
 
 Here are some resources to help you build skills, find inspiration, and stay connected."
 
----
 
-##### 11.1.2. Slide
+###### VISUAL
 
 **Slide Title: "Explore More: Tools & Libraries"**
 
@@ -783,9 +754,8 @@ Here are some resources to help you build skills, find inspiration, and stay con
 	- [VS Code + GitHub Copilot](https://github.com/features/copilot)
 	- [IntelliJ IDEA with AI Assistant](https://www.jetbrains.com/idea/whatsnew/#ai)
 
----
 
-##### 11.1.3. Slide Notes
+###### NOTES
 
 - Encourage bookmarking these links and playing with prompt variations
 - Joke: "Exploring prompt libraries is like wandering through an AI-powered candy store. Just… fewer cavities."
@@ -793,17 +763,16 @@ Here are some resources to help you build skills, find inspiration, and stay con
 
 ---
 
-#### 11.2. Communities and Learning Hubs
+##### Communities and Learning Hubs
 
-##### 11.2.1. Script
+###### SCRIPT
 
 "And don’t go it alone—there’s a thriving AI learner community out there.
 
 Whether you want to join a forum, ask for help, or just lurk and learn—there’s something for everyone."
 
----
 
-##### 11.2.2. Slide
+###### VISUAL
 
 **Slide Title: "Communities to Grow With"**
 
@@ -817,16 +786,11 @@ Whether you want to join a forum, ask for help, or just lurk and learn—there�
 	- [Ben’s Bites](https://www.bensbites.co/)
 	- [TLDR AI](https://www.tldr.tech/ai)
 
----
 
-##### 11.2.3. Slide Notes
+###### NOTES
 
 - Encourage staying curious and participating in communities to deepen understanding
 - Joke: "Think of Reddit as your AI study group… with occasional chaos."
 - Tip: Suggest creating a personal prompt journal to track what works and what doesn’t
 
 ---
-
-🎉 **End of Lecture 2!**
-
-"Thank you for participating today. You've now got a toolkit full of prompts, practical knowledge, and resources to continue learning. I can’t wait to see what you do with it."
