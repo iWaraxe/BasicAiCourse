@@ -3,7 +3,7 @@
 
 ### 1. Introduction: From Theory to Practice
 
-##### Introduction
+##### [seq:010] Introduction
 
 ###### SCRIPT
 
@@ -59,7 +59,7 @@ Visuals: Icons representing each category (pen for writing, brackets for code, e
 
 ### 2. Text Generation and Editing
 
-##### Writing and Editing Assistance
+##### [seq:020] Writing and Editing Assistance
 
 ###### SCRIPT
 
@@ -104,7 +104,7 @@ Let’s see how they handle writing from scratch, and then how they revise somet
 
 ---
 
-##### Translation and Language Processing
+##### [seq:030] Translation and Language Processing
 
 ###### SCRIPT
 
@@ -152,7 +152,7 @@ Let’s test their abilities in formal and informal translation—and see how th
 
 ### 3. Code Generation and Debugging
 
-##### Code Generation
+##### [seq:040] Code Generation
 
 ###### SCRIPT
 
@@ -197,7 +197,7 @@ Let’s begin with a simple example—generating a Python script for the Fibonac
 
 ---
 
-##### Debugging Assistance
+##### [seq:050] Debugging Assistance
 
 ###### SCRIPT
 
@@ -252,7 +252,7 @@ def greet(name)
 
 ### 4. Visual and Document Analysis
 
-##### Image Understanding and Generation
+##### [seq:060] Image Understanding and Generation
 
 ###### SCRIPT
 
@@ -298,7 +298,7 @@ We’ll begin by uploading diagrams, charts, and other visuals to see how well t
 
 ---
 
-##### Document Analysis and Data Extraction
+##### [seq:070] Document Analysis and Data Extraction
 
 ###### SCRIPT
 
@@ -347,7 +347,7 @@ This has huge implications for fields like law, education, and business. Let’s
 
 ### 5. Visual Programming Assistance
 
-##### Code and Diagram Analysis
+##### [seq:080] Code and Diagram Analysis
 
 ###### SCRIPT
 
@@ -396,7 +396,7 @@ Today’s AIs are surprisingly good at interpreting visual programming materials
 
 ### 6. Comparative Analysis of AI Visual Capabilities
 
-##### Cross-Model Visual Reasoning
+##### [seq:090] Cross-Model Visual Reasoning
 
 ###### SCRIPT
 
@@ -445,7 +445,7 @@ Let’s get analytical about AI itself."
 
 ### 7. IDE and Workflow Integration
 
-##### AI Tools in the Developer Workflow
+##### [seq:100] AI Tools in the Developer Workflow
 
 ###### SCRIPT
 
@@ -495,7 +495,7 @@ The goal? Fewer context switches. Smarter development. More time to think, less 
 
 ### 8. Hands-On Activity: Interactive AI Exploration
 
-##### Activity Setup and Instructions
+##### [seq:110] Activity Setup and Instructions
 
 ###### SCRIPT
 
@@ -532,7 +532,7 @@ This is where your experimentation begins."
 
 ##### Writing
 
-###### DEMONSTRATION
+###### [seq:120] DEMONSTRATION
 
 - "Rewrite this paragraph to make it sound like Shakespeare."
 - "Summarize the main ideas in this article for a child."
@@ -565,7 +565,7 @@ This is where your experimentation begins."
 
 ---
 
-##### Discussion & Reflection
+##### [seq:130] Discussion & Reflection
 
 ###### SCRIPT
 
@@ -596,7 +596,7 @@ Take a moment to discuss with the person next to you or jot down your key takeaw
 
 ### 9. Summary and Key Insights
 
-##### Recap of What We Explored
+##### [seq:140] Recap of What We Explored
 
 ###### SCRIPT
 
@@ -629,7 +629,7 @@ Some models are better at structure, others at storytelling. Some at visuals, ot
 
 ---
 
-##### Real-World Implications
+##### [seq:150] Real-World Implications
 
 ###### SCRIPT
 
@@ -660,7 +660,7 @@ That’s how we build a future where AI makes our work faster, smarter, and more
 
 ### 10. Homework Assignment: Practical AI Integration
 
-##### Homework Overview
+##### [seq:160] Homework Overview
 
 ###### SCRIPT
 
@@ -700,7 +700,7 @@ We’ve included a template for you to document your findings."
 
 ---
 
-##### Submission Instructions
+##### [seq:170] Submission Instructions
 
 ###### SCRIPT
 
@@ -728,7 +728,7 @@ This assignment is designed to make you comfortable experimenting, prompting, an
 
 ### 11. Resources for Continued Learning
 
-##### Recommended Tools and Libraries
+##### [seq:180] Recommended Tools and Libraries
 
 ###### SCRIPT
 
@@ -763,7 +763,7 @@ Here are some resources to help you build skills, find inspiration, and stay con
 
 ---
 
-##### Communities and Learning Hubs
+##### [seq:190] Communities and Learning Hubs
 
 ###### SCRIPT
 
