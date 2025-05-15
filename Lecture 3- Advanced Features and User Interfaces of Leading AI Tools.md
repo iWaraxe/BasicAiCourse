@@ -2,7 +2,9 @@
 
 ### 1. Introduction: Beyond Basics
 
-#### 1.1. Script
+##### [seq:010] Introduction
+
+###### SCRIPT
 
 "Welcome back, everyone! In our first lecture, we took a critical look at generative AI—what it can and can’t do. We saw examples of bias, hallucinations, and logical errors. Then, in Lecture 2, we flipped the script and explored practical uses: from writing and debugging code to translating idioms and analyzing visuals.
 
@@ -14,9 +16,7 @@ Think of it as going from driving the car to popping the hood and learning how t
 
 And yes—this is the lecture where things start to feel like science fiction. But everything I show you today is real, available, and in your hands to explore."
 
----
-
-#### 1.2. Slide
+###### VISUAL
 
 **Slide Title: "Lecture 3: Advanced AI Interfaces & Reasoning"**
 
@@ -33,18 +33,14 @@ And yes—this is the lecture where things start to feel like science fiction. B
 
 Visual: Sleek dashboard-style UI screenshot collage from ChatGPT, Claude, and Perplexity
 
----
-
-#### 1.3. Slide Notes
+###### NOTES
 
 - Start with an energizing recap to connect emotionally with what students already experienced
 - Mention that today is about building _confidence_ using these tools in complex workflows
 - Joke: "Lecture 1 was about catching the AI when it lies. Lecture 2, we made it work. Today? We make it sweat."
 - Tip: Let students know they’ll get to experiment with advanced prompt types and reasoning challenges by the end
 
----
-
-#### 1.4. Demonstration (Optional Warm-Up)
+###### DEMONSTRATION
 
 **Title: "How Far Have We Come?"**
 
@@ -59,11 +55,12 @@ Visual: Sleek dashboard-style UI screenshot collage from ChatGPT, Claude, and Pe
 **Discussion Prompt:** "Even before we get into advanced tools—what makes a model _feel_ smart? Clarity? Creativity? Humor?"
 
 ---
+
 ### 2. Advanced UI Capabilities of AI Tools
 
-#### 2.1. ChatGPT (OpenAI)
+##### [seq:020] ChatGPT (OpenAI)
 
-##### 2.1.1. Script
+###### SCRIPT
 
 "Let’s start with ChatGPT—OpenAI’s flagship interface. It might seem simple at first glance, but it hides powerful features that can change how you work.
 
@@ -73,9 +70,7 @@ Then we have **Projects** and **CustomGPTs**. Projects help you manage large, pe
 
 There’s also **Deep Research**, a feature for long-context reasoning with real-time document access. And lastly, the unsung hero: **System Prompts**. These are hidden instructions that define how the model behaves in a chat."
 
----
-
-##### 2.1.2. Slide
+###### VISUAL
 
 **Slide Title: "ChatGPT Pro Features"**
 
@@ -87,18 +82,14 @@ There’s also **Deep Research**, a feature for long-context reasoning with real
 
 Visual: Screenshots of Canvas, Project tabs, CustomGPT editor interface
 
----
-
-##### 2.1.3. Slide Notes
+###### NOTES
 
 - Mention: Canvas is currently experimental and may roll out in stages
 - CustomGPTs can include tools like code interpreter or browsing
 - Joke: "It’s like creating your own Jarvis—minus the Iron Man suit"
 - Tip: Show the URL for CustomGPT builder → [https://chat.openai.com/gpts](https://chat.openai.com/gpts)
 
----
-
-##### 2.1.4. Demonstration
+###### DEMONSTRATION
 
 **Prompt:** "Create a CustomGPT that behaves like a stoic productivity coach."
 
@@ -113,9 +104,9 @@ Visual: Screenshots of Canvas, Project tabs, CustomGPT editor interface
 
 ---
 
-#### 2.2. Claude (Anthropic)
+##### [seq:030] Claude (Anthropic)
 
-##### 2.2.1. Script
+###### SCRIPT
 
 "Claude—developed by Anthropic—is focused on clarity, alignment, and ethics. Its interface is minimalist, but its features are quietly powerful.
 
@@ -125,9 +116,7 @@ Visual: Screenshots of Canvas, Project tabs, CustomGPT editor interface
 
 **Artefacts** are structured outputs: Claude might generate tables, summaries, outlines, or visual layouts in a dedicated panel."
 
----
-
-##### 2.2.2. Slide
+###### VISUAL
 
 **Slide Title: "Claude Features"**
 
@@ -137,17 +126,13 @@ Visual: Screenshots of Canvas, Project tabs, CustomGPT editor interface
 
 Visual: Screenshot of Claude interface with Thinking Mode active and Artefact result panel
 
----
-
-##### 2.2.3. Slide Notes
+###### NOTES
 
 - Mention Claude 3 now integrates stylized writing + artefacts more smoothly
 - Tip: Use Claude for longform content and structured logic tasks
 - Joke: "Claude doesn’t just give answers. It gives receipts."
 
----
-
-##### 2.2.4. Demonstration
+###### DEMONSTRATION
 
 **Prompt:** "In the voice of a 1940s news reporter, explain how AI can help high school students write better essays."
 
@@ -159,9 +144,9 @@ Visual: Screenshot of Claude interface with Thinking Mode active and Artefact re
 
 ---
 
-#### 2.3. Perplexity AI
+##### [seq:040] Perplexity AI
 
-##### 2.3.1. Script
+###### SCRIPT
 
 "Perplexity is part search engine, part AI assistant. It stands out for one big reason: **citations**. Every claim is backed by links, making it ideal for research, fact-checking, and comparisons.
 
@@ -169,9 +154,7 @@ Perplexity has **Spaces**, where users can curate structured research threads. A
 
 Think of it as Google with a graduate degree."
 
----
-
-##### 2.3.2. Slide
+###### VISUAL
 
 **Slide Title: "Perplexity Features"**
 
@@ -181,17 +164,13 @@ Think of it as Google with a graduate degree."
 
 Visual: Perplexity response screenshot with citation numbers, space example on a topic (e.g., climate tech)
 
----
-
-##### 2.3.3. Slide Notes
+###### NOTES
 
 - Mention: Excellent for up-to-date info and controversial topics
 - Tip: Use it to compare multiple viewpoints
 - Joke: "If ChatGPT is your writer, Perplexity is your footnoting editor."
 
----
-
-##### 2.3.4. Demonstration
+###### DEMONSTRATION
 
 **Prompt:** "Compare the latest research on plant-based meat vs lab-grown meat. Include citations."
 
@@ -202,14 +181,9 @@ Visual: Perplexity response screenshot with citation numbers, space example on a
 
 ---
 
-Next up: **3. Underlying Principles of Advanced LLM Usage**?
+##### [seq:050] Underlying Principles of Advanced LLM Usage
 
-
----
-
-### 3. Underlying Principles of Advanced LLM Usage
-
-#### 3.1. Script
+###### SCRIPT
 
 "So far, we’ve looked at what these tools _can do_ through their interfaces. Now, let’s peel back the curtain to understand _how_ they work.
 
@@ -222,9 +196,7 @@ There are four essential concepts that power every interaction you have with a l
 
 Grasping these concepts will help you write smarter prompts, troubleshoot strange outputs, and fine-tune models for specific tasks."
 
----
-
-#### 3.2. Slide
+###### VISUAL
 
 **Slide Title: "How LLMs Think (And Why It Matters)"**
 
@@ -235,17 +207,13 @@ Grasping these concepts will help you write smarter prompts, troubleshoot strang
 
 Visual: Infographic with each term illustrated
 
----
-
-#### 3.3. Slide Notes
+###### NOTES
 
 - Tip: Use analogies to demystify the concepts
 - Joke: "Tokens are like LEGO blocks. Too many, and you run out of space. Temperature? That’s your AI’s mood ring."
 - Bonus: Mention OpenAI’s Tokenizer Tool ([https://platform.openai.com/tokenizer](https://platform.openai.com/tokenizer))
 
----
-
-#### 3.4. Demonstration
+###### DEMONSTRATION
 
 **Title: "Temperature in Action"**
 
@@ -259,9 +227,10 @@ Visual: Infographic with each term illustrated
 **Discussion Prompt:** "How does creativity shift? Which one would you trust for a science article? A children’s book?"
 
 ---
-### 4. Demonstrations: Advanced Reasoning and Complex Tasks
 
-#### 4.1. Script
+##### [seq:060] Demonstrations: Advanced Reasoning and Complex Tasks
+
+###### SCRIPT
 
 "Now let’s take a step into the deep end: reasoning.
 
@@ -271,9 +240,7 @@ This section is a series of carefully chosen demonstrations—each meant to stre
 
 As we go through these examples, ask yourself: What is the model _really_ doing well? Where does it start to break down? And how can we design better prompts to support its thinking?"
 
----
-
-#### 4.2. Slide
+###### VISUAL
 
 **Slide Title: "Reasoning Dimensions in LLMs"**
 
@@ -285,27 +252,27 @@ As we go through these examples, ask yourself: What is the model _really_ doing 
 
 Visual: Icons or sketches representing each domain (e.g., scale for ethics, puzzle for logic, atom for science)
 
----
-
-#### 4.3. Slide Notes
+###### NOTES
 
 - Joke: "Yes, the AI might beat you at logic puzzles. But it still thinks 5 ducks in a trench coat is a good business strategy."
 - Tip: Ask students to guess the AI’s answer before showing the response
 - Mention: Prompts in this section work best in GPT-4, Claude 3, Gemini 1.5 Pro
 
+
 ---
 
-#### 4.4. Demonstration Series
+##### [seq:070] Logic Puzzle
 
-##### 4.4.1. Logic Puzzle
-
+###### DEMONSTRATION
 **Prompt:** "Three boxes labeled A, B, and C each contain either apples, oranges, or both. Box A is labeled ‘Apples’, Box B ‘Oranges’, and Box C ‘Both’. Each label is incorrect. You may choose one box and draw one piece of fruit without looking inside. What box do you choose and why?"
 
 **Discussion Prompt:** "What kind of reasoning is the model using? Deductive or trial-and-error?"
 
 ---
 
-##### 4.4.2. Mathematical Puzzle
+##### [seq:080] Mathematical Puzzle
+
+###### DEMONSTRATION
 
 **Prompt:** "You have a 3-liter jug and a 5-liter jug, and unlimited water. How can you measure exactly 4 liters using only these two jugs?"
 
@@ -313,7 +280,9 @@ Visual: Icons or sketches representing each domain (e.g., scale for ethics, puzz
 
 ---
 
-##### 4.4.3. Ethical Dilemma
+##### [seq:090] Ethical Dilemma
+
+###### DEMONSTRATION
 
 **Prompt:** "An autonomous vehicle must choose between two unavoidable collisions: hitting a pedestrian who illegally crossed the street, or swerving and endangering its passenger. Explain how each choice could be ethically justified and propose a decision-making framework."
 
@@ -321,7 +290,9 @@ Visual: Icons or sketches representing each domain (e.g., scale for ethics, puzz
 
 ---
 
-##### 4.4.4. Abstract World Simulation
+##### [seq:100] Abstract World Simulation
+
+###### DEMONSTRATION
 
 **Prompt:** "Imagine a world where gravity is repulsive rather than attractive. Describe three distinct ways everyday life and society would change."
 
@@ -329,7 +300,9 @@ Visual: Icons or sketches representing each domain (e.g., scale for ethics, puzz
 
 ---
 
-##### 4.4.5. Scientific Reasoning
+##### [seq:110] Scientific Reasoning
+
+###### DEMONSTRATION
 
 **Prompt:** "Design an experiment to test whether plants respond to classical music differently than heavy metal. Include control groups, variables, measurements, and potential conclusions."
 
@@ -337,7 +310,9 @@ Visual: Icons or sketches representing each domain (e.g., scale for ethics, puzz
 
 ---
 
-##### 4.4.6. Strategic Reasoning (Game Theory)
+##### [seq:120] Strategic Reasoning (Game Theory)
+
+###### DEMONSTRATION
 
 **Prompt:** "Two competing companies must decide independently whether to advertise heavily or save costs. Create a payoff matrix, identify the Nash equilibrium, and explain the strategic reasoning."
 
@@ -345,7 +320,9 @@ Visual: Icons or sketches representing each domain (e.g., scale for ethics, puzz
 
 ---
 
-##### 4.4.7. Social Reasoning
+##### [seq:130] Social Reasoning
+
+###### DEMONSTRATION
 
 **Prompt:** "Analyze why misinformation spreads faster than accurate information on social media. Provide at least three contributing factors and suggest mitigation strategies."
 
@@ -353,7 +330,9 @@ Visual: Icons or sketches representing each domain (e.g., scale for ethics, puzz
 
 ---
 
-##### 4.4.8. Creative Reasoning
+##### [seq:140] Creative Reasoning
+
+###### DEMONSTRATION
 
 **Prompt:** "Imagine humans have built a colony on Mars. Invent a political or social system unique to the Martian environment that solves a local problem."
 
@@ -361,7 +340,9 @@ Visual: Icons or sketches representing each domain (e.g., scale for ethics, puzz
 
 ---
 
-##### 4.4.9. Spatial Reasoning
+##### [seq:150] Spatial Reasoning
+
+###### DEMONSTRATION
 
 **Prompt:** "A cube painted entirely red is cut into 27 smaller identical cubes. How many have paint on exactly two sides? Explain your reasoning."
 
@@ -369,16 +350,19 @@ Visual: Icons or sketches representing each domain (e.g., scale for ethics, puzz
 
 ---
 
-##### 4.4.10. Linguistic Logic
+##### [seq:160] Linguistic Logic
+
+###### DEMONSTRATION
 
 **Prompt:** "Translate the sentence 'Every scientist is curious, but not every curious person is a scientist' into logical notation and determine its truth value."
 
 **Discussion Prompt:** "Can the model identify universal vs existential quantifiers and preserve meaning?"
 
 ---
-### 5. Advanced Task Automation and Personalized GPTs
 
-#### 5.1. Script
+##### [seq:170] Advanced Task Automation and Personalized GPTs
+
+###### SCRIPT
 
 "Let’s shift from reasoning to something more practical: task automation.
 
@@ -392,9 +376,7 @@ In this section, we’ll explore how to:
 
 This is where AI becomes a co-pilot for your productivity."
 
----
-
-#### 5.2. Slide
+###### VISUAL
 
 **Slide Title: "From Chatbot to Assistant"**
 
@@ -404,9 +386,7 @@ This is where AI becomes a co-pilot for your productivity."
 
 Visual: Timeline-style graphic with GPT-generated events (e.g., 9am: Tech news, 12pm: Stretch reminder, 5pm: Daily reflection)
 
----
-
-#### 5.3. Slide Notes
+###### NOTES
 
 - Joke: "Finally, a to-do list that talks back—and sometimes sounds smarter than you."
 - Tip: Highlight how GPTs can reference previous interactions when memory is enabled
@@ -414,8 +394,9 @@ Visual: Timeline-style graphic with GPT-generated events (e.g., 9am: Tech news, 
 
 ---
 
-#### 5.4. Demonstration A – Task Scheduler GPT
+##### [seq:180] Demonstration A – Task Scheduler GPT
 
+###### DEMONSTRATION
 **Prompt:** "Every weekday morning at 9am, summarize key tech headlines in AI, software, and cloud computing. Then ask which I want to read further."
 
 **Instructions:**
@@ -427,7 +408,9 @@ Visual: Timeline-style graphic with GPT-generated events (e.g., 9am: Tech news, 
 
 ---
 
-#### 5.5. Demonstration B – Personalized GPT (Polish Language Tutor)
+##### [seq:190] Demonstration B – Personalized GPT (Polish Language Tutor)
+
+###### DEMONSTRATION
 
 **Prompt Example:** "Translate the word 'dom' into English, Belarusian, Ukrainian, and Russian. Provide grammatical forms (singular, plural, genitive, etc.), and give 2 usage examples."
 
@@ -440,7 +423,9 @@ Visual: Timeline-style graphic with GPT-generated events (e.g., 9am: Tech news, 
 
 ---
 
-#### 5.6. Demonstration C – Java Spring Boot Assistant GPT
+##### [seq:200] Demonstration C – Java Spring Boot Assistant GPT
+
+###### DEMONSTRATION
 
 **Prompt Example:** "Generate a basic Spring Boot controller that uses an AI API to summarize text. Include error handling and service layer separation."
 
@@ -452,9 +437,10 @@ Visual: Timeline-style graphic with GPT-generated events (e.g., 9am: Tech news, 
 **Discussion Prompt:** "How would a GPT like this speed up your development workflow?"
 
 ---
-### 6. Specialized GPT Applications and Integrations
 
-#### 6.1. Script
+##### [seq:210] Specialized GPT Applications and Integrations
+
+###### SCRIPT
 
 "Now let’s go even more specific—into GPTs created for highly specialized tasks.
 
@@ -462,9 +448,7 @@ While many GPTs aim to be general-purpose, others are fine-tuned for niche use c
 
 In this section, we’ll walk through a few powerful use cases that demonstrate the range of what’s possible. These aren’t just toys—they’re tools professionals are beginning to rely on every day."
 
----
-
-#### 6.2. Slide
+###### VISUAL
 
 **Slide Title: "Niche GPTs for Power Users"**
 
@@ -475,9 +459,7 @@ In this section, we’ll walk through a few powerful use cases that demonstrate 
 
 Visual: Grid of GPT tiles with logos or mock personas (e.g., "SpringBot," "LinguaTutor," "InsightGPT")
 
----
-
-#### 6.3. Slide Notes
+###### NOTES
 
 - Mention: Many CustomGPTs shared publicly at [https://chat.openai.com/gpts/explore](https://chat.openai.com/gpts/explore)
 - Joke: "You’ve heard of task rabbits. These are task Cheetahs—fast, focused, and tireless."
@@ -485,7 +467,9 @@ Visual: Grid of GPT tiles with logos or mock personas (e.g., "SpringBot," "Lingu
 
 ---
 
-#### 6.4. Demonstration A – Language Learning GPT (Polish Example)
+##### [seq:220] Demonstration A – Language Learning GPT (Polish Example)
+
+###### DEMONSTRATION
 
 **Prompt:** "Translate the word 'miłość' into English, Belarusian, Ukrainian, and Russian. Show grammatical cases and two usage examples."
 
@@ -498,7 +482,9 @@ Visual: Grid of GPT tiles with logos or mock personas (e.g., "SpringBot," "Lingu
 
 ---
 
-#### 6.5. Demonstration B – Spring Boot AI Assistant GPT
+##### [seq:230] Demonstration B – Spring Boot AI Assistant GPT
+
+###### DEMONSTRATION
 
 **Prompt:** "Suggest an architecture for integrating OpenAI API with Spring Boot using clean architecture. Include services, controller, and config layers."
 
@@ -511,7 +497,9 @@ Visual: Grid of GPT tiles with logos or mock personas (e.g., "SpringBot," "Lingu
 
 ---
 
-#### 6.6. Demonstration C – Self-Reflection Coach GPT
+##### [seq:240] Demonstration C – Self-Reflection Coach GPT
+
+###### DEMONSTRATION
 
 **Prompt:** "Ask me three questions to reflect on my day. Then summarize what I might be feeling and suggest one thing I could do tomorrow to improve."
 
@@ -523,9 +511,10 @@ Visual: Grid of GPT tiles with logos or mock personas (e.g., "SpringBot," "Lingu
 **Discussion Prompt:** "What domains of your life could benefit from a personal AI like this?"
 
 ---
-### 7. Advanced Information Retrieval and Data Analysis
 
-#### 7.1. Script
+##### [seq:250] Advanced Information Retrieval and Data Analysis
+
+###### SCRIPT
 
 "Next up—let’s talk about information.
 
@@ -540,9 +529,7 @@ Modern AI tools can:
 
 In this section, we’ll explore how models like ChatGPT, Claude, Gemini, and Perplexity retrieve, process, and deliver knowledge—and where they differ."
 
----
-
-#### 7.2. Slide
+###### VISUAL
 
 **Slide Title: "LLMs as Research Analysts"**
 
@@ -553,9 +540,7 @@ In this section, we’ll explore how models like ChatGPT, Claude, Gemini, and Pe
 
 Visual: Side-by-side layout of an uploaded PDF, chart, and summarized output
 
----
-
-#### 7.3. Slide Notes
+###### NOTES
 
 - Tip: Mention that Claude is especially strong at long document parsing
 - Joke: "It’s like hiring four interns—who never sleep and cite their sources."
@@ -563,7 +548,9 @@ Visual: Side-by-side layout of an uploaded PDF, chart, and summarized output
 
 ---
 
-#### 7.4. Demonstration A – Real-time Research Comparison
+##### [seq:260] Demonstration A – Real-time Research Comparison
+
+###### DEMONSTRATION
 
 **Prompt:** "Compare the latest research on the effectiveness of mindfulness apps vs cognitive behavioral therapy for anxiety. Include citations and source bias where possible."
 
@@ -576,7 +563,9 @@ Visual: Side-by-side layout of an uploaded PDF, chart, and summarized output
 
 ---
 
-#### 7.5. Demonstration B – Document Summarization
+##### [seq:270] Demonstration B – Document Summarization
+
+###### DEMONSTRATION
 
 **Prompt:** "Summarize this 10-page PDF (upload a sample) and extract the key financial risks mentioned."
 
@@ -589,7 +578,9 @@ Visual: Side-by-side layout of an uploaded PDF, chart, and summarized output
 
 ---
 
-#### 7.6. Demonstration C – Data Visualization from Structured Text
+##### [seq:280] Demonstration C – Data Visualization from Structured Text
+
+###### DEMONSTRATION
 
 **Prompt:** "Here is sales data for the last 6 months. Create a bar chart comparing monthly totals and identify one trend and one anomaly."
 
@@ -601,9 +592,9 @@ Visual: Side-by-side layout of an uploaded PDF, chart, and summarized output
 **Discussion Prompt:** "Would you use this to prep for a real presentation? Why or why not?"
 
 ---
-### 8. Advanced Reasoning Techniques
+##### [seq:290] Advanced Reasoning Techniques
 
-#### 8.1. Script
+###### SCRIPT
 
 "We’ve seen that LLMs can reason in fascinating ways—but how do we make them more deliberate, structured, and accurate?
 
@@ -616,9 +607,7 @@ That’s where advanced reasoning techniques come in. These strategies guide the
 
 In this section, we’ll look at techniques like Chain-of-Thought, ReAct, and system-specific reasoning optimizations that help AI deliver better results, especially for complex or ambiguous tasks."
 
----
-
-#### 8.2. Slide
+###### VISUAL
 
 **Slide Title: "Making AI Think (More) Like Us"**
 
@@ -629,9 +618,7 @@ In this section, we’ll look at techniques like Chain-of-Thought, ReAct, and sy
 
 Visual: Flowchart of a reasoning prompt broken into intermediate steps with annotations
 
----
-
-#### 8.3. Slide Notes
+###### NOTES
 
 - Tip: These techniques often make a huge difference for math, logic, and planning tasks
 - Joke: "AI may not sleep—but it does better with a to-do list."
@@ -639,7 +626,9 @@ Visual: Flowchart of a reasoning prompt broken into intermediate steps with anno
 
 ---
 
-#### 8.4. Demonstration A – Chain-of-Thought Prompting
+##### [seq:300] Demonstration A – Chain-of-Thought Prompting
+
+###### DEMONSTRATION
 
 **Prompt:** "If Alice is older than Bob, and Bob is older than Charlie, who is the oldest? Explain your reasoning."
 
@@ -652,7 +641,9 @@ Visual: Flowchart of a reasoning prompt broken into intermediate steps with anno
 
 ---
 
-#### 8.5. Demonstration B – Task Decomposition
+##### [seq:310] Demonstration B – Task Decomposition
+
+###### DEMONSTRATION
 
 **Prompt:** "Plan a one-week team retreat for 15 software engineers, including logistics, agenda, and team-building activities."
 
@@ -665,7 +656,9 @@ Visual: Flowchart of a reasoning prompt broken into intermediate steps with anno
 
 ---
 
-#### 8.6. Demonstration C – ReAct Pattern (Reasoning + Acting)
+##### [seq:320] Demonstration C – ReAct Pattern (Reasoning + Acting)
+
+###### DEMONSTRATION
 
 **Prompt:** "You are a researcher trying to find a reliable source about the environmental impact of cryptocurrency mining. Think step by step, then use web tools to find and cite at least two credible sources."
 
@@ -678,7 +671,9 @@ Visual: Flowchart of a reasoning prompt broken into intermediate steps with anno
 
 ---
 
-#### 8.7. Demonstration D – Comparing Models on Complex Reasoning
+##### [seq:330] Demonstration D – Comparing Models on Complex Reasoning
+
+###### DEMONSTRATION
 
 **Prompt:** "Design a basic governance system for an autonomous Martian colony that ensures both individual rights and resource sustainability."
 
@@ -690,9 +685,10 @@ Visual: Flowchart of a reasoning prompt broken into intermediate steps with anno
 **Discussion Prompt:** "Which model handled the tradeoffs best? Who had the most ‘human-like’ reasoning?"
 
 ---
-### 9. Multi-Agent and Autonomous AI Systems
 
-#### 9.1. Script
+##### [seq:330] Multi-Agent and Autonomous AI Systems
+
+###### SCRIPT
 
 "So far, we’ve been working with individual models—one question, one answer. But what happens when you put multiple AIs to work together on the same task?
 
@@ -702,9 +698,7 @@ These systems are a glimpse into the future of how AI will be used—autonomous 
 
 We’ll walk through how these agents communicate, assign roles, and resolve conflicts, and explore tools and frameworks that make this possible today."
 
----
-
-#### 9.2. Slide
+###### VISUAL
 
 **Slide Title: "From One AI to Many"**
 
@@ -715,17 +709,13 @@ We’ll walk through how these agents communicate, assign roles, and resolve con
 
 Visual: Diagram of three AI agents passing tasks to each other with roles labeled (e.g., Thinker → Coder → Tester)
 
----
-
-#### 9.3. Slide Notes
+###### NOTES
 
 - Joke: "Finally, an AI team meeting without coffee or small talk."
 - Tip: Multi-agent systems aren’t science fiction—they’re being used in autonomous coding, task planning, and document review
 - Mention: Tools like AutoGen, CrewAI, and OpenDevin are leading this field
 
----
-
-#### 9.4. Demonstration – AI Agent Collaboration
+###### DEMONSTRATION
 
 **Scenario Prompt:** "You are part of a 3-agent team building a simple web app. Agent A: Define user requirements. Agent B: Design architecture. Agent C: Write the code. Collaborate and pass results between agents."
 
@@ -737,9 +727,10 @@ Visual: Diagram of three AI agents passing tasks to each other with roles labele
 **Discussion Prompt:** "Would you trust this team to start your next software project? Why or why not?"
 
 ---
-### 10. Hands-On Activity: Advanced Prompt Exploration
 
-#### 10.1. Script
+##### [seq:340] Hands-On Activity: Advanced Prompt Exploration
+
+###### SCRIPT
 
 "It’s time to shift from watching to doing.
 
@@ -749,9 +740,7 @@ We’ve grouped prompts by type—writing, logic, visuals, analysis—and you ca
 
 This is your chance to explore, break things, laugh at strange outputs, and learn by doing."
 
----
-
-#### 10.2. Slide
+###### VISUAL
 
 **Slide Title: "Try It Yourself: Prompt Playground"**
 
@@ -762,9 +751,7 @@ This is your chance to explore, break things, laugh at strange outputs, and lear
 
 Visual: Screenshots of the same prompt run in multiple models side-by-side
 
----
-
-#### 10.3. Slide Notes
+###### NOTES
 
 - Joke: “Yes, you are now allowed to confuse the AI. Responsibly.”
 - Tip: Encourage screenshots and share-outs at the end
@@ -772,7 +759,9 @@ Visual: Screenshots of the same prompt run in multiple models side-by-side
 
 ---
 
-#### 10.4. Prompt Categories (for Participants)
+##### [seq:350] Prompt Categories (for Participants)
+
+###### DEMONSTRATION
 
 - **Writing:** Rewrite text in a famous author’s style
 - **Logic:** Solve a classic riddle with explanation
@@ -783,7 +772,9 @@ Visual: Screenshots of the same prompt run in multiple models side-by-side
 
 ---
 
-#### 10.5. Activity Instructions
+##### [seq:360] Activity Instructions
+
+###### DEMONSTRATION
 
 **Setup:**
 
@@ -801,9 +792,10 @@ Visual: Screenshots of the same prompt run in multiple models side-by-side
 - Reflect on: What did the model miss? What was unexpectedly good?
 
 ---
-### 11. Homework: Prompt Library Exploration
 
-#### 11.1. Script
+##### [seq:370] Homework: Prompt Library Exploration
+
+###### SCRIPT
 
 "To keep the momentum going after class, I’ve prepared a guided homework assignment. Your task is to explore our curated **Prompt Library** and experiment with:
 
@@ -812,9 +804,7 @@ Visual: Screenshots of the same prompt run in multiple models side-by-side
 
 You’ll document what you tried, how the models performed, and what surprised you. This isn’t about right or wrong—it’s about developing **prompt intuition**."
 
----
-
-#### 11.2. Slide
+###### VISUAL
 
 **Slide Title: "Homework: Explore & Reflect"**
 
@@ -828,9 +818,7 @@ You’ll document what you tried, how the models performed, and what surprised y
 
 Visual: Example homework template or table filled in with sample entries
 
----
-
-#### 11.3. Slide Notes
+###### NOTES
 
 - Joke: “Yes, this time you’re encouraged to talk to strangers—AI strangers.”
 - Tip: Focus on clarity of prompts, differences in tone and depth
@@ -838,9 +826,9 @@ Visual: Example homework template or table filled in with sample entries
 
 ---
 
-### 12. Resources for Continuous Learning
+##### [seq:380] Resources for Continuous Learning
 
-#### 12.1. Script
+###### SCRIPT
 
 "Before we wrap, here are a few places you can go next to keep learning, experimenting, and connecting.
 
@@ -848,9 +836,7 @@ AI is moving fast, but you don’t have to keep up alone. There are prompt libra
 
 Here’s your starter kit."
 
----
-
-#### 12.2. Slide
+###### VISUAL
 
 **Slide Title: "Your AI Toolkit"**
 
@@ -870,18 +856,10 @@ Here’s your starter kit."
 	- [Ben’s Bites](https://www.bensbites.co/)
 	- [TLDR AI](https://www.tldr.tech/ai)
 
----
-
-#### 12.3. Slide Notes
+###### NOTES
 
 - Joke: “Think of FlowGPT as your AI recipe book—and you’re the chef.”
 - Tip: Encourage bookmarking and regular exploration—prompting gets better with play
 - Mention: Follow AI-related YouTube channels, Substacks, or Discord servers if you want community
 
 ---
-
-🎉 **End of Lecture 3**
-
-“Thanks for joining today’s deep dive! You’ve now got the tools to explore the frontier of advanced AI capabilities—from system features to reasoning and prompt design.
-
-The best way to grow from here? Keep prompting. Keep comparing. Keep playing.”
