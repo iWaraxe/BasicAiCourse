@@ -240,10 +240,10 @@ Let’s take a buggy Python and JavaScript snippet and ask our AI companions to 
 
 **Demo 1 – Prompt:** "Here’s a piece of Python code with an error. Find the bug and fix it:
 
-````python
+```python
 def greet(name)
     print("Hello" + name)
-```"
+```
 
 **Demo 2 – Prompt:**
 "Here is a screenshot of JavaScript code (upload screenshot). Identify any errors and suggest corrections."
