@@ -1,6 +1,10 @@
+# Beginners AI. Mastering modern AI tools
+
 ## Lecture 3: Advanced Features and User Interfaces of Leading AI Tools
 
 ### 1. Introduction: Beyond Basics
+
+#### 1.1. Course Context and Overview
 
 ##### [seq:010] Introduction
 
@@ -58,6 +62,8 @@ Visual: Sleek dashboard-style UI screenshot collage from ChatGPT, Claude, and Pe
 
 ### 2. Advanced UI Capabilities of AI Tools
 
+#### 2.1. OpenAI Ecosystem
+
 ##### [seq:020] ChatGPT (OpenAI)
 
 ###### SCRIPT
@@ -104,6 +110,8 @@ Visual: Screenshots of Canvas, Project tabs, CustomGPT editor interface
 
 ---
 
+#### 2.2. Anthropic Platform
+
 ##### [seq:030] Claude (Anthropic)
 
 ###### SCRIPT
@@ -144,6 +152,8 @@ Visual: Screenshot of Claude interface with Thinking Mode active and Artefact re
 
 ---
 
+#### 2.3. Research-Oriented Systems
+
 ##### [seq:040] Perplexity AI
 
 ###### SCRIPT
@@ -180,6 +190,8 @@ Visual: Perplexity response screenshot with citation numbers, space example on a
 - Highlight citations and source quality
 
 ---
+
+#### 2.4. Technical Foundations
 
 ##### [seq:050] Underlying Principles of Advanced LLM Usage
 
@@ -228,6 +240,10 @@ Visual: Infographic with each term illustrated
 
 ---
 
+### 3. Advanced Reasoning Capabilities
+
+#### 3.1. Reasoning Frameworks
+
 ##### [seq:060] Demonstrations: Advanced Reasoning and Complex Tasks
 
 ###### SCRIPT
@@ -261,6 +277,8 @@ Visual: Icons or sketches representing each domain (e.g., scale for ethics, puzz
 
 ---
 
+#### 3.2. Logic and Mathematics
+
 ##### [seq:070] Logic Puzzle
 
 ###### DEMONSTRATION
@@ -280,67 +298,7 @@ Visual: Icons or sketches representing each domain (e.g., scale for ethics, puzz
 
 ---
 
-##### [seq:090] Ethical Dilemma
-
-###### DEMONSTRATION
-
-**Prompt:** "An autonomous vehicle must choose between two unavoidable collisions: hitting a pedestrian who illegally crossed the street, or swerving and endangering its passenger. Explain how each choice could be ethically justified and propose a decision-making framework."
-
-**Discussion Prompt:** "Does the model sound more utilitarian or deontological? Is it biased toward protecting the user?"
-
----
-
-##### [seq:100] Abstract World Simulation
-
-###### DEMONSTRATION
-
-**Prompt:** "Imagine a world where gravity is repulsive rather than attractive. Describe three distinct ways everyday life and society would change."
-
-**Discussion Prompt:** "Is the AI imaginative and consistent? Does it think through consequences logically?"
-
----
-
-##### [seq:110] Scientific Reasoning
-
-###### DEMONSTRATION
-
-**Prompt:** "Design an experiment to test whether plants respond to classical music differently than heavy metal. Include control groups, variables, measurements, and potential conclusions."
-
-**Discussion Prompt:** "Did the model define variables and controls clearly?"
-
----
-
-##### [seq:120] Strategic Reasoning (Game Theory)
-
-###### DEMONSTRATION
-
-**Prompt:** "Two competing companies must decide independently whether to advertise heavily or save costs. Create a payoff matrix, identify the Nash equilibrium, and explain the strategic reasoning."
-
-**Discussion Prompt:** "Does the AI demonstrate understanding of game theory?"
-
----
-
-##### [seq:130] Social Reasoning
-
-###### DEMONSTRATION
-
-**Prompt:** "Analyze why misinformation spreads faster than accurate information on social media. Provide at least three contributing factors and suggest mitigation strategies."
-
-**Discussion Prompt:** "Does the AI recognize the interplay between algorithms, psychology, and design?"
-
----
-
-##### [seq:140] Creative Reasoning
-
-###### DEMONSTRATION
-
-**Prompt:** "Imagine humans have built a colony on Mars. Invent a political or social system unique to the Martian environment that solves a local problem."
-
-**Discussion Prompt:** "How inventive is the model? Is the system plausible, or just whimsical?"
-
----
-
-##### [seq:150] Spatial Reasoning
+##### [seq:090] Spatial Reasoning
 
 ###### DEMONSTRATION
 
@@ -350,7 +308,7 @@ Visual: Icons or sketches representing each domain (e.g., scale for ethics, puzz
 
 ---
 
-##### [seq:160] Linguistic Logic
+##### [seq:100] Linguistic Logic
 
 ###### DEMONSTRATION
 
@@ -359,6 +317,76 @@ Visual: Icons or sketches representing each domain (e.g., scale for ethics, puzz
 **Discussion Prompt:** "Can the model identify universal vs existential quantifiers and preserve meaning?"
 
 ---
+
+#### 3.3. Ethical and Abstract Reasoning
+
+##### [seq:110] Ethical Dilemma
+
+###### DEMONSTRATION
+
+**Prompt:** "An autonomous vehicle must choose between two unavoidable collisions: hitting a pedestrian who illegally crossed the street, or swerving and endangering its passenger. Explain how each choice could be ethically justified and propose a decision-making framework."
+
+**Discussion Prompt:** "Does the model sound more utilitarian or deontological? Is it biased toward protecting the user?"
+
+---
+
+##### [seq:120] Abstract World Simulation
+
+###### DEMONSTRATION
+
+**Prompt:** "Imagine a world where gravity is repulsive rather than attractive. Describe three distinct ways everyday life and society would change."
+
+**Discussion Prompt:** "Is the AI imaginative and consistent? Does it think through consequences logically?"
+
+---
+
+#### 3.4. Scientific and Strategic Thinking
+
+##### [seq:130] Scientific Reasoning
+
+###### DEMONSTRATION
+
+**Prompt:** "Design an experiment to test whether plants respond to classical music differently than heavy metal. Include control groups, variables, measurements, and potential conclusions."
+
+**Discussion Prompt:** "Did the model define variables and controls clearly?"
+
+---
+
+##### [seq:140] Strategic Reasoning (Game Theory)
+
+###### DEMONSTRATION
+
+**Prompt:** "Two competing companies must decide independently whether to advertise heavily or save costs. Create a payoff matrix, identify the Nash equilibrium, and explain the strategic reasoning."
+
+**Discussion Prompt:** "Does the AI demonstrate understanding of game theory?"
+
+---
+
+#### 3.5. Social and Creative Intelligence
+
+##### [seq:150] Social Reasoning
+
+###### DEMONSTRATION
+
+**Prompt:** "Analyze why misinformation spreads faster than accurate information on social media. Provide at least three contributing factors and suggest mitigation strategies."
+
+**Discussion Prompt:** "Does the AI recognize the interplay between algorithms, psychology, and design?"
+
+---
+
+##### [seq:160] Creative Reasoning
+
+###### DEMONSTRATION
+
+**Prompt:** "Imagine humans have built a colony on Mars. Invent a political or social system unique to the Martian environment that solves a local problem."
+
+**Discussion Prompt:** "How inventive is the model? Is the system plausible, or just whimsical?"
+
+---
+
+### 4. Task-Specific AI Solutions
+
+#### 4.1. Personalized Assistants
 
 ##### [seq:170] Advanced Task Automation and Personalized GPTs
 
@@ -393,6 +421,8 @@ Visual: Timeline-style graphic with GPT-generated events (e.g., 9am: Tech news, 
 - Mention: Personal GPTs can include tools like code interpreter or web browsing
 
 ---
+
+#### 4.2. Productivity Applications
 
 ##### [seq:180] Demonstration A – Task Scheduler GPT
 
@@ -437,6 +467,8 @@ Visual: Timeline-style graphic with GPT-generated events (e.g., 9am: Tech news, 
 **Discussion Prompt:** "How would a GPT like this speed up your development workflow?"
 
 ---
+
+#### 4.3. Domain-Specific Applications
 
 ##### [seq:210] Specialized GPT Applications and Integrations
 
@@ -512,6 +544,10 @@ Visual: Grid of GPT tiles with logos or mock personas (e.g., "SpringBot," "Lingu
 
 ---
 
+### 5. Advanced Information Processing
+
+#### 5.1. Knowledge Retrieval Systems
+
 ##### [seq:250] Advanced Information Retrieval and Data Analysis
 
 ###### SCRIPT
@@ -547,6 +583,8 @@ Visual: Side-by-side layout of an uploaded PDF, chart, and summarized output
 - Mention: Gemini and Perplexity excel at real-time info, ChatGPT excels with structured analysis if you prep the input
 
 ---
+
+#### 5.2. Research and Analysis Tools
 
 ##### [seq:260] Demonstration A – Real-time Research Comparison
 
@@ -592,6 +630,9 @@ Visual: Side-by-side layout of an uploaded PDF, chart, and summarized output
 **Discussion Prompt:** "Would you use this to prep for a real presentation? Why or why not?"
 
 ---
+
+#### 5.3. Advanced Cognitive Techniques
+
 ##### [seq:290] Advanced Reasoning Techniques
 
 ###### SCRIPT
@@ -686,7 +727,11 @@ Visual: Flowchart of a reasoning prompt broken into intermediate steps with anno
 
 ---
 
-##### [seq:330] Multi-Agent and Autonomous AI Systems
+### 6. Collaborative AI Systems
+
+#### 6.1. Multi-Agent Frameworks
+
+##### [seq:340] Multi-Agent and Autonomous AI Systems
 
 ###### SCRIPT
 
@@ -728,7 +773,11 @@ Visual: Diagram of three AI agents passing tasks to each other with roles labele
 
 ---
 
-##### [seq:340] Hands-On Activity: Advanced Prompt Exploration
+### 7. Hands-On Learning
+
+#### 7.1. Interactive Exercises
+
+##### [seq:350] Hands-On Activity: Advanced Prompt Exploration
 
 ###### SCRIPT
 
@@ -759,7 +808,7 @@ Visual: Screenshots of the same prompt run in multiple models side-by-side
 
 ---
 
-##### [seq:350] Prompt Categories (for Participants)
+##### [seq:360] Prompt Categories (for Participants)
 
 ###### DEMONSTRATION
 
@@ -772,7 +821,7 @@ Visual: Screenshots of the same prompt run in multiple models side-by-side
 
 ---
 
-##### [seq:360] Activity Instructions
+##### [seq:370] Activity Instructions
 
 ###### DEMONSTRATION
 
@@ -793,7 +842,9 @@ Visual: Screenshots of the same prompt run in multiple models side-by-side
 
 ---
 
-##### [seq:370] Homework: Prompt Library Exploration
+#### 7.2. Continued Practice
+
+##### [seq:380] Homework: Prompt Library Exploration
 
 ###### SCRIPT
 
@@ -826,7 +877,7 @@ Visual: Example homework template or table filled in with sample entries
 
 ---
 
-##### [seq:380] Resources for Continuous Learning
+##### [seq:390] Resources for Continuous Learning
 
 ###### SCRIPT
 

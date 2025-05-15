@@ -1,5 +1,10 @@
-# Lecture 4. 
+# Beginners AI. Mastering modern AI tools
+
+## Lecture 4. Specialized AI tools and advanced workflows
+
 ### 1. Introduction
+
+#### 1.1. Course Context and Objectives
 
 ##### [seq:010] Introduction: Recap and What's Next
 
@@ -69,6 +74,10 @@ Write an essay on the Titanic that is *exactly* 300 words. Do not present the an
 
 **Discussion Prompt**:
 > "This might seem pedantic—but in technical writing, compliance, and academia, word count precision *matters*. How do you think AI performs when we force it to follow rigid constraints?"
+
+### 2. API Integration and Advanced Prompting
+
+#### 2.1. API Fundamentals
 
 ##### [seq:020] Understanding APIs and LLM Integration
 
@@ -164,6 +173,8 @@ Describe the formation of a black hole.
 > "If system prompts are like backstage instructions, how would you use this to shape a brand’s voice—or prevent hallucinations in high-risk use cases?"
 
 ---
+
+#### 2.2. Precision Prompting Techniques
 
 ##### [seq:050] Advanced Prompt Crafting Techniques
 
@@ -269,6 +280,12 @@ Use segmentation. Because this essay is quite long, consider breaking it into te
 **Discussion Prompt**:
 > “If we think of longform writing as budgeting, what other AI tasks might benefit from this approach?”
 
+---
+
+### 3. Model Benchmarking and Comparison
+
+#### 3.1. Evaluation Frameworks
+
 ##### [seq:090] AI Arena & Benchmarking
 
 ###### SCRIPT
@@ -310,7 +327,7 @@ Think of it as the World Cup for AI.
 
 ---
 
-#### 4.4. Demonstrations
+#### 3.2. Comparative Testing
 
 ##### [seq:100] Demo A – Real-Time Arena Test (Creative Output)
 
@@ -384,6 +401,10 @@ Rewrite the nursery rhyme 'Jack and Jill' as a crime noir opening paragraph.
 > “Which model has more style? Which felt more like a *genre* than a gimmick?”
 
 ---
+
+### 4. AI-Enhanced Image Processing
+
+#### 4.1. Programmatic Image Editing
 
 ##### [seq:140] Advanced AI-Enhanced Image Editing
 
@@ -507,6 +528,10 @@ Split the RGB bands of the image and merge them in a new order (e.g., BGR). Add 
 
 ---
 
+### 5. Specialized AI Applications
+
+#### 5.1. Domain-Specific Tools
+
 ##### [seq:190] Specialized AI Tools
 
 ###### SCRIPT
@@ -553,8 +578,6 @@ Let’s walk through each one and see how they can amplify your thinking.
 	- [https://heygen.com](https://heygen.com)
 
 ---
-
-#### 6.4. Demonstrations
 
 ##### [seq:200] Demo A – **NotebookLM** (Q&A Over Documents)
 
@@ -668,6 +691,8 @@ Summarize this article in 200 words and translate it into Spanish.
 
 ---
 
+#### 5.2. Integrated Workflows
+
 ##### [seq:250] Combining Tools for Extraordinary Results
 
 ###### SCRIPT
@@ -720,8 +745,6 @@ C --> D[HeyGen: Video Presentation]
 	- Medium article inspiration: [The 4-Step Framework to Create Research Reports in Minutes with AI](https://medium.com/publishous/the-4-step-framework-to-create-powerful-research-reports-in-minutes-with-ai-516913559fc8)
 
 ---
-
-#### 7.4. Demonstration
 
 ##### [seq:260] Demo – Electric Vehicle Outlook Report (2030)
 
@@ -788,6 +811,10 @@ This is the Electric Vehicle Industry Outlook Report. Over the next decade, we e
 
 ---
 
+### 6. Advanced Research Techniques
+
+#### 6.1. Longform Content Creation
+
 ##### [seq:280] Deep Research Techniques on a Budget
 
 ###### SCRIPT
@@ -829,8 +856,6 @@ This isn’t just about speed. It’s about accuracy, structure, and credibility
 	- Perplexity for up-to-date, cited facts
 
 ---
-
-#### 8.4. Demonstration
 
 ##### [seq:290] Demo – “Titanic’s Social Impact on the 20th Century”
 
@@ -882,6 +907,10 @@ Follow these formatting guidelines:
 
 ---
 
+### 7. Multi-Agent Systems
+
+#### 7.1. Collaborative AI Frameworks
+
 ##### [seq:320] Multi-Agent and Autonomous AI Systems
 
 ###### SCRIPT
@@ -925,8 +954,6 @@ This is the early version of something much bigger: autonomous, AI-driven workfl
 - Bonus: If students are programmers, mention LangGraph or LangChain agent frameworks
 
 ---
-
-#### 9.4. Demonstrations
 
 ##### [seq:330] Demo A – AutoGen Web App Simulation
 
@@ -989,6 +1016,10 @@ Reviewer: Check tone and consistency.
 **If live demo not possible**, walk through screenshots or video clips.
 
 ---
+
+### 8. Future Growth and Resources
+
+#### 8.1. Staying Current
 
 ##### [seq:360] Staying Ahead in AI: Influencers & Resources
 
@@ -1055,6 +1086,8 @@ Demo – “How I Curate My AI Feed”
 > “What’s your plan? Will you subscribe to a newsletter? Join a subreddit? Follow one creator? What will help you *enjoy* staying up to date?”
 
 ---
+
+#### 8.2. Hands-On Application
 
 ##### [seq:370] Hands-On Activity: AI Tool Integration Workshop
 
@@ -1151,11 +1184,13 @@ The goal is simple: show me that you’re not just using AI… you’re thinking
 
 ---
 
+#### 8.3. Course Conclusion
+
 ##### [seq:390] Closing: The AI Journey Continues
 
 ###### SCRIPT
 
-We’ve reached the end of our official course—but your AI journey is just beginning.
+We’ve reached the end of our official course—but your AI journey is just begt inning.
 You now understand:
 - The strengths and flaws of modern AI
 - How to write precise, powerful prompts

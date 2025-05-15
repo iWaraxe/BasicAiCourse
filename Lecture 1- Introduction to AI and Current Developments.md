@@ -3,7 +3,7 @@
 
 ### 1. Introduction: Understanding AI
 
-#### 1.1. Brief history of AI (1960s–2025), emphasizing major developments
+#### 1.1. Brief history of AI (1960s–2025)
 
 ##### [seq:010] ELIZA (1960s), Statistical models (1990s), Neural Networks (2010s), Transformer Era (2017 onward), Multimodal and Autonomous AI systems (2025)
 
@@ -72,6 +72,9 @@ Let’s break it down: early AI followed strict rules, often coded line-by-line.
 ---
 
 ### 2. Major AI Systems Overview
+
+#### 2.1. Commercial Cloud-Based LLMs
+
 ##### [seq:030] OpenAI (ChatGPT)
 
 ###### SCRIPT
@@ -92,6 +95,7 @@ ChatGPT is now multimodal—it can analyze images, documents, and soon, videos. 
 
 ###### DEMONSTRATION
  Prompt: _"Explain the difference between machine learning and deep learning in a paragraph suitable for a 12-year-old."_
+
 ---
 
 ##### [seq:040] Anthropic (Claude)
@@ -113,30 +117,10 @@ Claude has 'Constitutional AI'—a way of aligning its outputs with a set of pri
 
 ###### DEMONSTRATION
  Prompt: _"Summarize the pros and cons of using AI in education, and present it in the style of a high school debate."_
+
 ---
 
-##### [seq:050] Perplexity AI
-
-###### SCRIPT
- "Perplexity is not just a chatbot. It's a search engine. Think of it as Google-meets-ChatGPT. It answers questions in natural language but backs its answers with citations. Perfect for real-time facts, research, and comparisons.
-
-It also features 'Spaces' where users curate AI-driven research on a topic, and 'Copilot' for deeper multi-step inquiries."
-
-###### VISUAL
- \_Title: "Perplexity - AI-Powered Search Assistant"
-
-- Screenshot of Perplexity interface with citations
-- Callout box: Real-time Web Access + Source References
-
-###### NOTES
-- Link: https://www.perplexity.ai
-- Demonstrate using a controversial or current query like: "What are the pros and cons of remote work in 2025?"
-
-###### DEMONSTRATION
- Prompt: _"Compare the latest smartphone models: iPhone 16 vs Samsung Galaxy S25."_
----
-
-##### [seq:060] Google Gemini 2.0
+##### [seq:050] Google Gemini 2.0
 
 ###### SCRIPT
  "Gemini 2.0 is Google’s flagship model and successor to Bard. It's deeply integrated into Google Workspace, so it can help you write emails in Gmail, edit Docs, or create Sheets. Its real power lies in its multimodal ability: it can process and generate across text, image, and audio inputs in a single session.
@@ -156,7 +140,34 @@ Gemini is particularly good at visual understanding and context retention over l
 
 ###### DEMONSTRATION
  Upload an infographic and ask Gemini: _"What insights does this infographic provide?"_
+
 ---
+
+#### 2.2. Research & Information-Focused AI
+
+##### [seq:060] Perplexity AI
+
+###### SCRIPT
+ "Perplexity is not just a chatbot. It's a search engine. Think of it as Google-meets-ChatGPT. It answers questions in natural language but backs its answers with citations. Perfect for real-time facts, research, and comparisons.
+
+It also features 'Spaces' where users curate AI-driven research on a topic, and 'Copilot' for deeper multi-step inquiries."
+
+###### VISUAL
+ \_Title: "Perplexity - AI-Powered Search Assistant"
+
+- Screenshot of Perplexity interface with citations
+- Callout box: Real-time Web Access + Source References
+
+###### NOTES
+- Link: https://www.perplexity.ai
+- Demonstrate using a controversial or current query like: "What are the pros and cons of remote work in 2025?"
+
+###### DEMONSTRATION
+ Prompt: _"Compare the latest smartphone models: iPhone 16 vs Samsung Galaxy S25."_
+
+---
+
+#### 2.3. Open-Source & Local Models
 
 ##### [seq:070] Mistral and Local Models via Ollama
 
@@ -190,6 +201,7 @@ Prompt: _"Summarize the causes of the French Revolution."_
 #### 3.1. Core Capabilities
 
 ##### [seq:080] Core Capabilities
+
 ###### SCRIPT
  "So, what can modern AI actually do? The capabilities of large language models go far beyond just chatting. At their core, they’re great at text generation: from writing poems and emails to full-blown academic essays or legal summaries.
 
@@ -296,7 +308,9 @@ This is why you can sometimes 'see' the model think—especially when it slows d
 ---
 
 #### 3.3. Limitations of LLMs
+
 ##### [seq:130] Limitations of LLMs
+
 ###### SCRIPT
  Of course, it’s not all magic. LLMs have clear limitations—and they matter. Let’s go through the big ones.
 
@@ -325,6 +339,8 @@ Third: **Reasoning errors.** AI might fail simple logic puzzles or make mistakes
 ---
 
 ### 4. Recent AI Developments and Emerging Trends
+
+#### 4.1. Expanded AI Capabilities
 
 ##### [seq:140] Multimodal AI
 
@@ -388,6 +404,8 @@ Watch how the assistant self-organizes.
 
 ---
 
+#### 4.2. Efficiency and Accessibility Improvements
+
 ##### [seq:160] Small Language Models (SLMs)
 
 ###### SCRIPT
@@ -419,6 +437,8 @@ Prompt: _"Summarize the key features of your own architecture."_
 Discuss the fluency and speed compared to GPT-4.
 
 ---
+
+#### 4.3. Knowledge Enhancement Systems
 
 ##### [seq:170] Retrieval-Augmented Generation (RAG)
 
@@ -483,6 +503,8 @@ It’s faster, more private, and essential for autonomous tech like self-driving
 
 ### 5. Hands-On Activity: Spotting AI Imperfections
 
+#### 5.1. Activity Framework
+
 ##### [seq:190] Activity Overview
 
 ###### SCRIPT
@@ -510,6 +532,8 @@ You’ll test prompts in different categories: **bias**, **hallucination**, **lo
 - Joke: "Think of yourself as an AI detective. But without the trench coat… unless you brought one."
 
 ---
+
+#### 5.2. AI Limitations Demonstrations
 
 ##### [seq:200] Demonstration 1: Bias & Stereotypes
 
@@ -650,6 +674,8 @@ Or:
 
 ---
 
+#### 5.3. Reflection
+
 ##### [seq:240] Activity Wrap-Up
 
 ###### SCRIPT
@@ -677,6 +703,8 @@ Your homework will involve digging deeper into these weaknesses and reflecting o
 
 ---
 ### 6. Ethical and Responsible AI Usage
+
+#### 6.1. Foundations of AI Ethics
 
 ##### [seq:250] Why Ethics in AI Matters
 
@@ -738,6 +766,8 @@ And finally, **Privacy**—handling personal data with respect and security."
 
 ---
 
+#### 6.2. Implementing Ethical AI
+
 ##### [seq:270] Ethical Frameworks in Practice
 
 ###### SCRIPT
@@ -791,6 +821,8 @@ There’s a growing field called **AI Alignment**—making sure AI systems do wh
 - Joke: “You wouldn’t let your toaster perform surgery. Don’t let your chatbot do it either.”
 
 ---
+
+#### 6.3. Applied Ethics
 
 ##### [seq:290] Discussion Activity (Optional)
 
@@ -850,6 +882,8 @@ Let’s remember: technology should be **for people**, not just **about people**
 ---
 ### 7. Homework Assignment: Exploring AI Boundaries
 
+#### 7.1. Assignment Overview
+
 ##### [seq:310] Homework Briefing
 
 ###### SCRIPT
@@ -881,6 +915,8 @@ You’ll be given a set of prompts from different categories: bias, hallucinatio
 - Joke: "Basically, you’re now an AI red team—with homework instead of a salary."
 
 ---
+
+#### 7.2. Assignment Details
 
 ##### [seq:320] Prompt Categories and Examples
 
@@ -941,6 +977,8 @@ You’ll write a short reflection, 1–2 paragraphs per case, and submit it next
 
 ---
 
+#### 7.3. Learning Objectives
+
 ##### [seq:340] Homework Recap and Motivation
 
 ###### SCRIPT
@@ -970,7 +1008,9 @@ In short: this homework makes you a safer, smarter AI user."
 ---
 ### 8. Resources and Further Learning
 
-##### [seq:340] Where to Learn More
+#### 8.1. Learning Resources
+
+##### [seq:350] Where to Learn More
 
 ###### SCRIPT
 
@@ -1008,7 +1048,9 @@ That’s why I’ve compiled a list of reliable resources for you. These will he
 
 ---
 
-##### [seq:350] Interactive Platforms to Try
+#### 8.2. Practical Tools
+
+##### [seq:360] Interactive Platforms to Try
 
 ###### SCRIPT
 "Next, let’s look at tools where you can **play and experiment**.
@@ -1041,7 +1083,7 @@ Want to try different models? Explore visual AI? Even build your own chatbot? Th
 
 ---
 
-##### [seq:360] Prompting Guides & Communities
+##### [seq:370] Prompting Guides & Communities
 
 ###### SCRIPT
 "If you want to sharpen your prompting skills—and believe me, it's an art—you can learn a lot from communities that share prompts, hacks, and techniques."
@@ -1065,7 +1107,9 @@ Want to try different models? Explore visual AI? Even build your own chatbot? Th
 
 ---
 
-##### [seq:370] Closing Encouragement
+#### 8.3. Conclusion
+
+##### [seq:380] Closing Encouragement
 
 ###### SCRIPT
 "You don’t need to become a machine learning expert to make use of AI. What matters is curiosity—and the courage to explore.

@@ -3,6 +3,8 @@
 
 ### 1. Introduction: From Theory to Practice
 
+#### 1.1. Course Overview and Context
+
 ##### [seq:010] Introduction
 
 ###### SCRIPT
@@ -59,6 +61,8 @@ Visuals: Icons representing each category (pen for writing, brackets for code, e
 
 ### 2. Text Generation and Editing
 
+#### 2.1. Content Creation
+
 ##### [seq:020] Writing and Editing Assistance
 
 ###### SCRIPT
@@ -103,6 +107,8 @@ Let’s see how they handle writing from scratch, and then how they revise somet
 **Discussion Question:** "Which system gave you the best balance between clarity and personality?"
 
 ---
+
+#### 2.2. Language Capabilities
 
 ##### [seq:030] Translation and Language Processing
 
@@ -152,6 +158,8 @@ Let’s test their abilities in formal and informal translation—and see how th
 
 ### 3. Code Generation and Debugging
 
+#### 3.1. Programming Fundamentals
+
 ##### [seq:040] Code Generation
 
 ###### SCRIPT
@@ -196,6 +204,8 @@ Let’s begin with a simple example—generating a Python script for the Fibonac
 **Discussion Question:** "Which model gave you code you’d feel confident using as-is in a real project?"
 
 ---
+
+#### 3.2. Error Resolution
 
 ##### [seq:050] Debugging Assistance
 
@@ -252,6 +262,8 @@ def greet(name)
 
 ### 4. Visual and Document Analysis
 
+#### 4.1. Image Processing
+
 ##### [seq:060] Image Understanding and Generation
 
 ###### SCRIPT
@@ -297,6 +309,8 @@ We’ll begin by uploading diagrams, charts, and other visuals to see how well t
 **Discussion Prompt:** "Which AI system provided the most accurate or creative results? What would you trust it with—reporting or inspiration?"
 
 ---
+
+#### 4.2. Document Intelligence
 
 ##### [seq:070] Document Analysis and Data Extraction
 
@@ -347,6 +361,8 @@ This has huge implications for fields like law, education, and business. Let’s
 
 ### 5. Visual Programming Assistance
 
+#### 5.1. Diagram Interpretation
+
 ##### [seq:080] Code and Diagram Analysis
 
 ###### SCRIPT
@@ -396,6 +412,8 @@ Today’s AIs are surprisingly good at interpreting visual programming materials
 
 ### 6. Comparative Analysis of AI Visual Capabilities
 
+#### 6.1. Cross-Platform Performance
+
 ##### [seq:090] Cross-Model Visual Reasoning
 
 ###### SCRIPT
@@ -444,6 +462,8 @@ Let’s get analytical about AI itself."
 ---
 
 ### 7. IDE and Workflow Integration
+
+#### 7.1. Development Environment
 
 ##### [seq:100] AI Tools in the Developer Workflow
 
@@ -495,6 +515,8 @@ The goal? Fewer context switches. Smarter development. More time to think, less 
 
 ### 8. Hands-On Activity: Interactive AI Exploration
 
+#### 8.1. Activity Framework
+
 ##### [seq:110] Activity Setup and Instructions
 
 ###### SCRIPT
@@ -528,18 +550,18 @@ This is where your experimentation begins."
 
 ---
 
-#### 8.1. Prompts to Explore
+#### 8.2. Exploration Prompts
 
-##### Writing
+##### [seq:120] Writing
 
-###### [seq:120] DEMONSTRATION
+###### DEMONSTRATION
 
 - "Rewrite this paragraph to make it sound like Shakespeare."
 - "Summarize the main ideas in this article for a child."
 
 ---
 
-##### Code
+##### [seq:130] Code
 
 ###### DEMONSTRATION
 
@@ -548,7 +570,7 @@ This is where your experimentation begins."
 
 ---
 
-##### Visual
+##### [seq:140] Visual
 
 ###### DEMONSTRATION
 
@@ -557,7 +579,7 @@ This is where your experimentation begins."
 
 ---
 
-##### Document
+##### [seq:150] Document
 
 ###### DEMONSTRATION
 
@@ -565,7 +587,9 @@ This is where your experimentation begins."
 
 ---
 
-##### [seq:130] Discussion & Reflection
+#### 8.3. Collaborative Learning
+
+##### [seq:160] Discussion & Reflection
 
 ###### SCRIPT
 
@@ -596,7 +620,9 @@ Take a moment to discuss with the person next to you or jot down your key takeaw
 
 ### 9. Summary and Key Insights
 
-##### [seq:140] Recap of What We Explored
+#### 9.1. Learning Outcomes
+
+##### [seq:170] Recap of What We Explored
 
 ###### SCRIPT
 
@@ -629,7 +655,9 @@ Some models are better at structure, others at storytelling. Some at visuals, ot
 
 ---
 
-##### [seq:150] Real-World Implications
+#### 9.2. Practical Applications
+
+##### [seq:180] Real-World Implications
 
 ###### SCRIPT
 
@@ -660,7 +688,9 @@ That’s how we build a future where AI makes our work faster, smarter, and more
 
 ### 10. Homework Assignment: Practical AI Integration
 
-##### [seq:160] Homework Overview
+#### 10.1. Assignment Guidelines
+
+##### [seq:190] Homework Overview
 
 ###### SCRIPT
 
@@ -700,7 +730,9 @@ We’ve included a template for you to document your findings."
 
 ---
 
-##### [seq:170] Submission Instructions
+#### 10.2. Evaluation Criteria
+
+##### [seq:200] Submission Instructions
 
 ###### SCRIPT
 
@@ -728,7 +760,9 @@ This assignment is designed to make you comfortable experimenting, prompting, an
 
 ### 11. Resources for Continued Learning
 
-##### [seq:180] Recommended Tools and Libraries
+#### 11.1. Technology Resources
+
+##### [seq:210] Recommended Tools and Libraries
 
 ###### SCRIPT
 
@@ -763,7 +797,9 @@ Here are some resources to help you build skills, find inspiration, and stay con
 
 ---
 
-##### [seq:190] Communities and Learning Hubs
+#### 11.2. Community Engagement
+
+##### [seq:220] Communities and Learning Hubs
 
 ###### SCRIPT
 
