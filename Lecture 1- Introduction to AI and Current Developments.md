@@ -1026,3 +1026,8 @@ As you continue through this course, let these resources guide your independent 
 ---
 
 ✨ That wraps Lecture 1!
+
+## Understanding Tokens and Context Windows in Language Models
+
+
+
