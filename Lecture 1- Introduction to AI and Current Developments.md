@@ -1026,3 +1026,8 @@ As you continue through this course, let these resources guide your independent 
 ---
 
 ✨ That wraps Lecture 1!
+
+#### GPT-4.1 and the 1 Million Token Context Window
+
+
+
