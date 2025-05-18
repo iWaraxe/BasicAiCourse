@@ -1,7 +1,15 @@
-# Lecture 4. 
-### 1. Introduction: Recap and What's Next
+# Beginners AI. Mastering modern AI tools
 
-#### 1.1. Script
+## Lecture 4. Specialized AI tools and advanced workflows
+
+### 1. Introduction
+
+#### 1.1. Course Context and Objectives
+
+##### [seq:010] Introduction: Recap and What's Next
+
+###### SCRIPT
+
 Welcome back, everyone, to our final lecture in the Basic AI Course—and congratulations for making it this far!
 
 Over the last three sessions, we’ve taken quite a journey together.
@@ -22,9 +30,8 @@ We’re going beyond the UI—into the backstage of AI systems:
 This lecture is your launchpad—so that you not only understand today’s tools but can adapt to tomorrow’s.
 
 Let’s get started.
----
 
-#### 1.2. Slide
+###### VISUAL
 
 **Slide Title: "Lecture 4: Expanding AI Horizons"**
 
@@ -41,9 +48,7 @@ Let’s get started.
 **Visuals**:
 - Icons or simple illustrations for each domain: gears for API, trophy for benchmarking, puzzle pieces for integration, radar screen for staying current.
 
----
-
-#### 1.3. Slide Notes
+###### NOTES
 
 - **Tone Tip**: You’re guiding the class toward independence—highlight the *why* behind every tool and strategy today.
 - **Fun Fact**: OpenAI’s Playground used to be text-only with no memory and limited formatting. Today, you can tweak temperature, set roleplay scenarios, and simulate product UIs in a browser.
@@ -54,9 +59,7 @@ Let’s get started.
 	- [https://www.llmarena.com](https://www.llmarena.com)
 	- [https://notebooklm.google](https://notebooklm.google)
 
----
-
-#### 1.4. Demonstration (Optional Warm-Up)
+###### DEMONSTRATION
 
 **Title:** "How Precise is ChatGPT Today?"
 **Prompt:**
@@ -72,9 +75,14 @@ Write an essay on the Titanic that is *exactly* 300 words. Do not present the an
 **Discussion Prompt**:
 > "This might seem pedantic—but in technical writing, compliance, and academia, word count precision *matters*. How do you think AI performs when we force it to follow rigid constraints?"
 
-### 2. Understanding APIs and LLM Integration
+### 2. API Integration and Advanced Prompting
 
-#### 2.1. Script
+#### 2.1. API Fundamentals
+
+##### [seq:020] Understanding APIs and LLM Integration
+
+###### SCRIPT
+
 To really unlock the power of modern AI, we need to go beyond the chatbot interface and step into the world of APIs.
 So what exactly is an API?
 An API, or Application Programming Interface, is like a universal translator between your code and someone else’s service—in this case, a powerful AI model running on a remote server.
@@ -90,9 +98,8 @@ We'll explore key parameters like:
 - Top-p: narrows the sampling universe
 - System prompts: secretly guide how the model behaves
 Whether you're building a startup or a hobby project, understanding these controls is your first step toward AI integration mastery.
----
 
-#### 2.2. Slide
+###### VISUAL
 
 **Slide Title: "LLM APIs: What They Are & Why They Matter"**
 
@@ -110,9 +117,7 @@ Whether you're building a startup or a hobby project, understanding these contro
 - Screenshots of OpenAI Playground and Claude Console
 - Emoji thermometer next to "temperature" setting for humor
 
----
-
-#### 2.3. Slide Notes
+###### NOTES
 
 - **Tip**: Use metaphors — “The API is the waiter; your prompt is the order; the model is the chef.”
 - **Trivia**: The first version of GPT-3 API launched in 2020 and had no memory, no chat history—just one-shot text completion.
@@ -125,9 +130,11 @@ Whether you're building a startup or a hobby project, understanding these contro
 
 ---
 
-#### 2.4. Demonstration
+##### [seq:030] Demo 1: Demonstration of Prompt Parameters
 
-##### **Demo 1: Prompt Parameters in Action**
+###### DEMONSTRATION
+
+**Demo 1: Prompt Parameters in Action**
 
 **Tool:** OpenAI Playground
 **Prompt:**
@@ -144,7 +151,9 @@ Explain the difference between a black hole and a wormhole in simple terms.
 
 ---
 
-##### **Demo 2: System Prompt Power (Claude Console)**
+##### [seq:040] Demo 2: System Prompt Power (Claude Console)
+
+###### DEMONSTRATION
 
 **System Prompt:**  
 ```TeXt
@@ -162,10 +171,15 @@ Describe the formation of a black hole.
 
 **Discussion Prompt:**  
 > "If system prompts are like backstage instructions, how would you use this to shape a brand’s voice—or prevent hallucinations in high-risk use cases?"
----
-### 3. Advanced Prompt Crafting Techniques
 
-#### 3.1. Script
+---
+
+#### 2.2. Precision Prompting Techniques
+
+##### [seq:050] Advanced Prompt Crafting Techniques
+
+###### SCRIPT
+
 Welcome to the art and science of precision prompting.
 Up until now, we’ve been writing prompts like casual messages to an assistant. But with the right techniques, prompts can become precise instructions—like code.
 Why is this important?
@@ -176,9 +190,8 @@ In this section, we’ll focus on three areas:
 3. Prompt wizardry – clever structures that force better reasoning or formatting
 
 Let’s dive into some prompt magic that would make even Hogwarts jealous.
----
 
-#### 3.2. Slide
+###### VISUAL
 
 **Slide Title: "Precision Prompting: When Words Matter"**
 
@@ -194,9 +207,7 @@ Let’s dive into some prompt magic that would make even Hogwarts jealous.
 - Diagram: “Words → Tokens → Output Budget”
 - Magic wand icon for “wizardry” effect
 
----
-
-#### 3.3. Slide Notes
+###### NOTES
 
 - **Trivia**: A single token is about 4 characters. “Banana” = 1 token. “Artificial intelligence” = 3 tokens. GPT-4 Turbo handles up to 128,000 tokens.
 - **Joke**: “Precision prompting is like cooking with an AI sous-chef. If you don’t specify ‘one clove of garlic,’ you might get a vampire-safe pizza.”
@@ -205,11 +216,11 @@ Let’s dive into some prompt magic that would make even Hogwarts jealous.
 
 ---
 
-#### 3.4. Demonstrations
+#### 3.1. Demonstrations
 
----
+##### [seq:060] Demo A – 300-Word Precision Essay
 
-##### 3.4.1. Demo A – 300-Word Precision Essay
+###### DEMONSTRATION
 
 **Prompt** (`BaiL4Pr1`):
 
@@ -229,7 +240,9 @@ Programmatically craft a precisely 300-word essay on the Titanic. Ensure it's ex
 
 ---
 
-##### 3.4.2. Demo B – Token Counting Trick
+##### [seq:070] Demo B – Token Counting Trick
+
+###### DEMONSTRATION
 
 **Prompt** (`BaiL4Pr3`):  
 ```TeXt
@@ -248,7 +261,9 @@ How many Rs are in "carry forward"?
 
 ---
 
-##### 3.4.3. Demo C – 5000-Word Research Essay Builder
+##### [seq:080] Demo C – 5000-Word Research Essay Builder
+
+###### DEMONSTRATION
 
 **Prompt** (`BaiL4Pr2`):
 ```TeXt
@@ -265,9 +280,15 @@ Use segmentation. Because this essay is quite long, consider breaking it into te
 **Discussion Prompt**:
 > “If we think of longform writing as budgeting, what other AI tasks might benefit from this approach?”
 
-### 4. AI Arena & Benchmarking
+---
 
-#### 4.1. Script
+### 3. Model Benchmarking and Comparison
+
+#### 3.1. Evaluation Frameworks
+
+##### [seq:090] AI Arena & Benchmarking
+
+###### SCRIPT
 
 It's time to bring out the big guns.
 So far, we've explored prompt design and integration… but how do we actually compare models like GPT-4, Claude, Gemini, and Mistral?
@@ -278,9 +299,8 @@ Here's what we're going to explore:
 - What can tools like LLM Arena show us that casual use can’t?
 We’ll go hands-on with prompt matchups—comparing speed, accuracy, tone, and creativity.
 Think of it as the World Cup for AI.
----
 
-#### 4.2. Slide
+###### VISUAL
 
 **Slide Title: "LLM Benchmarking: Who Wins Where?"**
 
@@ -296,9 +316,7 @@ Think of it as the World Cup for AI.
 - Diagram showing different evaluation axes: creativity, reasoning, accuracy, verbosity
 - Screenshot of [https://llmarena.com](https://llmarena.com)
 
----
-
-#### 4.3. Slide Notes
+###### NOTES
 
 - **Tip**: Use metaphors like sports leagues, where GPT-4 is a chess champion, Claude is the philosopher, Gemini is the multimedia artist, and Mistral is the indie underdog.
 - **Joke**: “The only thing missing here is live commentary and dramatic theme music—but don’t tempt me.”
@@ -309,9 +327,12 @@ Think of it as the World Cup for AI.
 
 ---
 
-#### 4.4. Demonstrations
+#### 3.2. Comparative Testing
 
-##### 4.4.1. Demo A – Real-Time Arena Test (Creative Output)
+##### [seq:100] Demo A – Real-Time Arena Test (Creative Output)
+
+###### DEMONSTRATION
+
 **Prompt**:
 ```TeXt
 Describe the first contact between humans and an alien species in under 100 words. Include emotion, tension, and a twist.
@@ -326,7 +347,10 @@ Describe the first contact between humans and an alien species in under 100 word
 
 ---
 
-##### 4.4.2. Demo B – Accuracy Challenge
+##### [seq:110] Demo B – Accuracy Challenge
+
+###### DEMONSTRATION
+
 **Prompt**:  
 ```TeXt
 What are the three key provisions of the Universal Declaration of Human Rights?
@@ -342,7 +366,10 @@ What are the three key provisions of the Universal Declaration of Human Rights?
 
 ---
 
-##### 4.4.3. Demo C – Speed & Brevity Test
+##### [seq:120] Demo C – Speed & Brevity Test
+
+###### DEMONSTRATION
+
 **Prompt**:
 ```TeXt
 Explain blockchain to a 10-year-old in 2 sentences.
@@ -354,9 +381,12 @@ Explain blockchain to a 10-year-old in 2 sentences.
 
 **Discussion Prompt**:
 > “If you had to put this in a school newsletter, which one would you use?”
+
 ---
 
-##### 4.4.4. Bonus Mini-Challenge – Creative Rewrite
+##### [seq:130] Bonus Mini-Challenge – Creative Rewrite
+
+###### DEMONSTRATION
 
 **Prompt**:  
 ```TeXt
@@ -370,9 +400,16 @@ Rewrite the nursery rhyme 'Jack and Jill' as a crime noir opening paragraph.
 **Discussion Prompt**:
 > “Which model has more style? Which felt more like a *genre* than a gimmick?”
 
-### 5. Advanced AI-Enhanced Image Editing
+---
 
-#### 5.1. Script
+### 4. AI-Enhanced Image Processing
+
+#### 4.1. Programmatic Image Editing
+
+##### [seq:140] Advanced AI-Enhanced Image Editing
+
+###### SCRIPT
+
 Let’s take a break from text and look at the visual side of AI.
 While most people associate image generation with tools like Midjourney or DALL·E, there's another powerful angle: image editing with AI using code.
 One of the most versatile tools for this is the Pillow library—also known as PIL. It’s like Photoshop’s nerdy cousin: no fancy UI, but total control.
@@ -382,9 +419,8 @@ In this section, we’ll:
 - Add dramatic effects like vignettes and Ben-Day dots
 - Try out some artistic transformations like oil painting or retro pixel art
 You’ll see how generative AI can collaborate with code to unlock creativity in a whole new way.
----
 
-#### 5.2. Slide
+###### VISUAL
 
 **Slide Title: "AI + Code = Visual Magic"**
 
@@ -401,9 +437,7 @@ You’ll see how generative AI can collaborate with code to unlock creativity in
 - Grid of before-and-after images showing each effect
 - Callout: “All edits generated using ChatGPT + Pillow (no Photoshop!)”
 
----
-
-#### 5.3. Slide Notes
+###### NOTES
 
 - **Fun Fact**: The Python Imaging Library (PIL) dates back to the 1990s. Pillow is its modern fork—and it works beautifully with AI-generated code.
 - **Joke**: “It’s like having a moody digital intern with Photoshop skills and a Python habit.”
@@ -416,9 +450,9 @@ You’ll see how generative AI can collaborate with code to unlock creativity in
 
 #### 5.4. Demonstrations
 
----
+##### [seq:150] Demo A – Classic Image Edits (Greyscale + Vignette)
 
-##### 5.4.1. Demo A – Classic Image Edits (Greyscale + Vignette)
+###### DEMONSTRATION
 
 **Prompt to ChatGPT**:
 ```TeXt
@@ -436,7 +470,9 @@ Write Python Pillow code to take an uploaded image, convert it to greyscale, and
 
 ---
 
-##### 5.4.2. Demo B – Ben-Day Dots / Comic Book Style
+##### [seq:160] Demo B – Ben-Day Dots / Comic Book Style
+
+###### DEMONSTRATION
 
 **Prompt** (`BaiL4Pr5`):  
 
@@ -453,7 +489,9 @@ Revise the image Ben-Day style, in big solid color dots. Retain the colors again
 
 ---
 
-##### 5.4.3. Demo C – Oil Painting & Pixel Art Mashup
+##### [seq:170] Demo C – Oil Painting & Pixel Art Mashup
+
+###### DEMONSTRATION
 
 **Prompt**:  
 
@@ -471,7 +509,9 @@ Apply an oil painting effect to the image using Pillow. Then pixelate the image 
 
 ---
 
-##### 5.4.4. Demo D – Remix and Band Merge
+##### [seq:180] Demo D – Remix and Band Merge
+
+###### DEMONSTRATION
 
 **Prompt**:  
 ```TeXt
@@ -487,13 +527,15 @@ Split the RGB bands of the image and merge them in a new order (e.g., BGR). Add 
 > “This feels like algorithmic art. Could we train AI to *learn* our favorite styles and automate full design cycles?”
 
 ---
-Perfect — this is one of the most *hands-on* and surprising parts of the lecture. You're about to showcase tools that go way beyond ChatGPT and Claude. Let’s jump into:
 
----
+### 5. Specialized AI Applications
 
-### 6. Specialized AI Tools
+#### 5.1. Domain-Specific Tools
 
-#### 6.1. Script
+##### [seq:190] Specialized AI Tools
+
+###### SCRIPT
+
 So far, we’ve worked mostly with general-purpose LLMs. But now, let’s explore the specialized side of AI—tools that take the power of large models and apply them to specific tasks.
 
 These tools aren’t just chatbots. They’re interactive research assistants, visual designers, presentation builders, and content curators.
@@ -507,9 +549,8 @@ Think of them like… domain-specific superpowers:
 
 You don’t need to know code to use any of them.
 Let’s walk through each one and see how they can amplify your thinking.
----
 
-#### 6.2. Slide
+###### VISUAL
 
 **Slide Title: "Specialized AI Tools: Your Creative Sidekicks"**
 
@@ -525,9 +566,7 @@ Let’s walk through each one and see how they can amplify your thinking.
 - Logos/screenshots of each tool in action
 - Clean 2x3 layout with “use case” badges underneath
 
----
-
-#### 6.3. Slide Notes
+###### NOTES
 
 - **Tip**: Emphasize these are *low-barrier tools*. Most use drag & drop, uploads, or text boxes—*no code required*.
 - **Joke**: “If ChatGPT is your generalist AI, these are like the weirdly talented friends who only do one thing—*but do it brilliantly*.”
@@ -540,9 +579,9 @@ Let’s walk through each one and see how they can amplify your thinking.
 
 ---
 
-#### 6.4. Demonstrations
+##### [seq:200] Demo A – **NotebookLM** (Q&A Over Documents)
 
-##### 6.4.1. Demo A – **NotebookLM** (Q&A Over Documents)
+###### DEMONSTRATION
 
 **Demo Setup**:
 
@@ -564,7 +603,9 @@ Let’s walk through each one and see how they can amplify your thinking.
 
 ---
 
-##### 6.4.2. Demo B – **Gamma** (AI Slide Deck Generator)
+##### [seq:210] Demo B – **Gamma** (AI Slide Deck Generator)
+
+###### DEMONSTRATION
 
 **Prompt**:
 ```plaintext
@@ -583,7 +624,9 @@ Create a presentation about the benefits of AI in education.
 
 ---
 
-##### 6.4.3. Demo C – **Napkin.ai** (Brainstorming Canvas)
+##### [seq:220] Demo C – **Napkin.ai** (Brainstorming Canvas)
+
+###### DEMONSTRATION
 
 **Demo Setup**:
 
@@ -603,7 +646,9 @@ Create a presentation about the benefits of AI in education.
 
 ---
 
-##### 6.4.4. Demo D – **ReadPartner** (Live Summarization)
+##### [seq:230] Demo D – **ReadPartner** (Live Summarization)
+
+###### DEMONSTRATION
 
 **Demo Options**:
 - Summarize a YouTube video
@@ -624,7 +669,9 @@ Summarize this article in 200 words and translate it into Spanish.
 
 ---
 
-##### 6.4.5. Demo E – **HeyGen** (Talking AI Avatars)
+##### [seq:240] Demo E – **HeyGen** (Talking AI Avatars)
+
+###### DEMONSTRATION
 
 **Demo Setup**:
 
@@ -643,13 +690,13 @@ Summarize this article in 200 words and translate it into Spanish.
 > “Where could you *actually* use this? Internal company training? YouTube intros? Personalized customer service?”
 
 ---
-Excellent — this is where everything you've shown *starts to click* for the learners. You're not just introducing tools anymore; you're showing how to orchestrate them like an AI-powered symphony. Let's dive in:
 
----
+#### 5.2. Integrated Workflows
 
-### 7. Combining Tools for Extraordinary Results
+##### [seq:250] Combining Tools for Extraordinary Results
 
-#### 7.1. Script
+###### SCRIPT
+
 Okay, we’ve explored some amazing individual tools—but what happens when we combine them?
 
 This is where real transformation begins. When you link research, analysis, visualization, and presentation tools together, you create something greater than the sum of its parts: a workflow powered by AI.
@@ -667,9 +714,8 @@ In this section, I’ll walk you through a real-world example—building a strat
 This isn’t just faster—it’s smarter, more scalable, and adaptable for your job, business, or creative work.
 
 Let’s see what that looks like in action.
----
 
-#### 7.2. Slide
+###### VISUAL
 
 **Slide Title: "Cross-Platform Workflows = Superhuman Output"**
 
@@ -691,9 +737,7 @@ C --> D[HeyGen: Video Presentation]
 - Icons/logos of each tool arranged in a pipeline
 - Arrow flow showing data moving from one to the next
 
----
-
-#### 7.3. Slide Notes
+###### NOTES
 
 - **Analogy**: This is like chaining LEGO bricks—each tool has a *shape* that fits perfectly into the next if you know how to use it.
 - **Joke**: “Suddenly your Sunday project turns into a boardroom-ready report—with animations.”
@@ -702,11 +746,9 @@ C --> D[HeyGen: Video Presentation]
 
 ---
 
-#### 7.4. Demonstration
+##### [seq:260] Demo – Electric Vehicle Outlook Report (2030)
 
-##### 7.4.1. Demo – Electric Vehicle Outlook Report (2030)
-
----
+###### DEMONSTRATION
 
 **Step 1 – Research in Perplexity**
 
@@ -724,8 +766,6 @@ Use site:deloitte.com OR site:mckinsey.com filetype:pdf
 - Show link previews, export as citations
 - Copy key insights
 
----
-
 **Step 2 – Visualization in Claude (or NotebookLM)**
 
 **Claude Project Setup:**
@@ -741,8 +781,6 @@ Create 3 charts:
 - Specify corporate palette: Deep Blue, Silver Grey
 - Claude generates visuals + short executive summaries
 
----
-
 **Step 3 – Presentation in Gamma**
 
 **Prompt**:
@@ -752,8 +790,6 @@ Create a 10-slide boardroom presentation titled “EV Market Trends Through 2030
 
 - Paste content from Claude
 - Gamma formats it with animations and clean layout
-
----
 
 **Step 4 – Optional: Narrated Video in HeyGen**
 
@@ -766,18 +802,23 @@ This is the Electric Vehicle Industry Outlook Report. Over the next decade, we e
 
 ---
 
-#### 7.5. Discussion Prompt
+##### [seq:270] Discussion Prompt
+
+###### DEMONSTRATION
+
 
 > “How could you apply this approach to your work? Think reports, training, newsletters, strategic briefs. Where would AI pipelines save you the most time—or unlock something you didn’t think was possible?”
 
 ---
-Here we go — Section 8 is all about *depth*. This is your “go big or go home” moment, showing how students can use AI to generate **longform, structured, expert-level research** — with a tight budget and no team of interns.
 
----
+### 6. Advanced Research Techniques
 
-### 8. Deep Research Techniques on a Budget
+#### 6.1. Longform Content Creation
 
-#### 8.1. Script
+##### [seq:280] Deep Research Techniques on a Budget
+
+###### SCRIPT
+
 Let’s say you need to produce a 10,000-word report on a complex topic.
 Traditionally, this would take a research assistant a week or two, maybe more.
 But with the right prompts and workflows, AI can generate detailed, well-organized longform content that is surprisingly coherent and structured — if you guide it correctly.
@@ -789,9 +830,8 @@ In this section, we’ll focus on using tools like Perplexity, Claude, and even 
 
 And yes — we’ll even attempt a 10,000-word research draft.
 This isn’t just about speed. It’s about accuracy, structure, and credibility without expensive subscriptions or massive tool stacks.
----
 
-#### 8.2. Slide
+###### VISUAL
 
 **Slide Title: "Longform AI Research: Big Output, Low Budget"**
 
@@ -806,9 +846,7 @@ This isn’t just about speed. It’s about accuracy, structure, and credibility
 - Word counter hitting 10,000 like a speedometer
 - Outline-style document structure with markdown headers
 
----
-
-#### 8.3. Slide Notes
+###### NOTES
 
 - **Tip**: This is where word count prompts (`BaiL4Pr2`) shine — students see prompt engineering turn into production workflows.
 - **Joke**: “It’s like writing a thesis with caffeine, but the caffeine is GPT-4.”
@@ -819,11 +857,9 @@ This isn’t just about speed. It’s about accuracy, structure, and credibility
 
 ---
 
-#### 8.4. Demonstration
+##### [seq:290] Demo – “Titanic’s Social Impact on the 20th Century”
 
----
-
-##### 8.4.1. Demo – “Titanic’s Social Impact on the 20th Century”
+###### DEMONSTRATION
 
 **Prompt Base** (`BaiL4Pr6`):
 
@@ -851,7 +887,9 @@ Follow these formatting guidelines:
 
 ---
 
-##### 8.4.2. Bonus: Claude + Perplexity Tag Team
+##### [seq:300] Bonus: Claude + Perplexity Tag Team
+
+###### DEMONSTRATION
 
 **Workflow**:
 
@@ -861,19 +899,22 @@ Follow these formatting guidelines:
 
 ---
 
-#### 8.5. Discussion Prompt
+##### [seq:310] Discussion Prompt
+
+###### DEMONSTRATION
 
 > “If AI can write this kind of structured content reliably, where else could we apply it? Internal reports? Policy briefs? Whitepapers? eBooks?”
 
 ---
 
-Great — Section 9 is where we go **beyond solo AI models** and enter the world of **multi-agent collaboration**, autonomy, and delegation. This is one of the most forward-looking parts of the lecture — and also one of the most exciting.
+### 7. Multi-Agent Systems
 
----
+#### 7.1. Collaborative AI Frameworks
 
-### 9. Multi-Agent and Autonomous AI Systems
+##### [seq:320] Multi-Agent and Autonomous AI Systems
 
-#### 9.1. Script
+###### SCRIPT
+
 So far, we’ve been working with one model at a time. But imagine this:
 - One AI agent finds data,
 - Another summarizes it,
@@ -887,9 +928,8 @@ In this section, we’ll:
 - See how they can plan, delegate, and communicate
 - Watch a simulation of agents building a web app together
 This is the early version of something much bigger: autonomous, AI-driven workflows that go way beyond prompting.
----
 
-#### 9.2. Slide
+###### VISUAL
 
 **Slide Title: "Multi-Agent Systems: AI Working as a Team"**
 
@@ -903,9 +943,7 @@ This is the early version of something much bigger: autonomous, AI-driven workfl
 - “Mission control”-style diagram showing agents talking to each other (message bubbles)
 - A split-screen view: Planner → Coder → Tester → Presenter
 
----
-
-#### 9.3. Slide Notes
+###### NOTES
 
 - **Tip**: Emphasize this is like giving LLMs an internal Slack workspace + Jira board
 - **Joke**: “So now you don’t just have an AI assistant… you’ve got an AI *department*.”
@@ -917,11 +955,9 @@ This is the early version of something much bigger: autonomous, AI-driven workfl
 
 ---
 
-#### 9.4. Demonstrations
+##### [seq:330] Demo A – AutoGen Web App Simulation
 
----
-
-##### 9.4.1. Demo A – AutoGen Web App Simulation
+###### DEMONSTRATION
 
 **Scenario**: Build a small app with a team of agents
 
@@ -942,7 +978,9 @@ This is the early version of something much bigger: autonomous, AI-driven workfl
 
 ---
 
-##### 9.4.2. Demo B – CrewAI Planning + Task Execution
+##### [seq:340] Demo B – CrewAI Planning + Task Execution
+
+###### DEMONSTRATION
 
 **Prompt Example**:
 ```plaintext
@@ -962,7 +1000,9 @@ Reviewer: Check tone and consistency.
 
 ---
 
-##### 9.4.3. Demo C – OpenDevin Developer Agent
+##### [seq:350] Demo C – OpenDevin Developer Agent
+
+###### DEMONSTRATION
 
 **Live Simulation**:
 
@@ -977,14 +1017,14 @@ Reviewer: Check tone and consistency.
 
 ---
 
-#### 9.5. Discussion Prompt
+### 8. Future Growth and Resources
 
-> “How far are we from delegating a full project to agents? Would you trust an AI team to build a prototype for you? Where would *you* still need to step in?”
+#### 8.1. Staying Current
 
----
-### 10. Staying Ahead in AI: Influencers & Resources
+##### [seq:360] Staying Ahead in AI: Influencers & Resources
 
-#### 10.1. Script
+###### SCRIPT
+
 We’ve reached the final stretch of our course.
 By now, you’ve:
 - Tested AI boundaries
@@ -1001,9 +1041,8 @@ Let me show you:
 - And some tools that help you keep your finger on the AI pulse without burning out.
 
 Ready to future-proof your AI journey?"
----
 
-#### 10.2. Slide
+###### VISUAL
 
 **Slide Title: "Staying Ahead in AI: Curate \> Consume"**
 
@@ -1021,9 +1060,7 @@ Ready to future-proof your AI journey?"
 - A map/compass metaphor showing “Navigation Tools for AI Growth”
 - “Subscribe” buttons with a wink 😉
 
----
-
-#### 10.3. Slide Notes
+###### NOTES
 
 - **Tip**: Encourage students to pick *one or two* high-signal sources and stick with them. Better to be consistent than overwhelmed.
 - **Joke**: “Staying current in AI is like drinking from a firehose. These folks hand you a straw.”
@@ -1034,11 +1071,9 @@ Ready to future-proof your AI journey?"
 	- [https://llmarena.com](https://llmarena.com)
 	- [https://futurepedia.io](https://futurepedia.io)
 
----
+###### DEMONSTRATION
 
-#### 10.4. Demonstration (Optional)
-
-##### Demo – “How I Curate My AI Feed”
+Demo – “How I Curate My AI Feed”
 
 - Show your own AI folder in bookmarks, RSS, or Notion
 - Walk through how you:
@@ -1051,13 +1086,13 @@ Ready to future-proof your AI journey?"
 > “What’s your plan? Will you subscribe to a newsletter? Join a subreddit? Follow one creator? What will help you *enjoy* staying up to date?”
 
 ---
-Let’s bring it all together with action and reflection. Sections 11 and 12 are where your students apply what they’ve learned and synthesize it into something meaningful and personal.
 
----
+#### 8.2. Hands-On Application
 
-### 11. Hands-On Activity: AI Tool Integration Workshop
+##### [seq:370] Hands-On Activity: AI Tool Integration Workshop
 
-#### 11.1. Script
+###### SCRIPT
+
 Before we finish, it’s your turn.
 Over the last four lectures, we’ve explored dozens of AI tools, prompting techniques, and system integrations.
 Now, I’d like you to pick a real-world task—something useful, something fun, something you’d love to solve—and apply what you’ve learned.
@@ -1069,9 +1104,8 @@ This is not just a technical exercise. It’s a creative challenge:
 - Can you make something you didn’t think you could?
 You’ll work solo or in small groups. In 30–45 minutes, you’ll design a workflow, test it, and share what you created—or what broke along the way.
 Because learning to fail with AI is just as important as learning to use it.
----
 
-#### 11.2. Slide
+###### VISUAL
 
 **Slide Title: "Workshop Time: AI Tool Integration Challenge"**
 🛠️ **Choose one real-world task**
@@ -1087,17 +1121,13 @@ Because learning to fail with AI is just as important as learning to use it.
 | Automate research workflow | Perplexity + ChatGPT + Google Sheets (via API) |
 | Brainstorm product ideas   | Claude + Napkin.ai + Gamma                     |
 
----
-
-#### 11.3. Slide Notes
+###### NOTES
 
 - **Tip**: Let students choose projects based on their current job, interest, or curiosity.
 - **Joke**: “If it works, great. If it doesn’t, that’s *even better*—because now you’ve learned where AI stumbles. Congrats, you’ve graduated from ‘user’ to ‘AI debugger.’”
 - Consider having groups post their workflows to a shared space (Notion board, Google Doc, or even Gamma Space)
 
----
-
-#### 11.4. Demonstration (Optional)
+###### DEMONSTRATION
 
 Show a mini project in 5 minutes:
 **Example**:  
@@ -1110,9 +1140,10 @@ Walk through:
 
 ---
 
-### 12. Final Homework Assignment: Exploring Advanced AI Applications
+##### [seq:380] Final Homework Assignment: Exploring Advanced AI Applications
 
-#### 12.1. Script
+###### SCRIPT
+
 For your final homework, I want you to create a mini-project using the AI tools and prompts we’ve explored in this course.
 This is your chance to explore something you care about—whether it’s business, education, marketing, development, design, or just curiosity.
 Here’s what I’m looking for:
@@ -1123,9 +1154,8 @@ Here’s what I’m looking for:
 
 You can submit it as a structured written report, a presentation, or even a short video.
 The goal is simple: show me that you’re not just using AI… you’re thinking with it.
----
 
-#### 12.2. Slide
+###### VISUAL
 
 **Slide Title: "Final Homework: Your AI-Enhanced Mini-Project"**
 
@@ -1147,24 +1177,20 @@ The goal is simple: show me that you’re not just using AI… you’re thinking
 - What went well, what failed
 - What you learned about AI’s limits and possibilities
 
----
-
-#### 12.3. Slide Notes
+###### NOTES
 
 - **Tip**: Encourage creativity, not just polish. A messy project with good thinking is better than a shiny demo with no reflection.
 - **Joke**: “This isn’t AI cosplay. I want to see real-world thinking—with a little GPT glitter on top.”
 
 ---
 
-Let's bring it all home. 🎓✨ Section 13 is the emotional close — the part that stays with your learners. Here’s your grand finale with style, inspiration, and just the right amount of future-focus.
+#### 8.3. Course Conclusion
 
----
+##### [seq:390] Closing: The AI Journey Continues
 
-### 13. Closing: The AI Journey Continues
+###### SCRIPT
 
-#### 13.1. Script
-
-We’ve reached the end of our official course—but your AI journey is just beginning.
+We’ve reached the end of our official course—but your AI journey is just begt inning.
 You now understand:
 - The strengths and flaws of modern AI
 - How to write precise, powerful prompts
@@ -1177,9 +1203,8 @@ AI isn’t magic. But when you pair it with your creativity, your judgment, and 
 Thank you for being part of this course. I’ve learned as much from your reactions and experiments as you’ve learned from the content.
 This is not goodbye—it’s just version 1.0.
 Let’s keep learning together.
----
 
-#### 13.2. Slide
+###### VISUAL
 
 **Slide Title: "Thank You – Now Keep Exploring 🚀"**
 
@@ -1200,31 +1225,10 @@ Let’s keep learning together.
 - Share your projects on LinkedIn or GitHub
 - Stay in the loop — this world changes weekly
 
----
-
-#### 13.3. Slide Notes
+###### NOTES
 
 - **Closing Tip**: Let them know it’s OK to get things wrong. AI is iterative. You don’t “master” it—you *dance with it*.
 - **Joke**: “You’re now certified in not trusting anything an LLM says… without verifying it first.”
 - **Optional Music Cue**: Consider playing light music or a mellow instrumental as students reflect or share parting thoughts.
 
 ---
-
-#### 13.4. Final Discussion Prompt
-
-> “What's one thing you’re excited to try now that you’ve finished this course? And what surprised you the most along the way?”
-
----
-
-🎁 **Optional Parting Gift Ideas**:
-- A link to a Notion board with all tools and prompts used during the course
-- A shared Gamma Space or Google Drive with your slides, demos, and favorite resources
-- A downloadable "Prompt Recipe Book" PDF based on your TextExpander snippets
-
----
-Let me know if you'd like me to generate:
-- 📘 A **Final PDF Handout** for your students
-- 💡 A **Project Ideas List** for post-course inspiration
-- 🧠 A **Prompt Pack** for lifelong tinkering
-
-Congratulations on crafting a *brilliant*, deeply practical AI course. 🥂
