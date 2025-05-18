@@ -821,6 +821,11 @@ Whether you want to join a forum, ask for help, or just lurk and learn—there�
 
 ##### 11.2.3. Slide Notes
 
+##### [seq:195] Demonstrations: Long-Context Use Cases
+
+<!-- Proposed slide content - will be populated after approval -->
+
+
 - Encourage staying curious and participating in communities to deepen understanding
 - Joke: "Think of Reddit as your AI study group… with occasional chaos."
 - Tip: Suggest creating a personal prompt journal to track what works and what doesn’t

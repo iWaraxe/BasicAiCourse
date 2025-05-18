@@ -1020,6 +1020,16 @@ As you continue through this course, let these resources guide your independent 
 
 ##### **Slide Notes:**
 
+##### [seq:100] Context Window
+
+##### [seq:145] Ultra-Long Context Windows
+
+<!-- Proposed slide content - will be populated after approval -->
+
+
+<!-- Proposed slide content - will be populated after approval -->
+
+
 - Invite students to bring any interesting findings or tools to the next session.
 - Final joke: “That’s it for today. Now go out there and politely break a few AIs.”
 
