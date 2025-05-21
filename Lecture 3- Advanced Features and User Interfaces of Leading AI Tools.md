@@ -879,6 +879,19 @@ Visual: Example homework template or table filled in with sample entries
 
 ##### [seq:390] Resources for Continuous Learning
 
+##### [seq:100] LLM Feature Comparison Table
+
+Table comparing major LLMs:
+| Model      | Max Context Window |
+|------------|-------------------|
+| GPT-2      | ~2,000 tokens     |
+| GPT-3      | ~4,000 tokens     |
+| GPT-4      | 8,000/32,000 tokens |
+| GPT-4.1    | 1,000,000 tokens  |
+
+GPT-4.1's 1M token window is highlighted to emphasize its advantage.
+
+
 ###### SCRIPT
 
 "Before we wrap, here are a few places you can go next to keep learning, experimenting, and connecting.

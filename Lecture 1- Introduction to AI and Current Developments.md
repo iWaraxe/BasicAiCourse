@@ -1111,6 +1111,54 @@ Want to try different models? Explore visual AI? Even build your own chatbot? Th
 
 ##### [seq:380] Closing Encouragement
 
+##### [seq:100] Context Window
+
+##### [seq:100] Context Window Evolution (Timeline & Bar Chart)
+
+##### [seq:100] OpenAI (ChatGPT)
+
+##### [seq:100] Multimodal AI
+
+##### [seq:100] Autonomous Multi-Agent Systems
+
+##### [seq:100] Document Analysis and Data Extraction
+
+Demo Prompt:
+- Upload a 500-page PDF and ask GPT-4.1 to summarize key themes, track character development, or extract all financial transactions.
+- Provide a meeting transcript spanning several days and request a synthesized action-item list, showing the model’s ability to maintain coherence over extremely long input.
+
+
+The ability to process and reason over immense context windows (such as GPT-4.1’s 1M tokens) is key for advanced, persistent, and collaborative multi-agent systems.
+
+
+Massive context windows, like the 1M tokens available in GPT-4.1, are foundational for enabling complex, persistent, and multimodal reasoning across documents, images, and interactions.
+
+
+The latest GPT-4.1 model supports up to 1 million tokens in its context window, vastly surpassing earlier versions and most competitors.
+
+Visual: Feature comparison table for major LLMs, including a row for 'Max Context Window' with GPT-4.1’s 1M tokens highlighted.
+
+
+Visuals:
+- Timeline chart showing the evolution of context window sizes:
+    - GPT-2: ~2K tokens
+    - GPT-3: ~4K tokens
+    - GPT-4: 8K/32K tokens
+    - GPT-4.1: 1M tokens
+- Bar chart visualizing how much text can fit in each context window (e.g., news article vs. novel vs. multiple documents).
+
+
+Recent advances, such as OpenAI’s GPT-4.1, have expanded the context window to 1 million tokens, enabling the model to handle and reason over entire books, large codebases, or extensive meeting transcripts in a single prompt.
+
+Definition: The context window is the maximum amount of text (measured in tokens) an AI model can consider at once. With 1 million tokens, GPT-4.1 can “remember” and analyze vastly more information than previous models.
+
+Fact: 1 million tokens is roughly equivalent to 700,000–800,000 words, or several full-length novels.
+
+Insight: Large context windows enable applications like full-company knowledge analysis, instant compliance audits, or comprehensive conversation memory.
+
+Reference: OpenAI GPT-4.1 release notes / blog (add link when available).
+
+
 ###### SCRIPT
 "You don’t need to become a machine learning expert to make use of AI. What matters is curiosity—and the courage to explore.
 

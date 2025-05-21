@@ -801,6 +801,18 @@ Here are some resources to help you build skills, find inspiration, and stay con
 
 ##### [seq:220] Communities and Learning Hubs
 
+##### [seq:100] Demonstration B – Document Summarization
+
+##### [seq:100] Advanced Prompt Crafting Techniques
+
+Discussion Prompt:
+How does having a 1M token context window change workflow design for information-heavy tasks? Brainstorm new use cases that weren’t possible with smaller models.
+
+
+Demo Prompt:
+Feed multiple lengthy reports (totaling hundreds of thousands of words) into GPT-4.1 and ask for a comparative analysis or cross-document fact-checking.
+
+
 ###### SCRIPT
 
 "And don’t go it alone—there’s a thriving AI learner community out there.
