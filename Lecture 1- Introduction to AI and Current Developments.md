@@ -1127,3 +1127,69 @@ As you continue through this course, let these resources guide your independent 
 - Invite students to bring any interesting findings or tools to the next session.
 - Final joke: “That’s it for today. Now go out there and politely break a few AIs.”
 ---
+
+<!-- FALLBACK APPENDED CONTENT FOR TITLE: OpenAI (ChatGPT) -->
+##### [seq:100] OpenAI (ChatGPT)
+
+OpenAI's ChatGPT has rapidly advanced with the release of GPT-4.1 (2025), its latest large language model. GPT-4.1 introduces a major technical milestone: support for a 1 million token context window. This enables the model to process entire books, extended conversations, or large datasets in a single prompt, pushing the boundaries of what conversational AI can achieve.
+
+Interesting Fact: GPT-4.1’s 1 million token context window can hold the text of several novels at once, allowing for unprecedented continuity and depth in AI responses.
+
+
+<!-- END FALLBACK -->
+
+
+
+<!-- FALLBACK APPENDED CONTENT FOR TITLE: Context Window -->
+##### [seq:100] Context Window
+
+A "context window" is the maximum amount of text (measured in tokens) that an AI model can consider at once. The size of the context window is a key factor in what the model can understand and process in a single request.
+
+With GPT-4.1, the context window has expanded to 1 million tokens—a dramatic increase over previous models (GPT-3.5: ~4,000 tokens; GPT-4: ~32,000 tokens; GPT-4 Turbo: 128,000 tokens). This means GPT-4.1 can analyze long documents, books, or entire conversations without losing information from earlier in the text.
+
+Reference: OpenAI official GPT-4.1 release notes (link to be added in resources).
+
+Resource: A "token" is roughly 4 characters or about ¾ of a word in English.
+
+
+<!-- END FALLBACK -->
+
+
+
+<!-- ADD PLACEHOLDER UNDER PARENT ID 1 FOR TITLE: Context Window Evolution: Visual Comparison -->
+##### [seq:100] Context Window Evolution: Visual Comparison
+
+Horizontal bar chart comparing context window sizes:
+
+| Model           | Context Window (Tokens) |
+|-----------------|------------------------|
+| GPT-3.5         | 4,000                  |
+| GPT-4           | 32,000                 |
+| GPT-4 Turbo     | 128,000                |
+| GPT-4.1         | 1,000,000              |
+
+Visual timeline: Shows the evolution of context window sizes from 2018 to 2025.
+
+
+<!-- END ADD PLACEHOLDER -->
+
+
+
+<!-- ADD PLACEHOLDER UNDER PARENT ID 1 FOR TITLE: Ultra-Long Context: A New Frontier -->
+#### Ultra-Long Context: A New Frontier
+
+Ultra-long context capability, such as GPT-4.1's 1 million token window, represents a new frontier in AI, allowing for deeper synthesis and continuity in analysis across massive texts. [Callout/visual icon here]
+
+
+<!-- END ADD PLACEHOLDER -->
+
+
+
+<!-- FALLBACK APPENDED CONTENT FOR TITLE: Limitations of LLMs -->
+##### [seq:100] Limitations of LLMs
+
+While context windows are rapidly increasing (e.g., GPT-4.1’s 1 million tokens), practical usage may still be constrained by hardware capabilities or API limitations. Not all applications or users can fully utilize the maximum context window due to these factors.
+
+
+<!-- END FALLBACK -->
+

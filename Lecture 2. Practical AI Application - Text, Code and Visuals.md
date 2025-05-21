@@ -830,3 +830,15 @@ Whether you want to join a forum, ask for help, or just lurk and learn—there�
 - Tip: Suggest creating a personal prompt journal to track what works and what doesn’t
 
 ---
+
+<!-- ADD PLACEHOLDER UNDER PARENT ID 1 FOR TITLE: Demonstration: Long-Context Understanding in Action -->
+##### [seq:100] Demonstration: Long-Context Understanding in Action
+
+Example demonstration:
+- Upload a multi-chapter report or a collection of documents.
+- Ask GPT-4.1 to answer complex questions that require referencing information from different parts of the input.
+- Showcase: Summarize, cross-reference, or synthesize information from the beginning and end of a lengthy document, demonstrating the practical impact of a 1 million token context window.
+
+
+<!-- END ADD PLACEHOLDER -->
+
