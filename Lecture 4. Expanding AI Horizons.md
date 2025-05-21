@@ -1232,3 +1232,46 @@ Let’s keep learning together.
 - **Optional Music Cue**: Consider playing light music or a mellow instrumental as students reflect or share parting thoughts.
 
 ---
+
+<!-- FALLBACK APPEND (UPDATE_FAILED_FIND_OLD_BLOCK_FOR_[seq:350] Where to Learn More) -->
+##### [seq:350] [seq:350] Where to Learn More
+
+###### SCRIPT
+Where can you learn more about the latest in AI, including major model releases like GPT-4.1?
+
+- [OpenAI GPT-4.1 Release Notes](https://platform.openai.com/docs/models/gpt-4-and-gpt-4o)
+- [OpenAI: Understanding Context Windows](https://platform.openai.com/docs/guides/gpt)
+- [OpenAI Blog](https://openai.com/blog)
+- Technical explainers: "What does a million-token context window enable?"
+
+Explore these resources for deep dives into new capabilities, best practices, and hands-on guides.
+
+###### VISUAL
+- Screenshot or icon-based list of official documentation and explainer articles.
+
+
+<!-- END FALLBACK -->
+
+
+
+<!-- FALLBACK APPEND (UPDATE_FAILED_FIND_OLD_BLOCK_FOR_[seq:350] Where to Learn More) -->
+##### [seq:350] [seq:350] Where to Learn More
+
+###### SCRIPT
+Where can you learn more about the latest in AI, including major model releases like GPT-4.1?
+
+- [OpenAI GPT-4.1 Release Notes](https://platform.openai.com/docs/models/gpt-4-and-gpt-4o)
+- [OpenAI: Understanding Context Windows](https://platform.openai.com/docs/guides/gpt)
+- [OpenAI Blog](https://openai.com/blog)
+- Technical explainers: "What does a million-token context window enable?"
+
+###### FAQ
+**Q: What does a 1 million token context window mean for everyday users?**
+A: It means you can analyze or process extremely large documents (entire books, hundreds of pages of reports, or long conversation histories) all at once. This makes research, legal review, and collaborative editing much more powerful and efficient.
+
+###### VISUAL
+- Screenshot or icon-based list of official documentation and explainer articles.
+
+
+<!-- END FALLBACK -->
+
