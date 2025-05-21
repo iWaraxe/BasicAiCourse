@@ -1111,6 +1111,11 @@ Want to try different models? Explore visual AI? Even build your own chatbot? Th
 
 ##### [seq:380] Closing Encouragement
 
+##### [seq:100] Context Window
+
+<!-- Proposed slide content - will be populated after approval -->
+
+
 ###### SCRIPT
 "You don’t need to become a machine learning expert to make use of AI. What matters is curiosity—and the courage to explore.
 

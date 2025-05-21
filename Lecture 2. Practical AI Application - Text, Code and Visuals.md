@@ -799,6 +799,12 @@ Here are some resources to help you build skills, find inspiration, and stay con
 
 #### 11.2. Community Engagement
 
+#### Demonstrations: Large-Context LLM Capabilities
+
+#### Context Window Benchmarking Demonstration
+
+
+
 ##### [seq:220] Communities and Learning Hubs
 
 ###### SCRIPT
