@@ -1232,3 +1232,12 @@ Let’s keep learning together.
 - **Optional Music Cue**: Consider playing light music or a mellow instrumental as students reflect or share parting thoughts.
 
 ---
+
+<!-- FALLBACK APPENDED CONTENT FOR TITLE: Where to Learn More -->
+##### [seq:100] Where to Learn More
+
+For more information, see OpenAI’s GPT-4.1 technical blog or documentation. [Insert link to official OpenAI GPT-4.1 resources]
+
+
+<!-- END FALLBACK -->
+
