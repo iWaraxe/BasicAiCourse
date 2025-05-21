@@ -1127,3 +1127,82 @@ As you continue through this course, let these resources guide your independent 
 - Invite students to bring any interesting findings or tools to the next session.
 - Final joke: “That’s it for today. Now go out there and politely break a few AIs.”
 ---
+
+<!-- FALLBACK APPEND (UPDATE_DB_NODE_NOT_FOUND_FOR_[seq:100] Context Window) -->
+##### [seq:100] [seq:100] Context Window
+
+<!-- AI Proposed an empty slide body. Please review. -->
+
+
+<!-- END FALLBACK -->
+
+
+
+<!-- FALLBACK APPEND (UPDATE_DB_NODE_NOT_FOUND_FOR_[seq:30] OpenAI (ChatGPT)) -->
+##### [seq:030] [seq:30] OpenAI (ChatGPT)
+
+<!-- AI Proposed an empty slide body. Please review. -->
+
+
+<!-- END FALLBACK -->
+
+
+
+<!-- FALLBACK APPEND (UPDATE_DB_NODE_NOT_FOUND_FOR_[seq:100] Context Window) -->
+##### [seq:100] [seq:100] Context Window
+
+<!-- AI Proposed an empty slide body. Please review. -->
+
+
+<!-- END FALLBACK -->
+
+
+
+<!-- FALLBACK APPEND (UPDATE_DB_NODE_NOT_FOUND_FOR_[seq:100] Context Window) -->
+##### [seq:100] [seq:100] Context Window
+
+<!-- AI Proposed an empty slide body. Please review. -->
+
+
+<!-- END FALLBACK -->
+
+
+
+<!-- FALLBACK APPEND (UPDATE_DB_NODE_NOT_FOUND_FOR_[seq:100] Context Window) -->
+##### [seq:100] [seq:100] Context Window
+
+<!-- AI Proposed an empty slide body. Please review. -->
+
+
+<!-- END FALLBACK -->
+
+
+
+<!-- FALLBACK APPEND (UPDATE_DB_NODE_NOT_FOUND_FOR_[seq:100] Context Window) -->
+##### [seq:100] [seq:100] Context Window
+
+<!-- AI Proposed an empty slide body. Please review. -->
+
+
+<!-- END FALLBACK -->
+
+
+
+<!-- FALLBACK APPEND (UPDATE_DB_NODE_NOT_FOUND_FOR_[seq:100] Context Window) -->
+##### [seq:100] [seq:100] Context Window
+
+<!-- AI Proposed an empty slide body. Please review. -->
+
+
+<!-- END FALLBACK -->
+
+
+
+<!-- FALLBACK APPEND (UPDATE_DB_NODE_NOT_FOUND_FOR_[seq:100] Demo A – Real-Time Arena Test (Creative Output)) -->
+##### [seq:100] [seq:100] Demo A – Real-Time Arena Test (Creative Output)
+
+<!-- AI Proposed an empty slide body. Please review. -->
+
+
+<!-- END FALLBACK -->
+
