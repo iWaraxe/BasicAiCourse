@@ -261,9 +261,29 @@ How many Rs are in "carry forward"?
 
 ---
 
-##### [seq:080] Demo C – 5000-Word Research Essay Builder
+##### [seq:080] Demo C: 5,000-Word (or 1M Token) Research Essay Builder
 
-###### DEMONSTRATION
+###### SCRIPT
+**Demo C: 5,000-Word Research Essay Builder — Now with Ultra-Long Context**
+
+Showcase how GPT-4.1's 1 million token context window enables the construction and analysis of extremely large documents in a single prompt.
+
+**Demonstration:**
+- Upload a full-length book or massive dataset (e.g., 1,000-page report)
+- Prompt: "Analyze this document and generate a comprehensive summary, highlight key themes, and extract actionable recommendations."
+- Compare with previous limitations: previously, only sections or chapters could be processed at once.
+
+**Technique:**
+- Show persistent memory and reference resolution across the entire document.
+- Try a follow-up: "Identify inconsistencies or contradictions in chapters 3, 7, and 15."
+
+###### VISUAL
+- Screenshot of prompt interface loaded with massive text
+- Before/after: Short context vs. 1M token context output examples
+
+###### NOTES
+- *Fact:* GPT-4.1's long-context capability enables research and analysis previously impossible in a single AI session
+- *Reference:* OpenAI blog, "GPT-4.1 Technical Report" (add link)
 
 **Prompt** (`BaiL4Pr2`):
 ```TeXt
@@ -746,9 +766,27 @@ C --> D[HeyGen: Video Presentation]
 
 ---
 
-##### [seq:260] Demo – Electric Vehicle Outlook Report (2030)
+##### [seq:260] Demo – Electric Vehicle Outlook Report (2030): Large-Scale Cross-Document Reasoning
 
-###### DEMONSTRATION
+###### SCRIPT
+**Demo: Electric Vehicle Outlook Report (2030) — Cross-Document Analysis at Scale**
+
+With models like GPT-4.1, upload and analyze massive datasets—multiple industry reports, regulatory filings, and technical manuals—within a single prompt.
+
+**Demonstration:**
+- Upload several large reports (collectively >500,000 words)
+- Prompt: "Compare the projections for EV adoption, summarize the main risks and opportunities identified across documents, and flag conflicting data points."
+- Showcase synthesis of insights across thousands of pages without manual splitting.
+
+**Technique:**
+- Persistent memory: AI maintains references across all documents, enabling deep, multi-source analysis.
+
+###### VISUAL
+- Example: Overview of uploaded documents; highlight of the unified summary and flagged contradictions
+
+###### NOTES
+- *Fact:* Cross-document reasoning is now practical for enterprise and research due to 1M-token context windows
+- *Reference:* OpenAI blog, "GPT-4.1 Technical Report" (add link)
 
 **Step 1 – Research in Perplexity**
 

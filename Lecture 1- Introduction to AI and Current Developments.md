@@ -248,9 +248,43 @@ This affects how models understand and generate text, and also determines how mu
 - Fun activity: Count tokens in funny phrases like "Banana smoothie and code review."
 ---
 
-##### [seq:100] Context Window
+##### [seq:100] Context Window: Definition and the 1M Token Milestone
 
 ###### SCRIPT
+**Context Window: Definition, Evolution, and the 1 Million Token Leap**
+
+A context window is the maximum amount of information (text, code, or other data) an AI model can consider at one time when generating responses. As of 2025, OpenAI's GPT-4.1 supports an unprecedented context window of up to 1 million tokens. This enables analysis and processing of entire books, large projects, or massive datasets in a single prompt—a major leap from previous models limited to thousands or tens of thousands of tokens.
+
+**Evolution of Context Windows:**
+| Model         | Context Window Size |
+|--------------|--------------------|
+| ELIZA (1960s) | Extremely limited  |
+| GPT-3        | 2,048 tokens       |
+| GPT-4        | 32,768 tokens      |
+| Google Gemini| 100,000+ tokens    |
+| GPT-4.1      | 1,000,000 tokens   |
+
+**What is a 'token'?**
+A token is roughly 4 characters of English text. 1 million tokens is approximately 750,000 words—enough for 2,000+ pages of text (the equivalent of multiple full-length novels).
+
+**Implications:**
+- Complete understanding of entire books or large projects
+- Fewer context-switching errors
+- Expanded use cases: legal analysis, research, multi-document synthesis
+
+###### VISUAL
+- **Bar chart or timeline:** Context window sizes by model generation (ELIZA → GPT-3 → GPT-4 → GPT-4.1)
+- **Infographic:** "What fits in 1 million tokens?" E.g., "All of 'War and Peace' plus research notes"
+
+###### NOTES
+- *Fact:* As of 2025, GPT-4.1's 1M-token window is the largest among major commercial LLMs
+- *Reference:* OpenAI blog, "GPT-4.1 Technical Report" (add link)
+- *Fact:* Human working memory holds ~7±2 items; LLMs now far exceed this
+- *Resource:* Interactive demo: Try GPT-4.1's long-context at [platform link]
+
+###### DEMONSTRATION
+- Example prompt: "Analyze this 1,000-page policy document and summarize key risks, compliance issues, and actionable steps."
+- Example prompt: "Compare three research papers in full and highlight their conflicting findings."
  "Each LLM has a **context window**—a memory limit. GPT-4 Turbo can remember up to ~300 pages worth of tokens (128k). Claude 3 Opus claims even more. This means you can paste a long report or even an entire book, and the model will still respond meaningfully.
 
 However, once that limit is exceeded, older parts of the conversation can start to fade or be ignored. This is important when designing prompts for multi-turn tasks."
@@ -374,9 +408,29 @@ Observe and discuss differences across models (ChatGPT vs Gemini vs Claude).
 
 ---
 
-##### [seq:150] Autonomous Multi-Agent Systems
+##### [seq:150] Autonomous Multi-Agent Systems & Multimodal AI with 1M Token Context
 
 ###### SCRIPT
+**Autonomous Multi-Agent Systems in the Era of 1M Token Context Windows**
+
+The latest generation of AI models, such as GPT-4.1, not only supports multimodal data (text, images, code, etc.) but also operates with context windows up to 1 million tokens. This enables agents to collaboratively process and reason across massive datasets—including full books, legal records, or large sets of images and documents—within a single session.
+
+**Impact on Multimodal AI:**
+- Agents can reference and cross-analyze information from thousands of pages or images.
+- Enables persistent memory and deep context: e.g., a multimodal AI can read an entire technical manual, analyze embedded diagrams, and generate a comprehensive troubleshooting guide.
+- Facilitates truly integrated workflows: users can upload diverse, large-scale data for unified analysis.
+
+###### VISUAL
+- **Diagram:** How a large context window enables cross-document and cross-modal reasoning in multi-agent systems
+- **Workflow Example:** "Upload an entire company's handbook (text + images) and ask an AI to generate onboarding materials, compliance checklists, and Q&A—all at once."
+
+###### NOTES
+- *Fact:* GPT-4.1's 1M-token window is especially impactful for multimodal enterprise and research use cases.
+- *Reference:* OpenAI blog, "GPT-4.1 Technical Report" (add link)
+- *Resource:* Try multimodal, long-context demos at [platform link]
+
+###### DEMONSTRATION
+- Example prompt: "Given three full research reports (text + images), generate a comparative analysis and highlight visual data inconsistencies."
 Another major trend: **autonomous multi-agent systems**. These are multiple AI agents working together—autonomously—to complete complex tasks.
 
 For instance, one agent could plan a project, another could do research, a third could write code, and a fourth could test the output. They communicate and delegate tasks like a well-coordinated team.
@@ -406,9 +460,23 @@ Watch how the assistant self-organizes.
 
 #### 4.2. Efficiency and Accessibility Improvements
 
-##### [seq:160] Small Language Models (SLMs)
+##### [seq:160] Small Language Models (SLMs) and the Context Window Gap
 
 ###### SCRIPT
+**Small Language Models (SLMs) vs. Large Context Models: A Contrast**
+
+Small Language Models (SLMs) are optimized for efficiency and on-device use, typically supporting much smaller context windows (e.g., 2,000–8,000 tokens). In contrast, recent advances like GPT-4.1 feature context windows up to 1 million tokens, enabling analysis of entire books or datasets at once.
+
+**Key Differences:**
+- SLMs: Fast, lightweight, ideal for short conversations or tasks, limited context size
+- Large context models: Handle massive, complex documents and projects, require more resources
+
+**Implications:**
+- SLMs are best for quick, privacy-focused, or offline tasks
+- Large models unlock new workflows: legal review, academic research, multi-document synthesis
+
+###### NOTES
+- *Fact:* As of 2025, the context window gap between SLMs and frontier models is wider than ever
 "While GPT-4 and Claude are impressive, they’re also **heavyweight**—they require powerful servers, huge memory, and lots of energy.
 
 That’s where **Small Language Models**, or **SLMs**, come in. They’re lighter, faster, and can run on a laptop or phone. Microsoft is leading development here, showing that SLMs can match large models on **specific tasks** with far less cost.
