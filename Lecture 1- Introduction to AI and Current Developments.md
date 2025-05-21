@@ -1127,3 +1127,60 @@ As you continue through this course, let these resources guide your independent 
 - Invite students to bring any interesting findings or tools to the next session.
 - Final joke: “That’s it for today. Now go out there and politely break a few AIs.”
 ---
+
+<!-- FALLBACK APPENDED CONTENT FOR TITLE: Context Window -->
+##### [seq:100] Context Window
+
+As of 2025, leading models such as OpenAI's GPT-4.1 have dramatically expanded their context windows, with GPT-4.1 supporting up to 1 million tokens in a single session. This allows the model to process and reference vast amounts of information—such as entire books or datasets—within a single prompt. 
+
+A token is roughly equivalent to ~4 characters of English text. 1 million tokens can represent hundreds of thousands of words.
+
+---
+
+**Comparison Table:**
+
+| Model         | Year | Context Window Size |
+|---------------|------|--------------------|
+| GPT-2         | 2019 | 2,048 tokens       |
+| GPT-3         | 2020 | 4,096 tokens       |
+| GPT-4         | 2023 | 32,768 tokens      |
+| GPT-4 Turbo   | 2023 | 128,000 tokens     |
+| GPT-4.1       | 2025 | 1,000,000 tokens   |
+
+_Visualize "1 million tokens" as equivalent to "entire books or large datasets" (e.g., icons of books, file folders)._
+
+
+<!-- END FALLBACK -->
+
+
+
+<!-- FALLBACK APPENDED CONTENT FOR TITLE: Context Window -->
+##### [seq:100] Context Window
+
+**Interesting Fact:**
+
+1 million tokens is enough to fit the entire text of several novels, or hundreds of standard-length business documents, in a single prompt.
+
+**Reference:**
+
+OpenAI official documentation/news release about GPT-4.1, 2025.
+
+
+<!-- END FALLBACK -->
+
+
+
+<!-- FALLBACK APPENDED CONTENT FOR TITLE: Multimodal AI -->
+##### [seq:100] Multimodal AI
+
+**Visual call-out:**
+
+Expanded context windows now support not only text but also large batches of images, code, and documents.
+
+**Resource:**
+
+Link to technical blog post demonstrating real-world applications of large context windows (e.g., long-form contract analysis).
+
+
+<!-- END FALLBACK -->
+
