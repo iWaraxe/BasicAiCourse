@@ -1109,7 +1109,42 @@ Want to try different models? Explore visual AI? Even build your own chatbot? Th
 
 #### 8.3. Conclusion
 
+#### Context Window
+
+The context window refers to the maximum amount of text an AI model can process at once. In 2025, OpenAI introduced GPT-4.1 with a 1 million token context window—the largest available in commercial LLMs. This allows the model to process and 'remember' the equivalent of multiple books or extensive datasets in a single session, unlocking new possibilities for document analysis, research, and multi-turn reasoning. This is a significant leap from previous models: GPT-3 supported 2,000–4,000 tokens, GPT-4 expanded to 32,000–128,000 tokens, and now GPT-4.1 scales up to 1 million tokens, enabling AI to process entire books, lengthy documents, or days’ worth of conversation in a single prompt.
+
+
 ##### [seq:380] Closing Encouragement
+
+##### [seq:100] Context Window Timeline and Comparisons
+
+##### [seq:100] Context Window: Quick Facts & References
+
+##### [seq:100] Did You Know? Sidebar
+
+##### [seq:100] Cross-Reference: Multimodal AI & Large Context Windows
+
+##### [seq:100] OpenAI (ChatGPT) – Flagship Model Update
+
+As of 2025, GPT-4.1 is the flagship model for OpenAI’s ChatGPT, featuring a 1 million token context window. This enables unprecedented long-form and comprehensive analysis capabilities.
+
+
+Note: Large context windows, such as GPT-4.1’s 1 million tokens, enable more sophisticated multimodal document analysis, allowing simultaneous processing of extensive text, images, and other modalities in a single session.
+
+
+**Did You Know?** GPT-4.1 can “read” and analyze the full text of several novels or a year’s worth of emails at once—something no previous AI could do.
+
+
+- Fact: GPT-4.1’s context window is 30–100x larger than most prior commercial models.
+- Resource: [Official OpenAI GPT-4.1 Documentation](#)
+- Reference: 'A context window is the maximum amount of text an AI model can consider at once—vital for understanding long documents or maintaining conversation coherence.'
+
+
+Visuals:
+- Timeline chart: Tracks context window sizes from ELIZA (~100 words), GPT-2 (1,024 tokens), GPT-3 (2k–4k tokens), GPT-4 (32k–128k tokens), to GPT-4.1 (1M tokens).
+- Infographic: Demonstrates what 1 million tokens represents (approx. 700,000 words ≈ 5–7 full-length novels).
+- Comparison table: Contrasts context window sizes of major models (GPT-3, GPT-4, Gemini, Claude, GPT-4.1).
+
 
 ###### SCRIPT
 "You don’t need to become a machine learning expert to make use of AI. What matters is curiosity—and the courage to explore.
