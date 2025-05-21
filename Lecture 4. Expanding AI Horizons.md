@@ -82,6 +82,16 @@ Write an essay on the Titanic that is *exactly* 300 words. Do not present the an
 ##### [seq:020] Understanding APIs and LLM Integration
 
 ###### SCRIPT
+APIs enable integration of LLMs into custom workflows and applications. With the introduction of 1 million token context windows, API integrations can now support bulk document processing, complex data cross-referencing, and persistent memory across very large sessions. This opens up new possibilities for enterprise-scale automation and analysis.
+
+###### VISUAL
+- Flowchart showing an API sending large batches of data (e.g., multiple reports or datasets) to GPT-4.1 for unified response.
+
+###### NOTES
+- Link to OpenAI API documentation on large-context usage, limits, and best practices.
+
+###### DEMONSTRATION
+- Example API use case: Show an API workflow where an HR system sends an entire year's worth of employee feedback for trend analysis in a single request.
 
 To really unlock the power of modern AI, we need to go beyond the chatbot interface and step into the world of APIs.
 So what exactly is an API?

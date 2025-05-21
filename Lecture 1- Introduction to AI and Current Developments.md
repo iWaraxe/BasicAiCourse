@@ -251,6 +251,21 @@ This affects how models understand and generate text, and also determines how mu
 ##### [seq:100] Context Window
 
 ###### SCRIPT
+The context window determines how much information an AI model can "see" and process at once. As of 2025, the context window in leading models has expanded dramatically. OpenAI's GPT-4.1 now supports a 1 million token context window, enabling it to process and retain much larger amounts of information in a single interaction compared to previous models. This allows for tasks like analyzing entire books, aggregating data from multiple lengthy documents, or maintaining long, coherent conversations.
+
+###### VISUAL
+- Diagram comparing historical context window sizes:
+  - GPT-3: 2k/4k tokens
+  - GPT-4: 32k/128k tokens
+  - GPT-4.1: 1 million tokens
+- Timeline chart visually showing the progression of context window sizes over time.
+
+###### NOTES
+- Interesting fact: A 1 million token context window can represent the equivalent of several lengthy books or thousands of pages of text.
+- Reference: See OpenAI official documentation or blog post on GPT-4.1's release for more details.
+
+###### DEMONSTRATION
+- Example prompt: Show how a user can upload an entire book or multiple large documents for summarization or analysis in a single session using GPT-4.1.
  "Each LLM has a **context window**—a memory limit. GPT-4 Turbo can remember up to ~300 pages worth of tokens (128k). Claude 3 Opus claims even more. This means you can paste a long report or even an entire book, and the model will still respond meaningfully.
 
 However, once that limit is exceeded, older parts of the conversation can start to fade or be ignored. This is important when designing prompts for multi-turn tasks."
@@ -345,6 +360,16 @@ Third: **Reasoning errors.** AI might fail simple logic puzzles or make mistakes
 ##### [seq:140] Multimodal AI
 
 ###### SCRIPT
+Multimodal AI systems can process and integrate information from multiple sources—such as text, images, audio, and more. The massive context window in GPT-4.1 also enhances multimodal analysis, allowing seamless integration and referencing across vast amounts of text and other data types. This enables richer, more context-aware responses and supports complex workflows.
+
+###### VISUAL
+- Example workflow: Visual showing a user inputting a large volume of mixed media (text, tables, images) for AI processing.
+
+###### NOTES
+- Resource link: See case studies or user testimonials highlighting real-world applications of multimillion-token context windows.
+
+###### DEMONSTRATION
+- (Retain any previous demonstration content, if present.)
 
 "Until recently, AI models could only handle one type of input—usually text. But today, we have **multimodal AI**—systems that understand and generate not just text, but also images, audio, and even video.
 
@@ -1013,6 +1038,14 @@ In short: this homework makes you a safer, smarter AI user."
 ##### [seq:350] Where to Learn More
 
 ###### SCRIPT
+There are many resources available for continued learning about AI and large language models. For the latest features and capabilities, explore official documentation and community guides.
+
+###### VISUAL
+- List of top online resources, including links and brief descriptions (retain previous content, if present).
+
+###### NOTES
+- Add resource: OpenAI's GPT-4.1 official documentation and blog posts detailing the new 1 million token context window and its applications.
+- (Retain any previous notes/resources on this slide.)
 
 
 "We’re just scratching the surface today. AI is evolving at lightning speed, and staying informed is essential.

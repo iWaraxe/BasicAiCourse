@@ -67,6 +67,17 @@ Visual: Sleek dashboard-style UI screenshot collage from ChatGPT, Claude, and Pe
 ##### [seq:020] ChatGPT (OpenAI)
 
 ###### SCRIPT
+ChatGPT (OpenAI) is a widely used conversational AI platform. With the introduction of GPT-4.1, ChatGPT can now handle exceptionally long conversations and documents, with a context window of up to 1 million tokens. This allows users to upload and analyze entire books, full project reports, or extensive datasets within a single session. It significantly enhances the depth, continuity, and scope of AI-powered assistance.
+
+###### VISUAL
+- Screenshot or mock-up of ChatGPT UI showing the upload of large documents (e.g., full project reports, book manuscripts).
+- Chart illustrating context window size differences between model versions (e.g., GPT-3, GPT-4, GPT-4.1).
+
+###### NOTES
+- Reference: See OpenAI product updates and changelogs for details on GPT-4.1 capabilities.
+
+###### DEMONSTRATION
+- Demonstration: Upload a 700-page policy manual and ask GPT-4.1 to extract specific policies or generate a summary.
 
 "Let’s start with ChatGPT—OpenAI’s flagship interface. It might seem simple at first glance, but it hides powerful features that can change how you work.
 
