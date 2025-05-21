@@ -801,6 +801,32 @@ Here are some resources to help you build skills, find inspiration, and stay con
 
 ##### [seq:220] Communities and Learning Hubs
 
+##### [seq:100] Demonstration: Extreme Long-Form Analysis
+
+##### [seq:100] Demonstration: NotebookLM with 1M Token Context
+
+Prompt Example: 'Analyze this entire 300-page annual report for trends, inconsistencies, and summarize each chapter.'
+Showcase: Upload or input a massive text (e.g., several merged research papers) and have GPT-4.1 generate a comprehensive summary or answer detailed questions referencing specific chapters.
+
+Prompt:
+```
+You are given the full transcript of a week-long workshop (over 1 million tokens). Identify recurring themes, summarize key takeaways by day, and generate a Q&A section that addresses common participant questions throughout the event.
+```
+
+Explain: This type of task was previously impossible in a single pass due to context window limits.
+
+
+Prompt Example: 'Analyze this entire 300-page annual report for trends, inconsistencies, and summarize each chapter.'
+Showcase: Upload or input a massive text (e.g., several merged research papers) and have GPT-4.1 generate a comprehensive summary or answer detailed questions referencing specific chapters.
+
+Prompt:
+```
+You are given the full transcript of a week-long workshop (over 1 million tokens). Identify recurring themes, summarize key takeaways by day, and generate a Q&A section that addresses common participant questions throughout the event.
+```
+
+Explain: This type of task was previously impossible in a single pass due to context window limits.
+
+
 ###### SCRIPT
 
 "And don’t go it alone—there’s a thriving AI learner community out there.
