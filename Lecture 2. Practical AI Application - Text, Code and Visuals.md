@@ -830,3 +830,35 @@ Whether you want to join a forum, ask for help, or just lurk and learn—there�
 - Tip: Suggest creating a personal prompt journal to track what works and what doesn’t
 
 ---
+
+<!-- ADD PLACEHOLDER UNDER PARENT ID 1117 FOR TITLE: Demonstration: Working with a 1 Million Token Context Window -->
+##### [seq:105] Demonstration: Working with a 1 Million Token Context Window
+
+###### SCRIPT
+**Demonstration: Working with a 1 Million Token Context Window**
+
+With GPT-4.1, you can fit entire books, large codebases, or collections of research papers into a single prompt. This opens up new possibilities for in-depth analysis and cross-referencing.
+
+**Prompt Example:**
+- Upload or paste a full book or multi-part technical document into the prompt.
+- Ask: “Summarize the main arguments presented in chapters 2, 7, and 15. Then, highlight any recurring themes that appear throughout the entire text.”
+
+**Showcase:**
+- The model can now reference specific sections and draw connections across an entire volume, something not possible with previous, smaller context windows.
+- Optionally, compare the results to responses from a model limited to a 32k or 128k token context window to illustrate the difference in detail and cohesiveness.
+
+###### VISUAL
+- Screenshot or mockup: A prompt window with a massive document loaded and a complex cross-chapter question.
+- Diagram: Arrows showing model referencing various locations in a long document.
+
+###### NOTES
+- This feature is especially valuable for legal reviews, academic research, and technical documentation analysis.
+- Try: “Extract all references to ‘machine learning ethics’ across the text and create an index.”
+- Limitations: While the model can process more, reasoning quality still depends on prompt engineering and model alignment.
+
+###### DEMONSTRATION
+- Live: Feed a large document (e.g., open-source novel or code repository) into GPT-4.1, then ask for summaries, cross-references, or to answer questions drawing from multiple sections.
+
+
+<!-- END ADD PLACEHOLDER -->
+

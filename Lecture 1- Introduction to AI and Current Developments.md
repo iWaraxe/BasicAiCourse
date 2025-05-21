@@ -1127,3 +1127,34 @@ As you continue through this course, let these resources guide your independent 
 - Invite students to bring any interesting findings or tools to the next session.
 - Final joke: “That’s it for today. Now go out there and politely break a few AIs.”
 ---
+
+<!-- FALLBACK APPEND (UPDATE_DB_NODE_NOT_FOUND_FOR_[seq:100] Context Window) -->
+##### [seq:100] [seq:100] Context Window
+
+###### SCRIPT
+**Context Window: How Much Can an AI Model Remember?**
+
+A "context window" defines the maximum amount of text (measured in tokens) that an AI model can consider at one time. As of 2025, OpenAI’s GPT-4.1 dramatically expanded this limit, supporting a context window of up to **1 million tokens**—a significant leap from previous models that typically supported up to 32,000 or 128,000 tokens. 
+
+This advancement enables GPT-4.1 to process and reason over extremely large amounts of information in a single interaction—such as entire books, large codebases, or sets of lengthy legal and technical documents. This unlocks new capabilities in research, analysis, and persistent memory over long documents.
+
+###### VISUAL
+- **Timeline Chart:** Progression of context window size:
+  - GPT-3: 2k tokens
+  - GPT-3.5: 4k–32k tokens
+  - GPT-4: 8k–128k tokens
+  - GPT-4.1: **1 million tokens**
+- **Diagram:** Illustration showing a 1 million token context window encompassing entire novels, multiple research papers, or a large repository of code.
+- **Comparative Infographic:** Visualization comparing the maximum document size handled by older models versus GPT-4.1 (e.g., GPT-3 fits a single chapter; GPT-4.1 fits 10+ novels).
+
+###### NOTES
+- A typical novel is ~100,000 tokens; GPT-4.1 can ingest and reference more than 10 novels at once.
+- Reference: [OpenAI blog post announcing GPT-4.1 and its technical specs](https://openai.com/blog/).
+- Practical Impact: Enables advanced research, persistent memory across massive documents, and comprehensive legal/technical reviews—all in one prompt.
+
+###### DEMONSTRATION
+*See next slide for a prompt example utilizing the full 1 million token context window.*
+
+
+<!-- END FALLBACK -->
+
