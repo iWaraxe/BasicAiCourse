@@ -830,3 +830,25 @@ Whether you want to join a forum, ask for help, or just lurk and learn—there�
 - Tip: Suggest creating a personal prompt journal to track what works and what doesn’t
 
 ---
+
+<!-- ADD PLACEHOLDER UNDER PARENT ID 1 FOR TITLE: Demonstration: Large-Scale Prompting with GPT-4.1 -->
+##### [seq:003] Demonstration: Large-Scale Prompting with GPT-4.1
+
+Prompt Examples:
+- Upload the full text of War and Peace and ask GPT-4.1 to summarize character development across the novel.
+- Provide the minutes from an entire year’s worth of board meetings—ask for trends and key decisions.
+- Combine 10 research articles and generate a comprehensive literature review in one go.
+
+
+<!-- END ADD PLACEHOLDER -->
+
+
+
+<!-- ADD PLACEHOLDER UNDER PARENT ID 1 FOR TITLE: Advanced Prompt Example: Precision Prompting with Large Contexts -->
+##### [seq:004] Advanced Prompt Example: Precision Prompting with Large Contexts
+
+Paste a large dataset (hundreds of pages) and instruct GPT-4.1 to extract, cross-reference, and summarize recurring themes.
+
+
+<!-- END ADD PLACEHOLDER -->
+

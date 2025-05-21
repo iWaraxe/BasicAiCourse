@@ -1127,3 +1127,51 @@ As you continue through this course, let these resources guide your independent 
 - Invite students to bring any interesting findings or tools to the next session.
 - Final joke: “That’s it for today. Now go out there and politely break a few AIs.”
 ---
+
+<!-- ADD PLACEHOLDER UNDER PARENT ID 1 FOR TITLE: Context Window -->
+#### Context Window
+
+**Definition & Update:**
+
+As of 2025, OpenAI’s GPT-4.1 model features an unprecedented 1 million token context window, enabling it to process and retain far more information within a single prompt. This marks a quantum leap from previous models (e.g., GPT-4’s 32,000 tokens).
+
+A 1 million token context window allows for entire books, lengthy documents, or extensive multi-step reasoning within a single session, minimizing information loss and enabling more complex workflows.
+
+
+<!-- END ADD PLACEHOLDER -->
+
+
+
+<!-- ADD PLACEHOLDER UNDER PARENT ID 1 FOR TITLE: Timeline: Evolution of Context Windows -->
+##### [seq:001] Timeline: Evolution of Context Windows
+
+A timeline chart showing the progression of context window sizes in OpenAI models:
+- 2018: ~2,000 tokens (GPT-2)
+- 2020: 4,096 tokens (GPT-3)
+- 2023: 32,000 tokens (GPT-4)
+- 2025: 1,000,000 tokens (GPT-4.1)
+
+Comparison chart with use cases:
+- Summarize a short article (all models)
+- Analyze an entire academic thesis (GPT-4.1 only)
+- Multi-document contract analysis (GPT-4.1 only)
+
+Visual: Full-length book processed in a single prompt vs. old models requiring document splitting.
+
+
+<!-- END ADD PLACEHOLDER -->
+
+
+
+<!-- ADD PLACEHOLDER UNDER PARENT ID 1 FOR TITLE: Notes and References: 1M Token Context Window -->
+##### [seq:002] Notes and References: 1M Token Context Window
+
+**Interesting Fact:** GPT-4.1’s 1 million token context window is equivalent to processing over 700,000 words—roughly 7 full-length novels—in a single prompt.
+
+**Reference:** [OpenAI GPT-4.1 technical announcement](#) (insert actual link)
+
+**Resource:** New tasks now possible: legal review, book-level analysis, complex cross-referencing.
+
+
+<!-- END ADD PLACEHOLDER -->
+
