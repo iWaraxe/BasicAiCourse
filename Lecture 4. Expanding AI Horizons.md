@@ -1232,3 +1232,14 @@ Let’s keep learning together.
 - **Optional Music Cue**: Consider playing light music or a mellow instrumental as students reflect or share parting thoughts.
 
 ---
+
+<!-- FALLBACK APPENDED CONTENT FOR TITLE: Expanded AI Capabilities -->
+#### Expanded AI Capabilities
+
+Recent advances have led to models with extremely large context windows, such as GPT-4.1's 1 million token capacity. This enables deeper reasoning over long documents, improved continuity in conversations, and the ability to handle complex multi-document workloads.
+
+Office managers, HR professionals, and analysts can now use AI for in-depth document analysis, policy review, or summarizing long-form reports without needing to split input into multiple prompts.
+
+
+<!-- END FALLBACK -->
+

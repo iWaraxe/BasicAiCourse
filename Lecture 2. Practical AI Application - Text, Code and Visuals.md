@@ -830,3 +830,29 @@ Whether you want to join a forum, ask for help, or just lurk and learn—there�
 - Tip: Suggest creating a personal prompt journal to track what works and what doesn’t
 
 ---
+
+<!-- ADD PLACEHOLDER UNDER PARENT ID 1 FOR TITLE: Demonstration: Long-Context Use Case -->
+##### [seq:100] Demonstration: Long-Context Use Case
+
+**Prompt Example:**
+- Upload or paste a policy document of 300 pages and ask the model to summarize key compliance risks.
+- Provide a series of meeting transcripts spanning several months and request a summary of recurring themes.
+
+**Showcase:**
+How GPT-4.1 can review, reason, and answer questions over the full input without truncation.
+
+
+<!-- END ADD PLACEHOLDER -->
+
+
+
+<!-- FALLBACK APPENDED CONTENT FOR TITLE: Advanced Prompt Crafting Techniques -->
+##### [seq:100] Advanced Prompt Crafting Techniques
+
+Prompting Technique:
+- Leveraging the 1 million token window: How to structure input for maximum insight from large documents.
+- Example: Chunking and referencing within a single prompt for continuity and accuracy.
+
+
+<!-- END FALLBACK -->
+
