@@ -251,6 +251,36 @@ This affects how models understand and generate text, and also determines how mu
 ##### [seq:100] Context Window
 
 ###### SCRIPT
+**Context Window**
+
+The "context window" is the amount of text (tokens) an AI model can process at once—essentially, its working memory. Historically, LLMs were limited to a few thousand tokens, meaning they could only consider short passages or dialogues at a time.
+
+Recent breakthroughs have dramatically increased this capacity. For example, OpenAI's GPT-4.1 model now supports a context window of up to **1 million tokens**. This enables the model to process and reference massive documents, lengthy conversations, or even entire books within a single session—something unimaginable just a few years ago.
+
+This leap allows for:
+- Summarizing entire books or corporate reports.
+- Analyzing thousands of emails, contracts, or technical documents in one go.
+- More coherent, context-rich outputs over long interactions.
+
+###### VISUAL
+- **Timeline Chart:**
+  - 2018: GPT-2 – ~2,048 tokens
+  - 2020: GPT-3 – ~4,096–8,192 tokens
+  - 2023: GPT-4, Gemini – ~32,768–128,000 tokens
+  - 2025: GPT-4.1 – **1,000,000 tokens**
+- **Infographic/Table:** Example content that fits in 1 million tokens (e.g., 3–5 full novels, hundreds of research papers, thousands of emails).
+- **Comparison Table:**
+  | Model        | Year | Context Window |
+  |-------------|------|---------------|
+  | GPT-2       | 2018 | ~2,048        |
+  | GPT-3       | 2020 | ~8,192        |
+  | GPT-4       | 2023 | ~32,768–128,000|
+  | GPT-4.1     | 2025 | 1,000,000     |
+
+###### NOTES
+- **Fact:** 1 million tokens ≈ 700,000–800,000 words (several novels, a large legal database, or thousands of emails).
+- **Reference:** See OpenAI’s [official GPT-4.1 documentation](https://platform.openai.com/docs/guides/gpt/gpt-4-1-models) for technical details.
+- **Discussion:** Consider what new business workflows, research, or creative projects are now possible with such a large context window.
  "Each LLM has a **context window**—a memory limit. GPT-4 Turbo can remember up to ~300 pages worth of tokens (128k). Claude 3 Opus claims even more. This means you can paste a long report or even an entire book, and the model will still respond meaningfully.
 
 However, once that limit is exceeded, older parts of the conversation can start to fade or be ignored. This is important when designing prompts for multi-turn tasks."
@@ -345,6 +375,22 @@ Third: **Reasoning errors.** AI might fail simple logic puzzles or make mistakes
 ##### [seq:140] Multimodal AI
 
 ###### SCRIPT
+**Multimodal AI and Scaling Capabilities**
+
+Multimodal AI systems can process and combine different types of data (text, images, audio, video) within a single session. The evolution of large context windows—like GPT-4.1's 1 million token capacity—has enabled even more powerful multimodal applications.
+
+With such vast context, models can:
+- Analyze extensive multimedia presentations, corporate knowledge bases, or research archives.
+- Retain and reference far more context across modalities, leading to richer, more informed outputs.
+- Enable new workflows: e.g., uploading and cross-referencing multiple lengthy documents, images, and transcripts simultaneously.
+
+###### VISUAL
+- Illustration of a multimodal workflow (e.g., uploading a book and related images for integrated analysis).
+- Side-by-side comparison: previous vs. current context window limits for multimodal models.
+
+###### NOTES
+- The scaling of context window size is just as critical for multimodal models as it is for text—enabling broader, more realistic use cases.
+- Consider how expanded context can support tasks like legal discovery, scientific research review, or whole-company data analysis.
 
 "Until recently, AI models could only handle one type of input—usually text. But today, we have **multimodal AI**—systems that understand and generate not just text, but also images, audio, and even video.
 
@@ -1013,6 +1059,18 @@ In short: this homework makes you a safer, smarter AI user."
 ##### [seq:350] Where to Learn More
 
 ###### SCRIPT
+**Where to Learn More**
+
+- OpenAI: [GPT-4.1 Model Documentation](https://platform.openai.com/docs/guides/gpt/gpt-4-1-models) — Details on the 1 million token context window and usage tips.
+- Anthropic, Google, and other providers: Official blogs, release notes, and technical whitepapers.
+- AI community forums and newsletters (e.g., The Batch, Import AI) for the latest developments.
+
+###### VISUAL
+- Screenshot or logo montage of official documentation portals.
+
+###### NOTES
+- For practical demonstrations and tutorials on using large context windows, see OpenAI’s technical blog and developer guides.
+- Consider exploring prompt engineering guides discussing how to leverage expanded context for business or research.
 
 
 "We’re just scratching the surface today. AI is evolving at lightning speed, and staying informed is essential.
@@ -1127,3 +1185,28 @@ As you continue through this course, let these resources guide your independent 
 - Invite students to bring any interesting findings or tools to the next session.
 - Final joke: “That’s it for today. Now go out there and politely break a few AIs.”
 ---
+
+<!-- FALLBACK APPEND (UPDATE_FAILED_FIND_OLD_BLOCK_FOR_[seq:020] Understanding APIs and LLM Integration) -->
+##### [seq:020] Understanding APIs and LLM Integration
+
+###### SCRIPT
+**Understanding APIs and LLM Integration**
+
+APIs (Application Programming Interfaces) allow you to integrate LLMs into your own apps and workflows. With new models like GPT-4.1, you can now process and analyze vast amounts of data in a single API call thanks to the 1 million token context window.
+
+**Demonstration:**
+- Example workflow: Use the OpenAI API to feed hundreds of documents (e.g., for Retrieval-Augmented Generation, or RAG) without truncating input.
+- Show how to submit an entire corporate knowledge base or large legal corpus to the model for querying, summarization, or comparison.
+
+###### VISUAL
+- API call diagram showing large document ingestion and response flow.
+- Before/after comparison: older models truncating large input, GPT-4.1 handling it all.
+
+###### NOTES
+- The expanded context window is a game-changer for document analysis, chatbots, and enterprise search.
+- See OpenAI’s API documentation for code examples and best practices for handling large contexts.
+
+
+
+<!-- END FALLBACK -->
+

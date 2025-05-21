@@ -551,6 +551,23 @@ Visual: Grid of GPT tiles with logos or mock personas (e.g., "SpringBot," "Lingu
 ##### [seq:250] Advanced Information Retrieval and Data Analysis
 
 ###### SCRIPT
+**Advanced Information Retrieval and Data Analysis**
+
+Modern LLMs can now process entire books, large knowledge bases, or thousands of documents at once thanks to massive context windows (e.g., GPT-4.1’s 1 million tokens).
+
+**Demonstration:**
+- Upload a full-length book and prompt the model to summarize each chapter, then synthesize major themes.
+- Compare and contrast lengthy legal contracts or financial reports in a single prompt.
+
+These new capabilities unlock advanced research, legal analysis, and enterprise-scale document processing.
+
+###### VISUAL
+- Example prompt: "Summarize chapters 1–20 of the uploaded book."
+- Diagram showing ingestion of multiple documents (>10,000 pages) in a single session.
+
+###### NOTES
+- The 1M token window is a paradigm shift for research, competitive intelligence, and large-scale data synthesis.
+- See OpenAI documentation for technical and practical guidance.
 
 "Next up—let’s talk about information.
 
