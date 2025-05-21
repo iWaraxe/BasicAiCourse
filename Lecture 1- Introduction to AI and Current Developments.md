@@ -1127,3 +1127,62 @@ As you continue through this course, let these resources guide your independent 
 - Invite students to bring any interesting findings or tools to the next session.
 - Final joke: “That’s it for today. Now go out there and politely break a few AIs.”
 ---
+
+<!-- FALLBACK APPENDED CONTENT FOR TITLE: Context Window -->
+##### [seq:100] Context Window
+
+As of 2025, OpenAI’s GPT-4.1 model introduced a groundbreaking 1 million token context window. This allows the model to reference and reason over vast amounts of information within a single prompt, enabling much deeper document analysis, longform conversation, and complex data processing. Previous models were limited to 4,000–128,000 tokens.
+
+Definition: Context window: The maximum number of tokens (words and pieces of words) an AI model can consider at once. The larger the context window, the more information the model can keep ‘in mind’ during a session.
+
+---
+
+Diagram: Timeline bar chart visualizing context window growth:
+| Model      | Year | Max Tokens |
+|------------|------|------------|
+| GPT-2      | 2019 | 2,048      |
+| GPT-3      | 2020 | 4,096      |
+| GPT-4      | 2023 | 32,000     |
+| Claude 2   | 2023 | 100,000    |
+| Gemini 1.5 | 2024 | 1,000,000  |
+| GPT-4.1    | 2025 | 1,000,000  |
+Visual: Show a bar for each model. Highlight GPT-4.1 and annotate with "Breakthrough: 1M tokens!"
+
+---
+
+Example: Screenshot or mockup of a prompt with a very large document being processed in one go.
+
+---
+
+Fact: A 1 million token context window is roughly equivalent to the entire content of a long novel or thousands of pages of documentation.
+
+Reference:
+- [OpenAI GPT-4.1 Technical Announcement (2025)](https://openai.com/research/gpt-4-1)
+- [OpenAI Blog: Scaling Context Windows](https://openai.com/blog/large-context-windows)
+
+Resource: Try uploading large documents to ChatGPT (GPT-4.1) to see extended context in action. Note: Feature may require premium access.
+
+---
+
+Demonstrations:
+- Prompt Example: "Upload a 600-page PDF and ask GPT-4.1 to summarize key themes from the entire document, something not possible on earlier models."
+- Comparison: Show the difference between a prompt that exceeds the context window on GPT-3.5 vs. successful processing on GPT-4.1.
+- Scenario: Feed GPT-4.1 a week’s worth of company emails (as text) and ask it to extract all action items and unresolved issues.
+
+
+<!-- END FALLBACK -->
+
+
+
+<!-- ADD PLACEHOLDER UNDER PARENT ID 1 FOR TITLE: API Implications of Large Context Windows -->
+##### [seq:100] API Implications of Large Context Windows
+
+With models like GPT-4.1, API users can now send extremely large payloads—enabling new integrations for:
+- Document management
+- Contract review
+- Bulk data analysis
+Developers should review API limits and pricing for large context transactions.
+
+
+<!-- END ADD PLACEHOLDER -->
+

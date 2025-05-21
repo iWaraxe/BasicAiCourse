@@ -1232,3 +1232,17 @@ Let’s keep learning together.
 - **Optional Music Cue**: Consider playing light music or a mellow instrumental as students reflect or share parting thoughts.
 
 ---
+
+<!-- ADD PLACEHOLDER UNDER PARENT ID 1 FOR TITLE: Expanded Use Cases Enabled by Large Context Windows -->
+##### [seq:100] Expanded Use Cases Enabled by Large Context Windows
+
+GPT-4.1's 1 million token context window has unlocked a range of new AI applications, including:
+- Whole-project analysis (e.g., software codebases, research archives)
+- Legal and contract review (processing thousands of pages at once)
+- Multi-day meeting or email summarization
+- End-to-end document ingestion for enterprise search
+These advances redefine what is possible with generative AI in business, law, and research.
+
+
+<!-- END ADD PLACEHOLDER -->
+
