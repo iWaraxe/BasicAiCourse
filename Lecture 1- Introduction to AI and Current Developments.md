@@ -251,21 +251,32 @@ This affects how models understand and generate text, and also determines how mu
 ##### [seq:100] Context Window
 
 ###### SCRIPT
- "Each LLM has a **context window**—a memory limit. GPT-4 Turbo can remember up to ~300 pages worth of tokens (128k). Claude 3 Opus claims even more. This means you can paste a long report or even an entire book, and the model will still respond meaningfully.
+"Each LLM has a **context window**—a memory limit. The context window determines how much information an AI model can "see" and process at once.
+
+As of 2025, the context window in leading models has expanded dramatically. GPT-4 Turbo can remember up to ~300 pages worth of tokens (128k). Claude 3 Opus claims even more. And now, OpenAI's GPT-4.1 supports a massive 1 million token context window—that's equivalent to several lengthy books or thousands of pages of text!
+
+This means you can paste a long report, multiple documents, or even an entire book, and the model will still respond meaningfully. This opens up new possibilities for analyzing entire books, aggregating data from multiple lengthy documents, or maintaining long, coherent conversations.
 
 However, once that limit is exceeded, older parts of the conversation can start to fade or be ignored. This is important when designing prompts for multi-turn tasks."
 
 ###### VISUAL
- \_Title: "Understanding Context Window"
+_Title: "Understanding Context Window Evolution"
 
-- Infographic: Context window size for GPT-4, Claude 3, Gemini 1.5
+- Diagram comparing historical context window sizes:
+  - GPT-3: 2k/4k tokens
+  - GPT-4: 32k/128k tokens  
+  - GPT-4.1: 1 million tokens
+- Timeline chart showing progression
 - Visual: Sliding window metaphor
 
 ###### NOTES
-
-
-- Analogy: It’s like a chalkboard—new stuff pushes out the old.
+- Interesting fact: A 1 million token context window can represent the equivalent of several lengthy books or thousands of pages of text
+- Analogy: It's like a chalkboard—new stuff pushes out the old
 - Joke: "The model has a better memory than I do... unless it's Friday."
+- Reference: See OpenAI official documentation on GPT-4.1's release for more details
+
+###### DEMONSTRATION
+- Example prompt: Show how a user can upload an entire book or multiple large documents for summarization or analysis in a single session using GPT-4.1
 ---
 
 ##### [seq:110] Temperature and Creativity
@@ -345,25 +356,28 @@ Third: **Reasoning errors.** AI might fail simple logic puzzles or make mistakes
 ##### [seq:140] Multimodal AI
 
 ###### SCRIPT
-
 "Until recently, AI models could only handle one type of input—usually text. But today, we have **multimodal AI**—systems that understand and generate not just text, but also images, audio, and even video.
+
+Multimodal AI systems can process and integrate information from multiple sources. The massive context window in GPT-4.1 also enhances multimodal analysis, allowing seamless integration and referencing across vast amounts of text and other data types. This enables richer, more context-aware responses and supports complex workflows.
 
 Take **GPT-4 with vision** or **Gemini 2.0**: you can upload an image, and it will describe it, analyze its structure, or answer questions about it. This unlocks amazing potential—from diagnosing medical images to analyzing charts, interpreting photos, and more.
 
-Soon, we’ll see seamless handling of audio, video, and text together, making these models more like general-purpose assistants."
+Soon, we'll see seamless handling of audio, video, and text together, making these models more like general-purpose assistants."
 
 ###### VISUAL
 **Title: "Multimodal AI: More Than Words"**
 
 - Bullet points:
-	- Understands images, audio, video
-	- Describes, analyzes, and interacts with multiple formats
-	- Enables real-world applications (medical, education, creative fields)
+  - Understands images, audio, video
+  - Describes, analyzes, and interacts with multiple formats
+  - Enables real-world applications (medical, education, creative fields)
+- Example workflow: Visual showing a user inputting a large volume of mixed media (text, tables, images) for AI processing
 - Image: Screenshot or concept of image-to-text Q&A interaction
 
 ###### NOTES
 - Mention Gemini 2.0 and GPT-4 with Vision
-- Joke: “Finally, an AI that can actually _see_ the mess on my desk.”
+- Resource link: See case studies or user testimonials highlighting real-world applications of multimillion-token context windows
+- Joke: "Finally, an AI that can actually _see_ the mess on my desk."
 - Link for demo: [https://openai.com/gpt-4](https://openai.com/gpt-4)
 
 ###### DEMONSTRATION
@@ -371,7 +385,6 @@ Show image prompt:
 Upload an image of a cluttered desk and ask:  
 _"What objects do you see in this photo? What kind of person do you think works here?"_  
 Observe and discuss differences across models (ChatGPT vs Gemini vs Claude).
-
 ---
 
 ##### [seq:150] Autonomous Multi-Agent Systems
@@ -1013,39 +1026,33 @@ In short: this homework makes you a safer, smarter AI user."
 ##### [seq:350] Where to Learn More
 
 ###### SCRIPT
+"We're just scratching the surface today. AI is evolving at lightning speed, and staying informed is essential.
 
-
-"We’re just scratching the surface today. AI is evolving at lightning speed, and staying informed is essential.
-
-That’s why I’ve compiled a list of reliable resources for you. These will help you dive deeper, stay current, and keep learning at your own pace—whether you're into ethics, tech, or creative prompting."
+That's why I've compiled a list of reliable resources for you. These will help you dive deeper, stay current, and keep learning at your own pace—whether you're into ethics, tech, or creative prompting."
 
 ###### VISUAL
-
-
 **Title: "Want More? Start Here."**
 
 - 🌐 **Websites & Platforms**
-	- [ai.google](https://ai.google/)
-	- [openai.com/blog](https://openai.com/blog)
-	- [anthropic.com](https://www.anthropic.com/)
-	- [huggingface.co](https://huggingface.co/)
-	- [ollama.com](https://ollama.com/)
+  - [ai.google](https://ai.google/)
+  - [openai.com/blog](https://openai.com/blog)
+  - [anthropic.com](https://www.anthropic.com/)
+  - [huggingface.co](https://huggingface.co/)
+  - [ollama.com](https://ollama.com/)
 - 📬 **Newsletters**
-	- _The Batch_ by DeepLearning.ai
-	- _Import AI_ by Jack Clark
-	- _Ben’s Bites_ – Daily digest of AI news
-	- _Latent Space_ – Deep dives and interviews
+  - _The Batch_ by DeepLearning.ai
+  - _Import AI_ by Jack Clark
+  - _Ben's Bites_ – Daily digest of AI news
+  - _Latent Space_ – Deep dives and interviews
 - 📚 **Beginner-Friendly Readings**
-	- “You Look Like a Thing and I Love You” – Janelle Shane
-	- “Artificial Intelligence: A Guide for Thinking Humans” – Melanie Mitchell
+  - "You Look Like a Thing and I Love You" – Janelle Shane
+  - "Artificial Intelligence: A Guide for Thinking Humans" – Melanie Mitchell
 
 ###### NOTES
-
-
-- Joke: “Pick one to follow. Not all. You still need time to eat.”
-- Tip: Suggest skimming The Batch or Ben’s Bites once a week to stay updated.
-- HuggingFace is a great playground if someone wants to try model hosting or training.
-
+- Add resource: OpenAI's GPT-4.1 official documentation and blog posts detailing the new 1 million token context window and its applications
+- Joke: "Pick one to follow. Not all. You still need time to eat."
+- Tip: Suggest skimming The Batch or Ben's Bites once a week to stay updated
+- HuggingFace is a great playground if someone wants to try model hosting or training
 ---
 
 #### 8.2. Practical Tools
