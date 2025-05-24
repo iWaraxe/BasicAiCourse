@@ -82,35 +82,31 @@ Write an essay on the Titanic that is *exactly* 300 words. Do not present the an
 ##### [seq:020] Understanding APIs and LLM Integration
 
 ###### SCRIPT
-APIs enable integration of LLMs into custom workflows and applications. With the introduction of 1 million token context windows, API integrations can now support bulk document processing, complex data cross-referencing, and persistent memory across very large sessions. This opens up new possibilities for enterprise-scale automation and analysis.
+"To really unlock the power of modern AI, we need to go beyond the chatbot interface and step into the world of APIs.
 
-###### VISUAL
-- Flowchart showing an API sending large batches of data (e.g., multiple reports or datasets) to GPT-4.1 for unified response.
+So what exactly is an API? An API, or Application Programming Interface, is like a universal translator between your code and someone else's service—in this case, a powerful AI model running on a remote server.
 
-###### NOTES
-- Link to OpenAI API documentation on large-context usage, limits, and best practices.
+APIs enable integration of LLMs into custom workflows and applications. With the introduction of 1 million token context windows in GPT-4.1, API integrations can now support bulk document processing, complex data cross-referencing, and persistent memory across very large sessions. This opens up new possibilities for enterprise-scale automation and analysis.
 
-###### DEMONSTRATION
-- Example API use case: Show an API workflow where an HR system sends an entire year's worth of employee feedback for trend analysis in a single request.
-
-To really unlock the power of modern AI, we need to go beyond the chatbot interface and step into the world of APIs.
-So what exactly is an API?
-An API, or Application Programming Interface, is like a universal translator between your code and someone else’s service—in this case, a powerful AI model running on a remote server.
 With just a few lines of code or even a no-code tool, you can:
 - Send a prompt to GPT-4, Claude, Gemini, or Mistral
 - Customize its behavior with parameters
 - Get back structured data, completions, or summaries in seconds
+- Process entire books or year's worth of reports in a single request
+
 This is what powers real-world applications—from customer service bots to automated legal summarizers to AI-powered dashboards.
-Let’s look at the OpenAI Playground and Anthropic Console—these are visual front-ends for the APIs that let us tinker with models without writing any code.
+
+Let's look at the OpenAI Playground and Anthropic Console—these are visual front-ends for the APIs that let us tinker with models without writing any code.
+
 We'll explore key parameters like:
 - Temperature: controls randomness
 - Max Tokens: caps the response length
 - Top-p: narrows the sampling universe
 - System prompts: secretly guide how the model behaves
-Whether you're building a startup or a hobby project, understanding these controls is your first step toward AI integration mastery.
+
+Whether you're building a startup or a hobby project, understanding these controls is your first step toward AI integration mastery."
 
 ###### VISUAL
-
 **Slide Title: "LLM APIs: What They Are & Why They Matter"**
 
 | Concept          | Explanation                                           | Real-World Use     |
@@ -124,20 +120,23 @@ Whether you're building a startup or a hobby project, understanding these contro
 
 **Visuals:**
 - Diagrams of API request/response flow
+- Flowchart showing an API sending large batches of data (e.g., multiple reports or datasets) to GPT-4.1 for unified response
 - Screenshots of OpenAI Playground and Claude Console
 - Emoji thermometer next to "temperature" setting for humor
 
 ###### NOTES
-
-- **Tip**: Use metaphors — “The API is the waiter; your prompt is the order; the model is the chef.”
+- Link to OpenAI API documentation on large-context usage, limits, and best practices
+- **Tip**: Use metaphors — "The API is the waiter; your prompt is the order; the model is the chef."
 - **Trivia**: The first version of GPT-3 API launched in 2020 and had no memory, no chat history—just one-shot text completion.
-- **Joke**: “Setting temperature to 1 is like giving your AI a Red Bull and telling it to be creative. Setting it to 0? You’ve got Spock.”
+- **Joke**: "Setting temperature to 1 is like giving your AI a Red Bull and telling it to be creative. Setting it to 0? You've got Spock."
 - Mention:
-	- [OpenAI Playground](https://platform.openai.com/playground)
-	- [Anthropic Console](https://console.anthropic.com)
-	- [Google Vertex AI](https://cloud.google.com/vertex-ai)
-- **Optional Visual Aid**: Draw or animate the “prompt in → response out” pipeline with labeled boxes.
+  - [OpenAI Playground](https://platform.openai.com/playground)
+  - [Anthropic Console](https://console.anthropic.com)
+  - [Google Vertex AI](https://cloud.google.com/vertex-ai)
+- **Optional Visual Aid**: Draw or animate the "prompt in → response out" pipeline with labeled boxes.
 
+###### DEMONSTRATION
+- Example API use case: Show an API workflow where an HR system sends an entire year's worth of employee feedback for trend analysis in a single request using GPT-4.1's expanded context window.
 ---
 
 ##### [seq:030] Demo 1: Demonstration of Prompt Parameters

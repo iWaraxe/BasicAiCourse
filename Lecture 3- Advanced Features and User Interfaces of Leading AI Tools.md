@@ -67,28 +67,17 @@ Visual: Sleek dashboard-style UI screenshot collage from ChatGPT, Claude, and Pe
 ##### [seq:020] ChatGPT (OpenAI)
 
 ###### SCRIPT
-ChatGPT (OpenAI) is a widely used conversational AI platform. With the introduction of GPT-4.1, ChatGPT can now handle exceptionally long conversations and documents, with a context window of up to 1 million tokens. This allows users to upload and analyze entire books, full project reports, or extensive datasets within a single session. It significantly enhances the depth, continuity, and scope of AI-powered assistance.
+"Let's start with ChatGPT—OpenAI's flagship interface. It might seem simple at first glance, but it hides powerful features that can change how you work.
 
-###### VISUAL
-- Screenshot or mock-up of ChatGPT UI showing the upload of large documents (e.g., full project reports, book manuscripts).
-- Chart illustrating context window size differences between model versions (e.g., GPT-3, GPT-4, GPT-4.1).
+With the introduction of GPT-4.1, ChatGPT can now handle exceptionally long conversations and documents, with a context window of up to 1 million tokens. This allows users to upload and analyze entire books, full project reports, or extensive datasets within a single session. It significantly enhances the depth, continuity, and scope of AI-powered assistance.
 
-###### NOTES
-- Reference: See OpenAI product updates and changelogs for details on GPT-4.1 capabilities.
-
-###### DEMONSTRATION
-- Demonstration: Upload a 700-page policy manual and ask GPT-4.1 to extract specific policies or generate a summary.
-
-"Let’s start with ChatGPT—OpenAI’s flagship interface. It might seem simple at first glance, but it hides powerful features that can change how you work.
-
-The **Canvas** feature lets you collaborate visually—a space where you can write and edit structured documents with your AI assistant. It’s like a hybrid of Google Docs and ChatGPT.
+The **Canvas** feature lets you collaborate visually—a space where you can write and edit structured documents with your AI assistant. It's like a hybrid of Google Docs and ChatGPT.
 
 Then we have **Projects** and **CustomGPTs**. Projects help you manage large, persistent workflows across documents and chats. CustomGPTs let you design your own assistant with a custom name, personality, and even tools.
 
-There’s also **Deep Research**, a feature for long-context reasoning with real-time document access. And lastly, the unsung hero: **System Prompts**. These are hidden instructions that define how the model behaves in a chat."
+There's also **Deep Research**, a feature for long-context reasoning with real-time document access. And lastly, the unsung hero: **System Prompts**. These are hidden instructions that define how the model behaves in a chat."
 
 ###### VISUAL
-
 **Slide Title: "ChatGPT Pro Features"**
 
 - Canvas – Visual document collaboration
@@ -96,22 +85,21 @@ There’s also **Deep Research**, a feature for long-context reasoning with real
 - CustomGPTs – Build your own assistant
 - Deep Research – Document-aware exploration
 - System Prompts – Hidden instructions that shape behavior
+- Chart illustrating context window size differences between model versions (GPT-3, GPT-4, GPT-4.1)
 
 Visual: Screenshots of Canvas, Project tabs, CustomGPT editor interface
 
 ###### NOTES
-
+- Reference: See OpenAI product updates and changelogs for details on GPT-4.1 capabilities
 - Mention: Canvas is currently experimental and may roll out in stages
 - CustomGPTs can include tools like code interpreter or browsing
-- Joke: "It’s like creating your own Jarvis—minus the Iron Man suit"
+- Joke: "It's like creating your own Jarvis—minus the Iron Man suit"
 - Tip: Show the URL for CustomGPT builder → [https://chat.openai.com/gpts](https://chat.openai.com/gpts)
 
 ###### DEMONSTRATION
-
 **Prompt:** "Create a CustomGPT that behaves like a stoic productivity coach."
 
 **Instructions:**
-
 - Go to CustomGPT builder
 - Fill in basic personality instructions
 - Enable code interpreter
@@ -119,6 +107,7 @@ Visual: Screenshots of Canvas, Project tabs, CustomGPT editor interface
 
 **Discussion Prompt:** "What kind of assistants would you build for your work or hobbies?"
 
+**Additional Demo:** Upload a 700-page policy manual and ask GPT-4.1 to extract specific policies or generate a summary.
 ---
 
 #### 2.2. Anthropic Platform
