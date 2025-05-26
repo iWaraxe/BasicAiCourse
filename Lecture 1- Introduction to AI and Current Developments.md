@@ -253,7 +253,7 @@ This affects how models understand and generate text, and also determines how mu
 ###### SCRIPT
 "Each LLM has a **context window**—a memory limit. The context window determines how much information an AI model can "see" and process at once.
 
-As of 2025, the context window in leading models has expanded dramatically. GPT-4 Turbo can remember up to ~300 pages worth of tokens (128k). Claude 3 Opus claims even more. And now, OpenAI's GPT-4.1 supports a massive 1 million token context window—that's equivalent to several lengthy books or thousands of pages of text!
+As of 2025, the context window in leading models has expanded dramatically. GPT-4 Turbo can remember up to ~300 pages worth of tokens (128k). Claude 3 Opus claims even more. And now, OpenAI's GPT-4.1 supports a massive 1 million token context window—that's equivalent to several lengthy books or thousands of pages of text! The latest Claude 4 models (Opus and Sonnet) demonstrate exceptional context handling, with engineers reporting significantly improved codebase understanding when working with large projects.
 
 This means you can paste a long report, multiple documents, or even an entire book, and the model will still respond meaningfully. This opens up new possibilities for analyzing entire books, aggregating data from multiple lengthy documents, or maintaining long, coherent conversations.
 
@@ -274,6 +274,7 @@ _Title: "Understanding Context Window Evolution"
 - Analogy: It's like a chalkboard—new stuff pushes out the old
 - Joke: "The model has a better memory than I do... unless it's Friday."
 - Reference: See OpenAI official documentation on GPT-4.1's release for more details
+- Update: Claude 4 models excel at long-context tasks, rivaling GPT-4.1 performance
 
 ###### DEMONSTRATION
 - Example prompt: Show how a user can upload an entire book or multiple large documents for summarization or analysis in a single session using GPT-4.1
@@ -358,9 +359,9 @@ Third: **Reasoning errors.** AI might fail simple logic puzzles or make mistakes
 ###### SCRIPT
 "Until recently, AI models could only handle one type of input—usually text. But today, we have **multimodal AI**—systems that understand and generate not just text, but also images, audio, and even video.
 
-Multimodal AI systems can process and integrate information from multiple sources. The massive context window in GPT-4.1 also enhances multimodal analysis, allowing seamless integration and referencing across vast amounts of text and other data types. This enables richer, more context-aware responses and supports complex workflows.
+Multimodal AI systems can process and integrate information from multiple sources. The massive context window in GPT-4.1 also enhances multimodal analysis, allowing seamless integration and referencing across vast amounts of text and other data types. This enables richer, more context-aware responses and supports complex workflows. The latest Claude 4 models further advance these capabilities, combining strong visual understanding with superior reasoning abilities.
 
-Take **GPT-4 with vision** or **Gemini 2.0**: you can upload an image, and it will describe it, analyze its structure, or answer questions about it. This unlocks amazing potential—from diagnosing medical images to analyzing charts, interpreting photos, and more.
+Take **GPT-4 with vision**, **Gemini 2.0**, or **Claude 4**: you can upload an image, and it will describe it, analyze its structure, or answer questions about it. This unlocks amazing potential—from diagnosing medical images to analyzing charts, interpreting photos, and more.
 
 Soon, we'll see seamless handling of audio, video, and text together, making these models more like general-purpose assistants."
 
@@ -375,16 +376,17 @@ Soon, we'll see seamless handling of audio, video, and text together, making the
 - Image: Screenshot or concept of image-to-text Q&A interaction
 
 ###### NOTES
-- Mention Gemini 2.0 and GPT-4 with Vision
+- Mention Gemini 2.0, GPT-4 with Vision, and Claude 4 models
 - Resource link: See case studies or user testimonials highlighting real-world applications of multimillion-token context windows
 - Joke: "Finally, an AI that can actually _see_ the mess on my desk."
 - Link for demo: [https://openai.com/gpt-4](https://openai.com/gpt-4)
+- Note: Google's Imagen 4 Ultra ranks #3 in image generation quality, while Veo 3 shows promise for AI video generation
 
 ###### DEMONSTRATION
 Show image prompt:  
 Upload an image of a cluttered desk and ask:  
 _"What objects do you see in this photo? What kind of person do you think works here?"_  
-Observe and discuss differences across models (ChatGPT vs Gemini vs Claude).
+Observe and discuss differences across models (ChatGPT vs Gemini vs Claude 4).
 ---
 
 ##### [seq:150] Autonomous Multi-Agent Systems

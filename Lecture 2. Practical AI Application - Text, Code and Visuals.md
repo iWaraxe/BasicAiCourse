@@ -184,10 +184,11 @@ Let’s begin with a simple example—generating a Python script for the Fibonac
 
 ###### NOTES
 
-- Mention: Claude often provides more detailed explanations; ChatGPT is faster and usually more concise.
+- Mention: Claude 4 often provides more detailed explanations and excels at codebase understanding; ChatGPT is faster and usually more concise.
 - Gemini may include code with a visual explanation or annotations.
 - Joke: "The only intern who never gets tired and doesn’t drink your coffee."
 - Tip: Highlight best use case—quick prototypes and boilerplate code
+- Performance update: Claude 4 models excel at coding (Sonnet 4: 72.7% on SWE-bench, Opus 4: 72.5%)
 
 ###### DEMONSTRATION
 
@@ -195,7 +196,7 @@ Let’s begin with a simple example—generating a Python script for the Fibonac
 
 **Instructions:**
 
-- Run the prompt in ChatGPT, Claude, and Gemini
+- Run the prompt in ChatGPT, Claude 4, and Gemini
 - Compare:
 	- Code correctness
 	- Clarity and usefulness of comments
@@ -289,7 +290,8 @@ We’ll begin by uploading diagrams, charts, and other visuals to see how well t
 ###### NOTES
 
 - Mention Gemini and GPT-4V (DALL·E integration) as top tools for visual tasks.
-- Claude can interpret diagrams and describe their components clearly.
+- Claude 4 can interpret diagrams and describe their components clearly.
+- Google's Imagen 4 Ultra ranks #3 in image generation quality, while Veo 3 shows promise for AI video creation
 - Joke: “AI can’t draw a horse very well… but it might draw you a futuristic city with a flying horse!”
 
 
@@ -301,7 +303,7 @@ We’ll begin by uploading diagrams, charts, and other visuals to see how well t
 
 **Instructions:**
 
-- Use ChatGPT, Claude, and Gemini where applicable
+- Use ChatGPT, Claude 4, and Gemini where applicable
 - Discuss:
 	- How detailed is the interpretation?
 	- Is the generated image visually coherent?
