@@ -89,7 +89,7 @@ So what exactly is an API? An API, or Application Programming Interface, is like
 APIs enable integration of LLMs into custom workflows and applications. With the introduction of 1 million token context windows in GPT-4.1, API integrations can now support bulk document processing, complex data cross-referencing, and persistent memory across very large sessions. This opens up new possibilities for enterprise-scale automation and analysis.
 
 With just a few lines of code or even a no-code tool, you can:
-- Send a prompt to GPT-4, Claude, Gemini, or Mistral
+- Send a prompt to GPT-4, Claude 4, Gemini, or Mistral
 - Customize its behavior with parameters
 - Get back structured data, completions, or summaries in seconds
 - Process entire books or year's worth of reports in a single request
@@ -129,6 +129,7 @@ Whether you're building a startup or a hobby project, understanding these contro
 - **Tip**: Use metaphors — "The API is the waiter; your prompt is the order; the model is the chef."
 - **Trivia**: The first version of GPT-3 API launched in 2020 and had no memory, no chat history—just one-shot text completion.
 - **Joke**: "Setting temperature to 1 is like giving your AI a Red Bull and telling it to be creative. Setting it to 0? You've got Spock."
+- **Cost Alert**: Claude 4 Opus API can be expensive ($7.31 for single complex task reported), roughly 5x more than Sonnet. Consider cost controls and model selection based on task requirements.
 - Mention:
   - [OpenAI Playground](https://platform.openai.com/playground)
   - [Anthropic Console](https://console.anthropic.com)
@@ -1079,6 +1080,7 @@ Ready to future-proof your AI journey?"
 	- [https://www.theresanaiforthat.com](https://www.theresanaiforthat.com)
 	- [https://llmarena.com](https://llmarena.com)
 	- [https://futurepedia.io](https://futurepedia.io)
+- **Breakthrough Watch**: Isomorphic Labs (DeepMind) aims to reduce drug discovery from 10 years to weeks using AI, with AlphaFold advances enabling rapid protein structure prediction and AI-driven compound screening
 
 ###### DEMONSTRATION
 

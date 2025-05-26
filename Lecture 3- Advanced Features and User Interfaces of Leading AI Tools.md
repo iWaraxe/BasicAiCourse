@@ -131,12 +131,14 @@ Visual: Screenshots of Canvas, Project tabs, CustomGPT editor interface
 - Thinking Mode – Transparent step-by-step reasoning
 - Stylized Writing – Personality-infused outputs
 - Artefacts – Tables, summaries, structured formats
+- Claude Code – IDE integration for development workflows
 
 Visual: Screenshot of Claude interface with Thinking Mode active and Artefact result panel
 
 ###### NOTES
 
-- Mention Claude 3 now integrates stylized writing + artefacts more smoothly
+- Mention Claude 4 now integrates stylized writing + artefacts more smoothly
+- Claude Code brings Claude 4 directly into IDEs for seamless development workflows
 - Tip: Use Claude for longform content and structured logic tasks
 - Joke: "Claude doesn’t just give answers. It gives receipts."
 
@@ -902,6 +904,7 @@ Here’s your starter kit."
 - Exploratory Tools:
 	- [ChatGPT macOS app](https://openai.com/chat)
 	- [VS Code + GitHub Copilot](https://github.com/features/copilot)
+	- [Windsurf](https://windsurf.ai/) - Cursor alternative with Claude 4 support
 	- [IntelliJ AI Assistant](https://www.jetbrains.com/idea/whatsnew/#ai)
 - Stay Updated:
 	- [Ben’s Bites](https://www.bensbites.co/)
