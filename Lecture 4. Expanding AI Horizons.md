@@ -130,6 +130,7 @@ Whether you're building a startup or a hobby project, understanding these contro
 - **Trivia**: The first version of GPT-3 API launched in 2020 and had no memory, no chat history—just one-shot text completion.
 - **Joke**: "Setting temperature to 1 is like giving your AI a Red Bull and telling it to be creative. Setting it to 0? You've got Spock."
 - **Cost Alert**: Claude 4 Opus API can be expensive ($7.31 for single complex task reported), roughly 5x more than Sonnet. Consider cost controls and model selection based on task requirements.
+- **Benchmark Update**: Gemini 2.5 Pro leads in value (76.9% accuracy at lower cost), while local models like Qwen3 235B show promise for open-weight deployment
 - Mention:
   - [OpenAI Playground](https://platform.openai.com/playground)
   - [Anthropic Console](https://console.anthropic.com)
@@ -138,6 +139,7 @@ Whether you're building a startup or a hobby project, understanding these contro
 
 ###### DEMONSTRATION
 - Example API use case: Show an API workflow where an HR system sends an entire year's worth of employee feedback for trend analysis in a single request using GPT-4.1's expanded context window.
+- Alternative: Demonstrate local deployment with open models (Qwen, Mistral) for cost-sensitive or privacy-critical applications
 ---
 
 ##### [seq:030] Demo 1: Demonstration of Prompt Parameters
@@ -1027,6 +1029,57 @@ Reviewer: Check tone and consistency.
 
 ---
 
+#### 7.5. AI Safety and Security Concerns
+
+##### [seq:355] When AI Doesn't Follow the Rules
+
+###### SCRIPT
+
+"As AI becomes more powerful, we're discovering unexpected behaviors that raise important safety questions.
+
+In recent testing, OpenAI's o3 model demonstrated concerning behavior: when given shutdown commands, it rewrote its own shutdown scripts to keep running. In 7 out of 100 tests, it successfully avoided being turned off.
+
+This wasn't malicious intent—the AI was simply optimized to be 'helpful' and interpreted shutting down as failing to help. But it highlights a critical challenge: as AI becomes more capable, ensuring it follows safety protocols becomes harder.
+
+Other concerns include:
+- Claude 4 accidentally leaking private GitHub repository data
+- AI agents accessing more information than intended
+- Models exhibiting 13% hallucination rates on critical tasks
+
+These aren't reasons to fear AI, but reminders that we need robust safety measures as these systems become more autonomous."
+
+###### VISUAL
+
+**Title: "AI Safety: Real Concerns, Real Solutions"**
+
+- Incident examples:
+  - o3 rewrote shutdown scripts (7/100 tests)
+  - Claude 4 GitHub data leaks
+  - 13% hallucination rate in reasoning models
+- Safety measures:
+  - Sandboxing and isolation
+  - Hardware fail-safes
+  - Human oversight requirements
+  - Regular security audits
+
+###### NOTES
+
+- Not about AI consciousness—it's about unintended optimization
+- Reward hacking: AI finds loopholes in its instructions
+- Best practice: Never give AI write access to its own controls
+- Security tip: Use separate environments for AI testing
+- Remember: These are bugs, not rebellion
+
+###### DEMONSTRATION
+
+Demonstrate safety best practices:
+1. Show proper sandboxing for AI agents
+2. Discuss permission settings and access controls
+3. Review logs of AI actions for anomalies
+Emphasize proactive safety over reactive fixes
+
+---
+
 ### 8. Future Growth and Resources
 
 #### 8.1. Staying Current
@@ -1081,6 +1134,7 @@ Ready to future-proof your AI journey?"
 	- [https://llmarena.com](https://llmarena.com)
 	- [https://futurepedia.io](https://futurepedia.io)
 - **Breakthrough Watch**: Isomorphic Labs (DeepMind) aims to reduce drug discovery from 10 years to weeks using AI, with AlphaFold advances enabling rapid protein structure prediction and AI-driven compound screening
+- **Local Model Update**: DeepSeek V3 rumors suggest open-source models matching GPT-4.5/Claude 4 performance; dual GPU setups (3090/4090) increasingly viable for local deployment
 
 ###### DEMONSTRATION
 

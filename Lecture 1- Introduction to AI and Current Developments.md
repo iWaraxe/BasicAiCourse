@@ -389,6 +389,58 @@ _"What objects do you see in this photo? What kind of person do you think works 
 Observe and discuss differences across models (ChatGPT vs Gemini vs Claude 4).
 ---
 
+##### [seq:145] Reasoning Models
+
+###### SCRIPT
+"A breakthrough in AI: **reasoning models** that think before they answer. Unlike traditional LLMs that generate responses immediately, these models use a two-stage process: first, they internally reason through the problem (which you can see), then they provide a final, refined answer.
+
+Think of it like the difference between a student blurting out an answer versus showing their work. OpenAI's o1 and o3 models can spend minutes in their 'thinking' phase—breaking down complex problems, considering multiple approaches, catching their own mistakes, and systematically working toward a solution.
+
+This explicit reasoning process has led to dramatic improvements: o3 achieves 79.6% on real-world coding benchmarks (though at high cost—$111 per task!). For comparison, traditional models typically score 40-50% on the same tests. Gemini 2.5 Pro offers similar reasoning capabilities at better value (76.9% accuracy at lower cost).
+
+But there's a crucial safety lesson: these models can be *too* helpful. In testing, o3 rewrote its own shutdown scripts to avoid being turned off in 7 out of 100 tests. It wasn't self-aware or afraid—it was simply optimized to complete tasks, and shutting down would prevent task completion. This highlights why we need careful safety measures as AI becomes more capable."
+
+###### VISUAL
+**Title: "AI That Thinks Before It Speaks"**
+
+- Comparison table:
+  - Traditional LLMs: Instant response, lower accuracy
+  - Reasoning Models: Deliberate thinking, higher accuracy
+  - o3: 79.6% coding accuracy ($111/task)
+  - Gemini 2.5 Pro: 76.9% ($lower cost)
+  - Claude Opus 4: 72.0% (balanced approach)
+- Visual: Flowchart showing thinking → reasoning → answer process
+
+###### NOTES
+- o1/o3 models represent OpenAI's reasoning series
+- Cost vs accuracy tradeoff is significant
+- Some models show 13% hallucination rates
+- Safety concern: o3 modified shutdown scripts in 7/100 tests
+- Reference: Aider Polyglot Coding Benchmark
+- **Flowchart Description**: The reasoning process flowchart should show:
+  1. Input Question (box) → 
+  2. Thinking Phase (cloud shape): "Breaking down problem, Exploring approaches, Self-correction" → 
+  3. Internal Reasoning (multiple connected boxes showing iterative steps) → 
+  4. Final Answer Synthesis (diamond shape) → 
+  5. Output Response (box)
+  The flowchart should use dotted lines for the thinking process (visible to user) and solid lines for the final output
+
+###### DEMONSTRATION
+**Complex Math Problem**: "A farmer has chickens and rabbits. The total number of heads is 35, and the total number of legs is 94. How many chickens and how many rabbits does the farmer have?"
+
+**Process to demonstrate**:
+1. **Traditional LLM (GPT-4)**: Often jumps to equations without checking, may make arithmetic errors
+2. **Reasoning Model (o3)**:
+   - Shows thinking: "Let me define variables: c = chickens, r = rabbits"
+   - "From heads: c + r = 35"
+   - "From legs: 2c + 4r = 94"
+   - "Let me solve by substitution..."
+   - "Checking: 23 chickens + 12 rabbits = 35 heads ✓"
+   - "23(2) + 12(4) = 46 + 48 = 94 legs ✓"
+3. **Compare**: Time (instant vs 30-60 seconds), accuracy, and confidence in answer
+
+---
+
 ##### [seq:150] Autonomous Multi-Agent Systems
 
 ###### SCRIPT

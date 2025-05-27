@@ -386,6 +386,93 @@ Visual: Icons or sketches representing each domain (e.g., scale for ethics, puzz
 
 ---
 
+#### 3.5. AI Agents and Development Environments
+
+##### [seq:162] Autonomous AI Agents
+
+###### SCRIPT
+
+"Beyond chatbots, we now have **AI agents**—programs that can actually do things for you. They can browse the web, fill out forms, write reports, and even build entire websites.
+
+**Manus** is an AI agent with its own computer. It can research topics, create documents, and complete multi-step tasks autonomously. But be careful—users report privacy concerns, including increased spam after providing phone numbers.
+
+**PicoCreator** focuses on reliability, achieving near 100% task completion on sites like Amazon, Gmail, and LinkedIn. It's designed for routine tasks you do every day.
+
+These agents represent a shift from AI that answers questions to AI that takes actions. But with this power comes responsibility—and risk."
+
+###### VISUAL
+
+**Title: "AI That Acts, Not Just Answers"**
+
+- Agent Comparison:
+  - ChatGPT: Conversational, advisory
+  - Manus: Full computer access, autonomous
+  - PicoCreator: Reliable routine tasks
+- Capabilities:
+  - Web browsing and research
+  - Form filling and data entry
+  - Report writing and analysis
+  - Website building
+
+###### NOTES
+
+- Manus requires phone number, privacy concerns reported
+- PicoCreator targets 100% reliability on routine tasks
+- Cost: Varies by usage, often credit-based
+- Security tip: Use separate accounts/sandboxes for AI agents
+- Warning: Agents can access sensitive data if not properly configured
+
+###### DEMONSTRATION
+
+Show an AI agent completing a multi-step task:
+1. Research a topic online
+2. Compile findings into a report
+3. Format and save the document
+Discuss security implications and best practices
+
+---
+
+##### [seq:164] AI Development Environments
+
+###### SCRIPT
+
+"For developers, AI has moved beyond chat interfaces into our code editors. These environments don't just suggest code—they understand entire projects.
+
+**Cursor** pioneered AI-native development, but now faces competition. **Windsurf** offers similar features with Claude 4 support and better pricing. Both let AI see your entire codebase, suggest changes, and even implement features across multiple files.
+
+**Claude Code** brings Anthropic's models directly into IDEs, excelling at understanding large codebases and maintaining context across complex projects.
+
+The key innovation? These tools don't just complete lines of code—they understand architecture, suggest refactors, and can implement entire features with guidance."
+
+###### VISUAL
+
+**Title: "AI-Powered Development Environments"**
+
+- Feature comparison table:
+  - VS Code + Copilot: Basic completion
+  - Cursor: Full codebase awareness
+  - Windsurf: Claude 4 support, competitive pricing
+  - Claude Code: Superior context understanding
+- Workflow diagram: Code → AI Analysis → Suggestions → Implementation
+
+###### NOTES
+
+- Cursor subscription concerns: $20/month may not be profitable
+- Windsurf emerging as strong alternative
+- Privacy: Code sent to cloud for analysis
+- Best practice: Review all AI-generated code carefully
+- Cost comparison: API usage can exceed subscription fees
+
+###### DEMONSTRATION
+
+Live coding session showing:
+- AI understanding project structure
+- Multi-file refactoring suggestions
+- Bug detection and fixes
+Compare traditional coding vs AI-assisted development
+
+---
+
 ### 4. Task-Specific AI Solutions
 
 #### 4.1. Personalized Assistants
