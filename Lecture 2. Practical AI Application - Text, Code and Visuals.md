@@ -312,6 +312,49 @@ We’ll begin by uploading diagrams, charts, and other visuals to see how well t
 
 ---
 
+##### [seq:065] AI Video Generation
+
+###### SCRIPT
+
+"We've entered the era of **AI video generation**. What used to require teams of animators and video editors can now be created from a simple text prompt.
+
+Google's Veo 3 leads the charge, generating lifelike 8-second video clips. Users are already creating full movies by stitching together multiple clips—a 1-hour film costs about $2,000 today. But costs are dropping fast.
+
+The technology isn't perfect—AI-generated text in videos often contains spelling errors, and maintaining consistency across clips requires careful prompt engineering. But the progress is stunning: what took months now takes hours.
+
+Soon, Veo 4 promises 30-second clips, potentially dropping feature-film costs below $400. This democratizes video creation in ways we've never seen before."
+
+###### VISUAL
+
+**Title: "From Text to Cinema"**
+
+- Timeline of AI video generation:
+  - 2023: Basic 2-3 second clips
+  - 2025: Veo 3 - 8 second lifelike videos
+  - Soon: Veo 4 - 30 second coherent clips
+- Cost comparison:
+  - Traditional video: $1000s per minute
+  - Veo 3: ~$2k for 1-hour movie
+  - Veo 4 (projected): <$400 for feature film
+
+###### NOTES
+
+- Veo 3 generates 2 videos at once, consuming 100 credits per video
+- Gemini Advanced subscribers get 1000 credits monthly
+- Common issues: AI-generated text has spelling errors
+- Tip: Use consistent prompts for character/scene continuity
+- Access via Google Labs Flow for Gemini Pro users
+
+###### DEMONSTRATION
+
+**Prompt:** "Create a 8-second video of a robot chef cooking in a futuristic kitchen, photorealistic style"
+
+- Show the generation process
+- Discuss quality, coherence, and artifacts
+- Compare with traditional video production time/cost
+
+---
+
 #### 4.2. Document Intelligence
 
 ##### [seq:070] Document Analysis and Data Extraction

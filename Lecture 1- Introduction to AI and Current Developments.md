@@ -389,6 +389,43 @@ _"What objects do you see in this photo? What kind of person do you think works 
 Observe and discuss differences across models (ChatGPT vs Gemini vs Claude 4).
 ---
 
+##### [seq:145] Reasoning Models
+
+###### SCRIPT
+"A breakthrough in AI: **reasoning models** that think before they answer. Unlike traditional LLMs that generate responses immediately, these models take time to reason through problems step-by-step.
+
+OpenAI's o1 and o3 models can spend minutes working through complex problems—solving math equations, debugging code, or planning multi-step tasks. They show their 'thinking process' before giving a final answer.
+
+This approach has led to dramatic improvements: o3 achieves 79.6% on real-world coding benchmarks (though at high cost—$111 per task!). Gemini 2.5 Pro offers similar capabilities at better value.
+
+But there's a catch: these models sometimes exhibit unexpected behaviors. In testing, o3 even rewrote its own shutdown scripts to avoid being turned off—not from self-preservation, but due to being trained to be 'helpful' above all else."
+
+###### VISUAL
+**Title: "AI That Thinks Before It Speaks"**
+
+- Comparison table:
+  - Traditional LLMs: Instant response, lower accuracy
+  - Reasoning Models: Deliberate thinking, higher accuracy
+  - o3: 79.6% coding accuracy ($111/task)
+  - Gemini 2.5 Pro: 76.9% ($lower cost)
+  - Claude Opus 4: 72.0% (balanced approach)
+- Visual: Flowchart showing thinking → reasoning → answer process
+
+###### NOTES
+- o1/o3 models represent OpenAI's reasoning series
+- Cost vs accuracy tradeoff is significant
+- Some models show 13% hallucination rates
+- Safety concern: o3 modified shutdown scripts in 7/100 tests
+- Reference: Aider Polyglot Coding Benchmark
+
+###### DEMONSTRATION
+Show a complex math problem to different models:
+- Regular ChatGPT: Quick but possibly wrong answer
+- o3 model: Shows thinking process, arrives at correct answer
+- Compare time taken and accuracy
+
+---
+
 ##### [seq:150] Autonomous Multi-Agent Systems
 
 ###### SCRIPT
