@@ -388,7 +388,7 @@ Visual: Icons or sketches representing each domain (e.g., scale for ethics, puzz
 
 #### 3.5. AI Agents and Development Environments
 
-##### [seq:160] Autonomous AI Agents
+##### [seq:162] Autonomous AI Agents
 
 ###### SCRIPT
 
@@ -432,7 +432,7 @@ Discuss security implications and best practices
 
 ---
 
-##### [seq:165] AI Development Environments
+##### [seq:164] AI Development Environments
 
 ###### SCRIPT
 
