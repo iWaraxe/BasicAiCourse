@@ -93,8 +93,10 @@ With just a few lines of code or even a no-code tool, you can:
 - Customize its behavior with parameters
 - Get back structured data, completions, or summaries in seconds
 - Process entire books or year's worth of reports in a single request
+- Build sophisticated AI agents with Mistral's new Agents API featuring code execution, web search, and persistent memory
+- Create no-code agents using LangChain's Open Agent Platform (OAP)
 
-This is what powers real-world applications—from customer service bots to automated legal summarizers to AI-powered dashboards.
+This is what powers real-world applications—from customer service bots to automated legal summarizers to AI-powered dashboards and autonomous AI agents.
 
 Let's look at the OpenAI Playground and Anthropic Console—these are visual front-ends for the APIs that let us tinker with models without writing any code.
 
@@ -588,6 +590,57 @@ Let’s walk through each one and see how they can amplify your thinking.
 	- [https://napkin.one](https://napkin.one)
 	- [https://readpartner.com](https://readpartner.com)
 	- [https://heygen.com](https://heygen.com)
+
+---
+
+##### [seq:195] Agent Platforms – **Mistral Agents API & LangChain OAP**
+
+###### SCRIPT
+
+"Before we dive into specialized tools, let's talk about the newest evolution in AI: agent platforms.
+
+In May 2025, two major developments changed the landscape of AI automation:
+
+**Mistral's Agents API** brings enterprise-grade agent capabilities to developers. It features:
+- Code execution in Python sandboxes for safe computation
+- Web search integration using Brave
+- Document library with hosted RAG
+- Persistent memory across conversations
+- Model Context Protocol (MCP) support
+- Multi-agent orchestration with handoff capabilities
+
+**LangChain's Open Agent Platform (OAP)** democratizes agent creation with a no-code approach. You can:
+- Set up tools and supervisor agents through a web UI
+- Connect to MCP servers for extended functionality
+- Manage custom agents without writing code
+- Deploy intelligent agents for real-world tasks
+
+These platforms represent the 'LLM OS' concept coming to life—where AI agents don't just respond to prompts but actively execute tasks, maintain state, and collaborate with other agents."
+
+###### VISUAL
+
+**Slide Title: "The Rise of AI Agent Platforms"**
+
+| Platform | Key Features | Best For |
+|----------|-------------|----------|
+| Mistral Agents API | Code execution, web search, persistent memory | Developers building production agents |
+| LangChain OAP | No-code interface, MCP support, visual workflows | Business users & rapid prototyping |
+
+**Diagram**: Flow showing agent → tools → actions → results
+
+###### NOTES
+
+- These platforms are part of the emerging "LLM OS" stack
+- MCP (Model Context Protocol) is becoming a standard for tool integration
+- Both platforms support multi-agent workflows
+- Links: mistral.ai/agents, langchain.com/open-agent-platform
+
+###### DEMONSTRATION
+
+**Quick Demo**: Show how to create a simple agent that:
+1. Searches for information
+2. Processes it with code
+3. Maintains memory of the task
 
 ---
 
