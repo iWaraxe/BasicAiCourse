@@ -291,7 +291,7 @@ We’ll begin by uploading diagrams, charts, and other visuals to see how well t
 
 - Mention Gemini and GPT-4V (DALL·E integration) as top tools for visual tasks.
 - Claude 4 can interpret diagrams and describe their components clearly.
-- Google's Imagen 4 Ultra ranks #3 in image generation quality, while Veo 3 shows promise for AI video creation
+- Google's Imagen AI achieves near-human quality with excellent prompt adherence, while Veo3 now leads in video generation, surpassing OpenAI's Sora
 - Joke: “AI can’t draw a horse very well… but it might draw you a futuristic city with a flying horse!”
 
 
@@ -318,11 +318,11 @@ We’ll begin by uploading diagrams, charts, and other visuals to see how well t
 
 "We've entered the era of **AI video generation**. What used to require teams of animators and video editors can now be created from a simple text prompt.
 
-Google's Veo 3 leads the charge, generating lifelike 8-second video clips. Users are already creating full movies by stitching together multiple clips—a 1-hour film costs about $2,000 today. But costs are dropping fast.
+Google's Veo3 has taken the lead in video generation, surpassing OpenAI's Sora with its ability to generate highly realistic 8-second video clips that professionals describe as nearly indistinguishable from real footage. Users are already creating full movies by stitching together multiple clips—a 1-hour film costs about $2,000 today, but costs are dropping rapidly.
 
-The technology isn't perfect—AI-generated text in videos often contains spelling errors, and maintaining consistency across clips requires careful prompt engineering. But the progress is stunning: what took months now takes hours.
+The technology approaches the uncanny valley threshold—Veo3's synthesis leverages state-of-the-art diffusion techniques with fine-grained prompt control. While not perfect (AI-generated text in videos often contains errors, and consistency requires careful prompting), the progress is stunning: what took months now takes hours.
 
-Soon, Veo 4 promises 30-second clips, potentially dropping feature-film costs below $400. This democratizes video creation in ways we've never seen before."
+Soon, Veo 4 promises 30-second clips, potentially dropping feature-film costs below $400. This democratizes video creation while raising new concerns about content authenticity."
 
 ###### VISUAL
 
@@ -339,9 +339,10 @@ Soon, Veo 4 promises 30-second clips, potentially dropping feature-film costs be
 
 ###### NOTES
 
-- Veo 3 generates 2 videos at once, consuming 100 credits per video
+- Veo3 generates 2 videos at once, consuming 100 credits per video (Veo2 costs 10 credits)
+- Considered superior to OpenAI's Sora in video generation quality and realism
 - Gemini Advanced subscribers get 1000 credits monthly
-- Common issues: AI-generated text has spelling errors
+- Common issues: AI-generated text has spelling errors, detection of AI content becoming crucial
 - Tip: Use consistent prompts for character/scene continuity
 - Access via Google Labs Flow for Gemini Pro users
 

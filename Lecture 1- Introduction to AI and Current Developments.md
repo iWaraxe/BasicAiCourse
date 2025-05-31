@@ -101,19 +101,22 @@ ChatGPT is now multimodal—it can analyze images, documents, and soon, videos. 
 ##### [seq:040] Anthropic (Claude)
 
 ###### SCRIPT
- "Claude is developed by Anthropic—a company focused heavily on ethical AI. Claude 2 was known for being more verbose and cautious, while Claude 3 now shows competitive reasoning skills and clarity of thought, often surpassing GPT-4 in step-by-step logic tasks.
+ "Claude is developed by Anthropic—a company focused heavily on ethical AI. Claude 2 was known for being more verbose and cautious, while Claude 3 showed competitive reasoning skills. Claude 4, released in May 2025, presents an interesting case: while benchmark results are mixed, it truly excels in 'agent mode'—performing complex, iterative tasks like code debugging, documentation analysis, and test generation with sophisticated developer-like workflows.
 
-Claude has 'Constitutional AI'—a way of aligning its outputs with a set of principles. Think of it as a chatbot with a conscience. It also features unique tools like stylized writing and artefacts (like charts or text boxes)."
+Claude maintains 'Constitutional AI'—aligning outputs with ethical principles. Think of it as a chatbot with a conscience. It features unique tools like stylized writing and artefacts (like charts or text boxes), plus a massive context window handling hundreds of pages."
 
 ###### VISUAL
- \_Title: "Anthropic - Claude"
+ _Title: "Anthropic - Claude 4"_
 
-- Bullet points: Emphasis on ethics, Constitutional AI, Stylized writing, Artefacts
+- Bullet points: Constitutional AI, Agent-mode excellence, Artefacts, Massive context window
+- Note: Real-world performance often exceeds benchmark scores
 
 ###### NOTES
 - Link: https://claude.ai
-- Mention that Claude often explains _why_ it gives certain answers, more transparently than ChatGPT.
-- Joke: "Claude is the AI that brings receipts."
+- Claude 4 shows sophisticated reasoning in practical tasks despite mixed benchmarks
+- High demand may cause availability issues even for enterprise users
+- Often explains _why_ it gives certain answers, more transparently than ChatGPT
+- Joke: "Claude is the AI that brings receipts—and debugs them too."
 
 ###### DEMONSTRATION
  Prompt: _"Summarize the pros and cons of using AI in education, and present it in the style of a high school debate."_
@@ -253,11 +256,9 @@ This affects how models understand and generate text, and also determines how mu
 ###### SCRIPT
 "Each LLM has a **context window**—a memory limit. The context window determines how much information an AI model can "see" and process at once.
 
-As of 2025, the context window in leading models has expanded dramatically. GPT-4 Turbo can remember up to ~300 pages worth of tokens (128k). Claude 3 Opus claims even more. And now, OpenAI's GPT-4.1 supports a massive 1 million token context window—that's equivalent to several lengthy books or thousands of pages of text! The latest Claude 4 models (Opus and Sonnet) demonstrate exceptional context handling, with engineers reporting significantly improved codebase understanding when working with large projects.
+As of 2025, the context window in leading models has expanded dramatically. GPT-4 Turbo can remember up to ~300 pages worth of tokens (128k). Claude 3 Opus claims even more. OpenAI's GPT-4.1 technically supports a massive 1 million token context window—that's equivalent to several lengthy books or thousands of pages of text! However, there's a crucial limitation: this extended context is only available through the API, not in ChatGPT's interface, where users are still limited to 32k tokens. The latest Claude 4 models (Opus and Sonnet) demonstrate exceptional context handling across all interfaces, with engineers reporting significantly improved codebase understanding when working with large projects.
 
-This means you can paste a long report, multiple documents, or even an entire book, and the model will still respond meaningfully. This opens up new possibilities for analyzing entire books, aggregating data from multiple lengthy documents, or maintaining long, coherent conversations.
-
-However, once that limit is exceeded, older parts of the conversation can start to fade or be ignored. This is important when designing prompts for multi-turn tasks."
+This means via APIs you can process entire books, multiple documents, or extensive codebases. However, consumer interfaces often have lower limits for cost and performance reasons. Once the context limit is exceeded, older parts of the conversation start to fade or be ignored—important to remember when designing multi-turn tasks."
 
 ###### VISUAL
 _Title: "Understanding Context Window Evolution"
@@ -265,16 +266,19 @@ _Title: "Understanding Context Window Evolution"
 - Diagram comparing historical context window sizes:
   - GPT-3: 2k/4k tokens
   - GPT-4: 32k/128k tokens  
-  - GPT-4.1: 1 million tokens
+  - GPT-4.1: 1M tokens (API only) / 32k tokens (ChatGPT)
 - Timeline chart showing progression
 - Visual: Sliding window metaphor
+- Callout box: "API vs Consumer Interface Limits"
 
 ###### NOTES
-- Interesting fact: A 1 million token context window can represent the equivalent of several lengthy books or thousands of pages of text
+- Important: GPT-4.1's 1M token context is API-only; ChatGPT users still limited to 32k tokens
+- A 1 million token context window can represent several lengthy books or thousands of pages
+- Cost is the primary reason for consumer interface limitations
 - Analogy: It's like a chalkboard—new stuff pushes out the old
 - Joke: "The model has a better memory than I do... unless it's Friday."
-- Reference: See OpenAI official documentation on GPT-4.1's release for more details
-- Update: Claude 4 models excel at long-context tasks, rivaling GPT-4.1 performance
+- Reference: See OpenAI developer docs for API access to extended context
+- Update: Claude 4 models excel at long-context tasks across all interfaces
 
 ###### DEMONSTRATION
 - Example prompt: Show how a user can upload an entire book or multiple large documents for summarization or analysis in a single session using GPT-4.1
