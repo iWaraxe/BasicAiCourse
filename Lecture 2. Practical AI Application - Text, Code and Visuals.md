@@ -166,7 +166,7 @@ Let’s test their abilities in formal and informal translation—and see how th
 
 "Now let’s jump into something a bit more technical—code generation.
 
-Whether you’re a seasoned developer or someone who’s just starting, generative AI tools can help write code, explain code, and even suggest optimizations.
+Whether you're a seasoned developer or someone who's just starting, generative AI tools can help write code, explain code, and even suggest optimizations. The landscape just changed dramatically with DeepSeek-R1-0528's release on May 28, 2025—an open-source model that's outperforming even commercial giants like o3 on coding tasks.
 
 Let’s begin with a simple example—generating a Python script for the Fibonacci sequence, with comments to explain each step. This will show how well the models handle both logic and readability."
 
@@ -185,10 +185,12 @@ Let’s begin with a simple example—generating a Python script for the Fibonac
 ###### NOTES
 
 - Mention: Claude 4 often provides more detailed explanations and excels at codebase understanding; ChatGPT is faster and usually more concise.
+- **Breaking**: DeepSeek-R1-0528 (May 28, 2025) - Open-source model outperforming o3 on coding benchmarks
 - Gemini may include code with a visual explanation or annotations.
 - Joke: "The only intern who never gets tired and doesn’t drink your coffee."
 - Tip: Highlight best use case—quick prototypes and boilerplate code
 - Performance update: Claude 4 models excel at coding (Sonnet 4: 72.7% on SWE-bench, Opus 4: 72.5%)
+- DeepSeek-R1 advantage: MIT licensed, exceptional at complex debugging and code generation tasks
 
 ###### DEMONSTRATION
 
@@ -196,11 +198,12 @@ Let’s begin with a simple example—generating a Python script for the Fibonac
 
 **Instructions:**
 
-- Run the prompt in ChatGPT, Claude 4, and Gemini
+- Run the prompt in ChatGPT, Claude 4, Gemini, and DeepSeek-R1 (if available)
 - Compare:
 	- Code correctness
 	- Clarity and usefulness of comments
 	- Readability and structure
+	- Efficiency of the implementation
 
 **Discussion Question:** "Which model gave you code you’d feel confident using as-is in a real project?"
 

@@ -172,23 +172,29 @@ It also features 'Spaces' where users curate AI-driven research on a topic, and 
 
 #### 2.3. Open-Source & Local Models
 
-##### [seq:070] Mistral and Local Models via Ollama
+##### [seq:070] Mistral, DeepSeek-R1, and Local Models via Ollama
 
 ###### SCRIPT
- "Finally, let’s not forget open-source AI. Mistral, LLaMA, and other models are available to run _locally_ using tools like Ollama. That means no internet connection needed, and full privacy control.
+ "Finally, let's not forget open-source AI. The landscape shifted dramatically on May 28, 2025, with the release of DeepSeek-R1-0528—a groundbreaking open-source model under MIT license that's outperforming even o3 on certain coding tasks.
 
-They are smaller, faster, and in some cases surprisingly accurate. Great for developers and researchers who need lightweight models embedded into apps or run on personal devices."
+DeepSeek-R1-0528 represents a new era for open-source AI. It's not just competitive—it's leading in specific domains, particularly code generation and debugging. Combined with existing models like Mistral, LLaMA, and others available through tools like Ollama, developers now have access to truly powerful AI that runs locally. No internet connection needed, full privacy control, and in DeepSeek's case, performance that rivals or exceeds commercial offerings.
+
+They range from smaller, faster models for everyday tasks to powerhouses like DeepSeek-R1 for complex coding challenges. Perfect for developers and researchers who need control, privacy, or just want to experiment without API costs."
 
 ###### VISUAL
- \_Title: "Mistral + Local LLMs with Ollama"
+ \_Title: "Open-Source Revolution: DeepSeek-R1 + Local LLMs"
 
 - Visual: Diagram showing local LLM on personal machine
 - Highlight: Private, Offline, Developer-Friendly
+- NEW: DeepSeek-R1-0528 performance metrics vs commercial models
+- Callout: "MIT Licensed = True Open Source"
 
 ###### NOTES
 - Link: https://ollama.com
-- Mention Vicuna, Mistral 7B, and LLaMA 2 as notable models
-- Analogy: "It’s like having ChatGPT in your backpack, no internet required."
+- **Breaking**: DeepSeek-R1-0528 (May 28, 2025) - MIT licensed, outperforms o3 on coding tasks
+- Mention Vicuna, Mistral 7B, LLaMA 2, and now DeepSeek-R1 as notable models
+- Analogy: "It's like having ChatGPT in your backpack, no internet required—and with DeepSeek, sometimes even better."
+- Performance note: DeepSeek-R1 shows exceptional coding abilities, making it ideal for developer workflows
 
 ###### DEMONSTRATION
  Show how to prompt a local model via command line:
@@ -784,6 +790,8 @@ Your homework will involve digging deeper into these weaknesses and reflecting o
 
 "We've just seen how AI can be biased, hallucinate facts, or make flawed decisions. But here's the thing: these models are increasingly used in **real-world settings**—from hiring to healthcare, from education to policing.
 
+
+The urgency of addressing AI ethics became even clearer with recent warnings from Anthropic CEO Dario Amodei on May 28, 2025. He publicly stated that AI could displace 50% of entry-level white-collar jobs within 1-5 years, while also highlighting concerning patterns in AI hallucinations that could affect critical decision-making systems.
 That’s why we need to talk about **ethics**. Not just as a checklist, but as a core responsibility. The stakes are high: one biased algorithm could deny someone a job, a loan, or fair treatment. So let’s look at how we can build and use AI **responsibly**."
 
 ###### VISUAL
@@ -793,12 +801,16 @@ That’s why we need to talk about **ethics**. Not just as a checklist, but as a
 
 - Real-world impact of AI decisions
 - High-stakes domains: healthcare, hiring, law
+- **NEW**: Job displacement warnings - 50% of entry-level white-collar jobs at risk (1-5 years)
+- Hallucination patterns affecting critical decisions
 - Public trust and accountability
 
 ###### NOTES
 
 
 - Mention real cases: Amazon’s scrapped AI hiring tool, predictive policing controversies.
+- **Source**: Dario Amodei (Anthropic CEO) warnings on May 28, 2025 about job displacement and AI hallucination patterns
+- Job market impact: Focus on retraining and adaptation strategies, not fear-based responses
 - Joke: “The only thing worse than a biased human is a biased algorithm pretending to be objective.”
 
 ---
