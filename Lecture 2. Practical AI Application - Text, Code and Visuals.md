@@ -322,33 +322,40 @@ We’ll begin by uploading diagrams, charts, and other visuals to see how well t
 
 "We've entered the era of **AI video generation**. What used to require teams of animators and video editors can now be created from a simple text prompt.
 
-Google's Veo3 has taken the lead in video generation, surpassing OpenAI's Sora with its ability to generate highly realistic 8-second video clips that professionals describe as nearly indistinguishable from real footage. Users are already creating full movies by stitching together multiple clips—a 1-hour film costs about $2,000 today, but costs are dropping rapidly.
+Google's Veo 3 has decisively taken the lead in video generation, with the community declaring it has 'crushed every other competitor.' The quality leap has been so dramatic that users describe it as surpassing OpenAI's Sora in both visual fidelity and apparent model capabilities. The famous cat video demonstration showcased Veo 3's exceptional realism that left competitors scrambling.
 
-The technology approaches the uncanny valley threshold—Veo3's synthesis leverages state-of-the-art diffusion techniques with fine-grained prompt control. While not perfect (AI-generated text in videos often contains errors, and consistency requires careful prompting), the progress is stunning: what took months now takes hours.
+This dominance stems from Google's unique advantage: access to YouTube's massive multimedia dataset, which provides superior training data compared to any competitor. The result is 8-second video clips that professionals describe as nearly indistinguishable from real footage, with some users already creating full movies by stitching together multiple clips.
 
-Soon, Veo 4 promises 30-second clips, potentially dropping feature-film costs below $400. This democratizes video creation while raising new concerns about content authenticity."
+The community response has been overwhelming, with widespread adoption across Discord servers and Reddit communities. While not perfect (AI-generated text in videos often contains errors, and consistency requires careful prompting), the progress has surprised even industry experts who didn't expect such a sudden quality leap.
+
+Looking ahead, infrastructure limitations—not algorithmic ones—are now the primary bottleneck. OpenAI's challenge isn't model quality but lacking sufficient GPUs and scalable infrastructure to match Veo 3's performance and generation length capabilities."
 
 ###### VISUAL
 
 **Title: "From Text to Cinema"**
 
-- Timeline of AI video generation:
-  - 2023: Basic 2-3 second clips
-  - 2025: Veo 3 - 8 second lifelike videos
-  - Soon: Veo 4 - 30 second coherent clips
-- Cost comparison:
-  - Traditional video: $1000s per minute
-  - Veo 3: ~$2k for 1-hour movie
-  - Veo 4 (projected): <$400 for feature film
+- **Competitive landscape shift**:
+  - Veo 3 vs Sora: Decisive Google victory
+  - Quality gap: 'Crushed every other competitor'
+  - Community verdict: Overwhelming Veo 3 adoption
+- **Google's data advantage**:
+  - YouTube multimedia dataset = superior training
+  - Competitors lack equivalent data sources
+  - Infrastructure bottleneck now limits competitors, not algorithms
+- **Future outlook**:
+  - 10x length videos becoming the new battleground
+  - Feature-length film generation approaching feasibility
 
 ###### NOTES
 
-- Veo3 generates 2 videos at once, consuming 100 credits per video (Veo2 costs 10 credits)
-- Considered superior to OpenAI's Sora in video generation quality and realism
-- Gemini Advanced subscribers get 1000 credits monthly
-- Common issues: AI-generated text has spelling errors, detection of AI content becoming crucial
-- Tip: Use consistent prompts for character/scene continuity
+- **Breaking May 2025**: Community consensus declares Veo 3 has 'crushed every other competitor'
+- Famous cat video demo showcased quality that left competitors scrambling
+- Google's YouTube data advantage: massive multimedia training dataset unavailable to competitors
+- Community adoption: overwhelming discussion across Discord servers and Reddit communities
+- Industry surprise: quality leap exceeded expert expectations
+- Infrastructure reality: OpenAI's bottleneck is GPUs and scale, not algorithm quality
 - Access via Google Labs Flow for Gemini Pro users
+- Tip: Use consistent prompts for character/scene continuity
 
 ###### DEMONSTRATION
 
@@ -406,6 +413,54 @@ This has huge implications for fields like law, education, and business. Let’s
 	- Data accuracy
 
 **Discussion Prompt:** "Which model would you trust with analyzing important documents—and why?"
+
+---
+
+##### [seq:075] Perplexity Labs: Interactive Research and Mini-App Generation
+
+###### SCRIPT
+
+"Here's something that just launched and is changing how we think about AI research: **Perplexity Labs**. This isn't just search anymore—it's a full interactive platform for complex tasks like building trading strategies, creating dashboards, and generating mini-web apps from simple prompts.
+
+Perplexity Labs represents a new category: AI systems that don't just answer questions, but build functional tools. You can create a compensation committee tool with a single prompt, extract YouTube transcripts automatically, or build longevity research dashboards in minutes. The key breakthrough? It inlines images and wide-ranging assets to create visually rich, actionable outputs rather than just text responses.
+
+Users are already creating F1 race simulations, trading strategy analyzers, and research tools that would have taken developers days to build. This represents the evolution from AI as a search tool to AI as a **creation platform**.
+
+What makes this significant is the shift from static research to interactive intelligence. Instead of getting a list of facts, you get working tools that process real data, generate insights, and can be customized for your specific needs."
+
+###### VISUAL
+
+**Title: "From Search to Creation: Perplexity Labs"**
+
+- **New capabilities**:
+  - Interactive research dashboards
+  - Trading strategy builders
+  - Mini-app generation from prompts
+  - Real-time data integration
+- **Examples showcased**:
+  - F1 race simulation
+  - Longevity research dashboard
+  - Compensation committee tool
+  - YouTube transcript extractor
+- **Key differentiator**: Visual richness + functional output
+
+###### NOTES
+
+- **Breaking May 2025**: Perplexity Labs launched with 6 major new features
+- Available in Perplexity iOS app for building mini-apps on mobile
+- Enhanced shopping & travel research now integrated into Deep Research
+- Personal Search & Memory features enhance research continuity
+- Crypto Leaderboard and F1 real-time data demonstrate live data integration
+- Community feedback: Amazing speed—full research presentations created in ~1 hour
+- Access: Available to Perplexity Pro users
+
+###### DEMONSTRATION
+
+**Prompt:** "Create an interactive dashboard to analyze momentum trading strategies for the tech sector. Include historical data visualization and key performance indicators."
+
+- Show the generation of interactive elements
+- Demonstrate data integration capabilities
+- Compare with traditional research workflow
 
 ---
 
