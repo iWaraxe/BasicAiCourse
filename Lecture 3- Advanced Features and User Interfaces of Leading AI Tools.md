@@ -744,15 +744,19 @@ In this section, we’ll look at techniques like Chain-of-Thought, ReAct, and sy
 - Chain-of-Thought Reasoning
 - Multi-step Decomposition
 - ReAct (Reason + Act)
+- AutoThink (Adaptive Reasoning - New!)
 - System-Specific Optimization (ChatGPT vs Claude vs Gemini)
 
 Visual: Flowchart of a reasoning prompt broken into intermediate steps with annotations
 
 ###### NOTES
 
-- Tip: These techniques often make a huge difference for math, logic, and planning tasks
+- NEW: AutoThink technique improves reasoning performance by 43% on GPQA-Diamond benchmarks
+- AutoThink classifies query complexity and dynamically allocates "thinking tokens"
+- Works with any local reasoning model (DeepSeek, Qwen, Llama)
+- These techniques often make a huge difference for math, logic, and planning tasks
 - Joke: "AI may not sleep—but it does better with a to-do list."
-- Mention: ReAct is a framework for combining reasoning and action in a loop
+- ReAct combines reasoning and action in a loop for better results
 
 ---
 
