@@ -172,36 +172,43 @@ It also features 'Spaces' where users curate AI-driven research on a topic, and 
 
 #### 2.3. Open-Source & Local Models
 
-##### [seq:070] Mistral, DeepSeek-R1, and Local Models via Ollama
+##### [seq:070] DeepSeek-R1-0528 and the Open-Source AI Revolution
 
 ###### SCRIPT
- "Finally, let's not forget open-source AI. The landscape shifted dramatically on May 28, 2025, with the release of DeepSeek-R1-0528—a groundbreaking open-source model under MIT license that's outperforming even o3 on certain coding tasks.
+"Let's talk about what might be the most significant development in AI this year. On May 28, 2025, DeepSeek released R1-0528—an open-source model that's not just competing with commercial giants like OpenAI's o3, it's actually outperforming them on coding tasks.
 
-DeepSeek-R1-0528 represents a new era for open-source AI. It's not just competitive—it's leading in specific domains, particularly code generation and debugging. Combined with existing models like Mistral, LLaMA, and others available through tools like Ollama, developers now have access to truly powerful AI that runs locally. No internet connection needed, full privacy control, and in DeepSeek's case, performance that rivals or exceeds commercial offerings.
+This is unprecedented. DeepSeek-R1-0528 achieves Gemini 2.5 Pro-level performance while being completely open-source under MIT license. It uses advanced reasoning with more thinking tokens—averaging 23,000 tokens per complex problem compared to just 12,000 in previous models. This deeper reasoning leads to dramatically better results.
 
-They range from smaller, faster models for everyday tasks to powerhouses like DeepSeek-R1 for complex coding challenges. Perfect for developers and researchers who need control, privacy, or just want to experiment without API costs."
+What makes this revolutionary? First, it's free and fully open. Second, according to Artificial Analysis, China has now taken open-weights leadership from the US and Europe. DeepSeek-R1-0528 scored 87.5% on AIME 2025 reasoning benchmarks and shows exceptional performance in code generation and debugging.
+
+Combined with existing models like Mistral, LLaMA, and others available through tools like Ollama, developers now have access to truly powerful AI that runs locally. No internet connection needed, full privacy control, and in DeepSeek's case, performance that often exceeds commercial offerings."
 
 ###### VISUAL
- \_Title: "Open-Source Revolution: DeepSeek-R1 + Local LLMs"
+_Title: "DeepSeek-R1-0528: The Open-Source Game Changer"
 
-- Visual: Diagram showing local LLM on personal machine
-- Highlight: Private, Offline, Developer-Friendly
-- NEW: DeepSeek-R1-0528 performance metrics vs commercial models
-- Callout: "MIT Licensed = True Open Source"
+- Performance highlight: 87.5% on AIME 2025, outperforms o3 on coding
+- Key features: MIT License, 64K context, JSON output, function calling
+- Release impact: China leads open-weights development
+- Callout: "23K thinking tokens = deeper reasoning"
+- Visual: Comparison chart showing DeepSeek vs commercial models
 
 ###### NOTES
 - Link: https://ollama.com
-- **Breaking**: DeepSeek-R1-0528 (May 28, 2025) - MIT licensed, outperforms o3 on coding tasks
-- Mention Vicuna, Mistral 7B, LLaMA 2, and now DeepSeek-R1 as notable models
-- Analogy: "It's like having ChatGPT in your backpack, no internet required—and with DeepSeek, sometimes even better."
-- Performance note: DeepSeek-R1 shows exceptional coding abilities, making it ideal for developer workflows
+- **Breaking**: DeepSeek-R1-0528 (May 28, 2025) - State-of-the-art open-source model
+- China's open-weights leadership confirmed by Artificial Analysis
+- Distilled version: DeepSeek-R1-0528-Qwen3-8B matches larger models
+- Analogy: "It's like getting a Ferrari that's also open-source and runs in your garage."
+- Performance note: First open-source model to match/exceed top commercial models
 
 ###### DEMONSTRATION
- Show how to prompt a local model via command line:
+Show DeepSeek-R1-0528 via Ollama or web interface:
 
-	ollama run mistral
+	ollama run deepseek-r1
 
-Prompt: _"Summarize the causes of the French Revolution."_
+Prompt: _"Debug this Python function and explain your reasoning step by step."_
+
+###### ARCHIVE
+Previous content archived on May 29, 2025: Original description positioned DeepSeek as "competitive" and "leading in specific domains." Updated to reflect breakthrough performance and industry leadership position confirmed by independent analysis.
 
 ---
 
@@ -791,7 +798,9 @@ Your homework will involve digging deeper into these weaknesses and reflecting o
 "We've just seen how AI can be biased, hallucinate facts, or make flawed decisions. But here's the thing: these models are increasingly used in **real-world settings**—from hiring to healthcare, from education to policing.
 
 
-The urgency of addressing AI ethics became even clearer with recent warnings from Anthropic CEO Dario Amodei on May 28, 2025. He publicly stated that AI could displace 50% of entry-level white-collar jobs within 1-5 years, while also highlighting concerning patterns in AI hallucinations that could affect critical decision-making systems.
+The urgency of addressing AI ethics became even clearer with concurrent developments on May 28, 2025. While we celebrated DeepSeek-R1-0528's breakthrough performance, Anthropic CEO Dario Amodei issued stark warnings: AI could displace 50% of entry-level white-collar jobs within 1-5 years, while also highlighting concerning patterns in AI hallucinations that could affect critical decision-making systems.
+
+This creates a paradox: the same day we achieved unprecedented open-source AI capability, we were reminded of the profound societal challenges ahead.
 That’s why we need to talk about **ethics**. Not just as a checklist, but as a core responsibility. The stakes are high: one biased algorithm could deny someone a job, a loan, or fair treatment. So let’s look at how we can build and use AI **responsibly**."
 
 ###### VISUAL
@@ -801,7 +810,8 @@ That’s why we need to talk about **ethics**. Not just as a checklist, but as a
 
 - Real-world impact of AI decisions
 - High-stakes domains: healthcare, hiring, law
-- **NEW**: Job displacement warnings - 50% of entry-level white-collar jobs at risk (1-5 years)
+- **May 28, 2025 paradox**: Breakthrough performance + displacement warnings
+- Job displacement warnings - 50% of entry-level white-collar jobs at risk (1-5 years)
 - Hallucination patterns affecting critical decisions
 - Public trust and accountability
 
@@ -810,6 +820,7 @@ That’s why we need to talk about **ethics**. Not just as a checklist, but as a
 
 - Mention real cases: Amazon’s scrapped AI hiring tool, predictive policing controversies.
 - **Source**: Dario Amodei (Anthropic CEO) warnings on May 28, 2025 about job displacement and AI hallucination patterns
+- **Context**: Same day as DeepSeek-R1-0528 release - highlights AI ethics urgency
 - Job market impact: Focus on retraining and adaptation strategies, not fear-based responses
 - Joke: “The only thing worse than a biased human is a biased algorithm pretending to be objective.”
 
