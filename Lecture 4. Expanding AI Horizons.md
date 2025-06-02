@@ -324,7 +324,7 @@ Think of it as the World Cup for AI.
 | Claude     | Ethics, logic, long context                | Subtle formatting gaps  |
 | Gemini     | Multimodal tasks, clean formatting         | Still maturing in logic |
 | Mistral    | Lightweight, local inference               | Lacks broader context   |
-| **DeepSeek-R1** | **Coding excellence, outperforms o3 in specific tasks** | **New model, limited testing** |
+| **DeepSeek-R1-0528** | **First open-source SOTA model, outperforms o3 on coding** | **Higher token usage for reasoning** |
 
 **Visuals:**
 - Logos of GPT-4, Claude 3, Gemini, Mistral in corners
@@ -333,8 +333,8 @@ Think of it as the World Cup for AI.
 
 ###### NOTES
 
-- **Tip**: Use metaphors like sports leagues, where GPT-4 is a chess champion, Claude is the philosopher, Gemini is the multimedia artist, Mistral is the indie underdog, and DeepSeek-R1 is the coding prodigy.
-- **Breaking**: DeepSeek-R1-0528 (May 28, 2025) - Open-source model showing superior performance on coding benchmarks vs. commercial alternatives
+- **Tip**: Use metaphors like sports leagues, where GPT-4 is a chess champion, Claude is the philosopher, Gemini is the multimedia artist, Mistral is the indie underdog, and DeepSeek-R1-0528 is the open-source champion who just beat the professionals.
+- **Breaking**: DeepSeek-R1-0528 (May 28, 2025) - First open-source model to achieve state-of-the-art performance, marking shift in AI leadership
 - **Joke**: “The only thing missing here is live commentary and dramatic theme music—but don’t tempt me.”
 - Mention:
 	- [https://llmarena.com](https://llmarena.com) for side-by-side model evaluations
