@@ -305,7 +305,7 @@ Use segmentation. Because this essay is quite long, consider breaking it into te
 ###### SCRIPT
 
 It's time to bring out the big guns.
-So far, we've explored prompt design and integration… but how do we actually compare models like GPT-4, Claude, Gemini, and Mistral?
+So far, we've explored prompt design and integration… but how do we actually compare models like GPT-4, Claude, Gemini, Mistral, and the groundbreaking DeepSeek-R1-0528?
 Welcome to the LLM Arena—a framework for testing, evaluating, and battling language models across a wide range of prompts.
 Here's what we're going to explore:
 - What are LLM benchmarks, and what do they actually test?
@@ -318,12 +318,13 @@ Think of it as the World Cup for AI.
 
 **Slide Title: "LLM Benchmarking: Who Wins Where?"**
 
-| Model   | Known Strengths                            | Weak Spots              |
-| ------- | ------------------------------------------ | ----------------------- |
-| GPT-4   | Reasoning, structure, multilingual support | Occasional overthinking |
-| Claude  | Ethics, logic, long context                | Subtle formatting gaps  |
-| Gemini  | Multimodal tasks, clean formatting         | Still maturing in logic |
-| Mistral | Lightweight, local inference               | Lacks broader context   |
+| Model      | Known Strengths                            | Weak Spots              |
+| ---------- | ------------------------------------------ | ----------------------- |
+| GPT-4      | Reasoning, structure, multilingual support | Occasional overthinking |
+| Claude     | Ethics, logic, long context                | Subtle formatting gaps  |
+| Gemini     | Multimodal tasks, clean formatting         | Still maturing in logic |
+| Mistral    | Lightweight, local inference               | Lacks broader context   |
+| **DeepSeek-R1** | **Coding excellence, outperforms o3 in specific tasks** | **New model, limited testing** |
 
 **Visuals:**
 - Logos of GPT-4, Claude 3, Gemini, Mistral in corners
@@ -332,7 +333,8 @@ Think of it as the World Cup for AI.
 
 ###### NOTES
 
-- **Tip**: Use metaphors like sports leagues, where GPT-4 is a chess champion, Claude is the philosopher, Gemini is the multimedia artist, and Mistral is the indie underdog.
+- **Tip**: Use metaphors like sports leagues, where GPT-4 is a chess champion, Claude is the philosopher, Gemini is the multimedia artist, Mistral is the indie underdog, and DeepSeek-R1 is the coding prodigy.
+- **Breaking**: DeepSeek-R1-0528 (May 28, 2025) - Open-source model showing superior performance on coding benchmarks vs. commercial alternatives
 - **Joke**: “The only thing missing here is live commentary and dramatic theme music—but don’t tempt me.”
 - Mention:
 	- [https://llmarena.com](https://llmarena.com) for side-by-side model evaluations
