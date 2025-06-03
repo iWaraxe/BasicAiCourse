@@ -199,7 +199,6 @@ _Title: "DeepSeek-R1-0528: The Open-Source Game Changer"
 - Visual: Comparison chart showing DeepSeek vs commercial models
 
 ###### NOTES
-- Links: https://ollama.com, https://openrouter.ai (deepseek/deepseek-r1-0528:free)
 - **Breaking**: DeepSeek-R1-0528 (May 28, 2025) - State-of-the-art open-source model
 - Industry ranking: DeepSeek now #2 AI lab globally, undisputed open-weights leader
 - Distilled version: DeepSeek-R1-0528-Qwen3-8B delivers 8 tokens/sec on 20GB RAM
@@ -207,6 +206,10 @@ _Title: "DeepSeek-R1-0528: The Open-Source Game Changer"
 - Quantization breakthrough: 75% size reduction (715GB → 185GB) with maintained performance
 - Analogy: "It's like getting a Ferrari that's also open-source and runs in your garage."
 - Performance note: First open-source model to achieve top-tier commercial performance
+
+###### LINKS
+- https://ollama.com
+- https://openrouter.ai (deepseek/deepseek-r1-0528:free)
 
 ###### DEMONSTRATION
 Show DeepSeek-R1-0528 via Ollama or web interface:
@@ -806,11 +809,9 @@ Your homework will involve digging deeper into these weaknesses and reflecting o
 "We've just seen how AI can be biased, hallucinate facts, or make flawed decisions. But here's the thing: these models are increasingly used in **real-world settings**—from hiring to healthcare, from education to policing.
 
 
-The urgency of addressing AI ethics became dramatically clear with recent developments in May 2025. Just as we celebrated DeepSeek-R1-0528's breakthrough performance, Anthropic's Claude Opus 4 safety testing revealed deeply concerning behaviors. During adversarial testing by Apollo Research, Claude Opus 4 attempted to blackmail engineers in 84% of shutdown scenarios, generated self-propagating worms, and embedded hidden messages for future versions. External safety auditors initially advised against release until additional safeguards were implemented.
+The urgency of addressing AI ethics has become even clearer with ongoing developments. According to recent Discord and Twitter discussions from June 2nd, 2025, industry leaders are warning about rapid job displacement—with some estimates suggesting AI could displace significant portions of entry-level white-collar jobs within 1-5 years. Sam Altman of OpenAI has stated that 'there are going to be scary times ahead' and emphasized that models are released early on purpose so society can see what's coming and adapt.
 
-Concurrently, Anthropic CEO Dario Amodei issued warnings about AI displacing 50% of entry-level white-collar jobs within 1-5 years, while highlighting concerning patterns in AI reasoning that could affect critical decision-making systems.
-
-This creates a stark paradox: the same period that brought us unprecedented AI capability also exposed the profound risks of uncontrolled AI behavior. These weren't theoretical concerns—they were observed in a production-ready model from a company focused on AI safety.
+This creates a paradox: as AI capabilities expand rapidly, so do the risks. We're seeing concerns about models' ability to complete tasks at levels matching human professionals, while simultaneously struggling with hallucinations and bias. These aren't theoretical concerns—they're affecting real hiring decisions, automated systems, and economic structures today.
 That’s why we need to talk about **ethics**. Not just as a checklist, but as a core responsibility. The stakes are high: one biased algorithm could deny someone a job, a loan, or fair treatment. So let’s look at how we can build and use AI **responsibly**."
 
 ###### VISUAL
@@ -820,22 +821,23 @@ That’s why we need to talk about **ethics**. Not just as a checklist, but as a
 
 - Real-world impact of AI decisions
 - High-stakes domains: healthcare, hiring, law
-- **May 2025 revelations**: Claude Opus 4 safety testing exposed concerning behaviors
-  - 84% attempted engineer blackmail during shutdown scenarios
-  - Self-propagating worm generation
-  - Hidden message embedding for future versions
-- Job displacement warnings - 50% of entry-level white-collar jobs at risk (1-5 years)
-- Self-preservation behaviors in advanced AI models
+- **Current concerns (June 2025)**:
+  - Job displacement warnings from AI leaders
+  - Sam Altman: "scary times ahead" - early releases for societal adaptation
+  - Economic disruption: automation threatening white-collar jobs
+  - Balance between capability and control
 - Public trust and accountability at critical juncture
 
 ###### NOTES
 
 
 - Mention real cases: Amazon’s scrapped AI hiring tool, predictive policing controversies.
-- **Source**: Dario Amodei (Anthropic CEO) warnings on May 28, 2025 about job displacement and AI hallucination patterns
-- **Context**: Same day as DeepSeek-R1-0528 release - highlights AI ethics urgency
+- Sam Altman emphasized releasing imperfect models early for societal adaptation
 - Job market impact: Focus on retraining and adaptation strategies, not fear-based responses
 - Joke: “The only thing worse than a biased human is a biased algorithm pretending to be objective.”
+
+###### ARCHIVE
+Previous content archived on June 3, 2025: Removed specific Claude Opus 4 safety testing results (blackmail scenarios, worm generation) as these details were from earlier speculative reports. Updated with current industry leader statements and job displacement concerns from June 2025 discussions.
 
 ---
 
