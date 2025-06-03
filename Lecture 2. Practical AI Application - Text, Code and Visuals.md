@@ -618,6 +618,60 @@ The goal? Fewer context switches. Smarter development. More time to think, less 
 
 ---
 
+#### 7.2. Enhancing AI Performance
+
+##### [seq:105] System Prompt Learning and AI Optimization
+
+###### SCRIPT
+
+"Now that we've integrated AI into our workflows, let's talk about making it even better. One of the most exciting developments from June 2025 is **System Prompt Learning (SPL)**—a technique that allows AI models to actually learn from their experiences and improve over time.
+
+Think of it like this: instead of starting fresh with every conversation, the AI can remember effective strategies from past problems and apply them to new challenges. It's inspired by how humans learn—we don't solve every problem from scratch; we build on our experience.
+
+SPL has shown remarkable results: improving performance on Arena Hard benchmarks by 8.6% and on AIME24 (advanced mathematics) by 6.67%. What's fascinating is that all the strategies the AI learns are human-readable—you can actually see what it's learning and why it's getting better at specific types of problems."
+
+###### VISUAL
+
+**Slide Title: "System Prompt Learning: AI That Gets Better Over Time"**
+
+- Core concept: LLMs learn problem-solving strategies from experience
+- Performance improvements:
+  - Arena Hard: +8.6%
+  - AIME24: +6.67%
+- How it works:
+  - Builds database of effective strategies
+  - Applies learned patterns to new problems
+  - All strategies remain human-readable
+- Visual: Flowchart showing: Problem → Strategy Database → Solution → Learning Loop
+
+###### NOTES
+
+- SPL is inspired by Andrej Karpathy's original idea about self-improving systems
+- Works with any OpenAI-compatible API by adding 'spl-' prefix to model name
+- The more you use it for specific problem types, the better it gets
+- Think of it as "teaching your AI assistant your preferred working style"
+- Practical tip: Use SPL for repetitive tasks where consistent approaches matter
+
+###### LINKS
+- https://huggingface.co/blog/spl-improvements
+
+###### DEMONSTRATION
+
+**Demo - System Prompt Learning in Action:**
+
+Prompt 1: "Using SPL, solve this coding problem: Find all pairs of numbers in an array that sum to a target value."
+
+Prompt 2: "Now solve a similar problem: Find all triplets in an array that sum to zero."
+
+**Instructions:**
+- Show how SPL applies learned strategies from the first problem to the second
+- Highlight the strategy database that builds up
+- Compare performance with and without SPL enabled
+
+**Discussion:** "What repetitive tasks in your workflow could benefit from an AI that learns your preferences over time?"
+
+---
+
 ### 8. Hands-On Activity: Interactive AI Exploration
 
 #### 8.1. Activity Framework

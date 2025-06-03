@@ -1213,7 +1213,75 @@ Demo – “How I Curate My AI Feed”
 
 ---
 
-#### 8.2. Hands-On Application
+#### 8.2. Local AI and Quantization Advances
+
+##### [seq:365] Running State-of-the-Art AI on Your Computer
+
+###### SCRIPT
+
+"Before we wrap up with hands-on activities, let me share one of the most exciting developments from June 2025: the democratization of AI through quantization advances.
+
+Remember how we talked about running AI models locally in previous lectures? Well, the game has completely changed. Through innovative quantization techniques—essentially compressing models without losing their intelligence—we can now run models that rival GPT-4 and Claude on regular computers.
+
+Take the DeepSeek R1-0528 model we discussed earlier. Originally, it's a massive 671GB model. But through techniques like IQ1_S quantization, it's been compressed to just 185GB—and even further to 131GB with newer methods. That's a 75% size reduction while maintaining performance!
+
+What's remarkable is that these quantized models often perform better than much larger models. For instance, the compressed DeepSeek R1 shows lower perplexity (better performance) than models twice its size. And with distilled versions like DeepSeek-R1-0528-Qwen3-8B, you can run advanced AI on just 20GB of RAM, achieving 8 tokens per second—fast enough for real-time interaction.
+
+This isn't just about saving space. It's about privacy, control, and access. You can now run AI that understands your entire codebase, analyzes sensitive documents, or helps with creative projects—all without sending data to the cloud."
+
+###### VISUAL
+
+**Slide Title: "The Quantization Revolution: Big AI on Small Hardware"**
+
+- What is Quantization?
+  - Compressing AI models while preserving intelligence
+  - Like MP3 for AI - smaller size, minimal quality loss
+- Recent Breakthroughs:
+  - DeepSeek R1: 671GB → 131GB (80% reduction)
+  - Performance often improves with quantization
+  - Runs on consumer hardware (128GB RAM systems)
+- Practical Impact:
+  - Privacy: Your data never leaves your computer
+  - Speed: No internet latency
+  - Cost: One-time hardware investment vs. ongoing API fees
+- Visual: Before/After comparison showing model sizes and hardware requirements
+
+###### NOTES
+
+- Key quantization methods: IQ1_S, TQ1_0, Q8_0, Q4_0
+- Hardware requirements: 128GB RAM + 24GB VRAM for large models, 20GB RAM for distilled versions
+- Community tools: Ollama for easy installation, HuggingFace for model access
+- Performance metrics: Perplexity (lower is better) used to measure quality
+- Real-world speed: 0.5 tokens/second → 8+ tokens/second with optimization
+
+###### LINKS
+- https://huggingface.co/deepseek-ai/DeepSeek-R1-0528-GGUF
+- https://ollama.com
+- https://github.com/ggerganov/llama.cpp
+
+###### DEMONSTRATION
+
+**Demo - Local AI in Action:**
+
+"Let me show you how to run advanced AI locally:"
+
+1. "Install Ollama and download a quantized model"
+   ```bash
+   ollama run deepseek-r1
+   ```
+
+2. "Compare performance: local vs. cloud"
+   - Speed test: Time to first token
+   - Privacy check: Network monitor shows no data transmission
+   - Cost analysis: One-time vs. recurring fees
+
+3. "Practical use case: Analyze a confidential document without cloud exposure"
+
+**Discussion:** "What sensitive or creative projects could you tackle if you knew your data never left your computer?"
+
+---
+
+#### 8.3. Hands-On Application
 
 ##### [seq:370] Hands-On Activity: AI Tool Integration Workshop
 

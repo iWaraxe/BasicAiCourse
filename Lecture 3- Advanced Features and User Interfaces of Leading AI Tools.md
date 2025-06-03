@@ -866,6 +866,69 @@ Visual: Diagram of three AI agents passing tasks to each other with roles labele
 
 ---
 
+#### 6.2. Agent Communication Standards
+
+##### [seq:345] Model Context Protocol (MCP): The Language of AI Agents
+
+###### SCRIPT
+
+"Now that we've seen multi-agent systems in action, let's talk about how they actually communicate. One of the most significant developments from June 2025 is the rapid adoption of the **Model Context Protocol (MCP)**—essentially becoming the standard language for AI agents to talk to each other.
+
+Think of MCP like HTTP for AI agents. Just as web browsers and servers needed a common protocol to exchange information, AI agents need a standardized way to share context, tools, and capabilities. MCP is solving this problem.
+
+What makes MCP powerful is that it enables dynamic tool registration—agents can discover and use each other's capabilities on the fly. It's being adopted across major platforms including Claude Desktop, LlamaIndex, and HuggingFace. The community has rallied around it, with hackathons offering significant prizes for MCP-based innovations.
+
+This means you can now connect different AI systems—your Claude desktop app can talk to specialized tools, your coding assistant can access external databases, and agents can collaborate without being from the same vendor. It's the foundation for truly interoperable AI systems."
+
+###### VISUAL
+
+**Slide Title: "MCP: The Universal Language for AI Agents"**
+
+- What is MCP?
+  - Model Context Protocol - standardized agent communication
+  - Like HTTP but for AI systems
+  - Enables tool discovery and sharing
+- Key features:
+  - Dynamic tool registration
+  - Cross-platform compatibility
+  - Human-readable strategies
+- Adoption:
+  - Claude Desktop integration
+  - LlamaIndex and HuggingFace support
+  - $16.5k in hackathon prizes driving innovation
+
+Visual: Diagram showing multiple AI agents (Claude, GPT, custom agents) connected via MCP protocol
+
+###### NOTES
+
+- MCP uses stdio transport for local connections
+- The schema.json/.ts file defines the protocol specification
+- Practical applications: voice control of Android devices, AI browser automation
+- MCP servers can now connect to knowledge stores for RAG (Retrieval Augmented Generation)
+- Community-driven: rapid adoption shows the need for standardization
+
+###### LINKS
+- https://github.com/anthropics/model-context-protocol
+
+###### DEMONSTRATION
+
+**Demo - MCP in Action:**
+
+"Let's see how MCP enables agent collaboration:"
+
+1. "Show me how to connect a Claude desktop app to a custom MCP server"
+2. "Demonstrate dynamic tool registration where one agent discovers another's capabilities"
+3. "Create a simple workflow where agents pass context using MCP"
+
+**Instructions:**
+- Show MCP server setup using stdio transport
+- Demonstrate tool discovery process
+- Highlight the human-readable nature of exchanges
+
+**Discussion:** "How could standardized agent communication change the way we build AI applications?"
+
+---
+
 ### 7. Hands-On Learning
 
 #### 7.1. Interactive Exercises
