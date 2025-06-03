@@ -809,7 +809,7 @@ Your homework will involve digging deeper into these weaknesses and reflecting o
 "We've just seen how AI can be biased, hallucinate facts, or make flawed decisions. But here's the thing: these models are increasingly used in **real-world settings**—from hiring to healthcare, from education to policing.
 
 
-The urgency of addressing AI ethics has become even clearer with ongoing developments. According to recent Discord and Twitter discussions from June 2nd, 2025, industry leaders are warning about rapid job displacement—with some estimates suggesting AI could displace significant portions of entry-level white-collar jobs within 1-5 years. Sam Altman of OpenAI has stated that 'there are going to be scary times ahead' and emphasized that models are released early on purpose so society can see what's coming and adapt.
+The urgency of addressing AI ethics has become even clearer with ongoing developments. Industry leaders are sounding the alarm about rapid job displacement. Dario Amodei, CEO of Anthropic, has warned that AI could displace 50% of entry-level white-collar jobs within 1-5 years. Similarly, Sam Altman of OpenAI has stated that 'there are going to be scary times ahead' and emphasized that models are released early on purpose so society can see what's coming and adapt. This remarkable consensus between two leading AI companies underscores the gravity of the situation.
 
 This creates a paradox: as AI capabilities expand rapidly, so do the risks. We're seeing concerns about models' ability to complete tasks at levels matching human professionals, while simultaneously struggling with hallucinations and bias. These aren't theoretical concerns—they're affecting real hiring decisions, automated systems, and economic structures today.
 That’s why we need to talk about **ethics**. Not just as a checklist, but as a core responsibility. The stakes are high: one biased algorithm could deny someone a job, a loan, or fair treatment. So let’s look at how we can build and use AI **responsibly**."
@@ -823,8 +823,9 @@ That’s why we need to talk about **ethics**. Not just as a checklist, but as a
 - High-stakes domains: healthcare, hiring, law
 - **Current concerns (June 2025)**:
   - Job displacement warnings from AI leaders
-  - Sam Altman: "scary times ahead" - early releases for societal adaptation
-  - Economic disruption: automation threatening white-collar jobs
+  - Dario Amodei (Anthropic): 50% of entry-level white-collar jobs at risk
+  - Sam Altman (OpenAI): "scary times ahead" - early releases for societal adaptation
+  - Industry consensus on economic disruption
   - Balance between capability and control
 - Public trust and accountability at critical juncture
 
@@ -832,7 +833,9 @@ That’s why we need to talk about **ethics**. Not just as a checklist, but as a
 
 
 - Mention real cases: Amazon’s scrapped AI hiring tool, predictive policing controversies.
-- Sam Altman emphasized releasing imperfect models early for societal adaptation
+- Both Dario Amodei and Sam Altman emphasize the urgency of preparing for AI's impact
+- Sam Altman: releasing imperfect models early for societal adaptation
+- Dario Amodei: 50% job displacement prediction highlights need for proactive policy
 - Job market impact: Focus on retraining and adaptation strategies, not fear-based responses
 - Joke: “The only thing worse than a biased human is a biased algorithm pretending to be objective.”
 
