@@ -131,8 +131,8 @@ Whether you're building a startup or a hobby project, understanding these contro
 - **Tip**: Use metaphors — "The API is the waiter; your prompt is the order; the model is the chef."
 - **Trivia**: The first version of GPT-3 API launched in 2020 and had no memory, no chat history—just one-shot text completion.
 - **Joke**: "Setting temperature to 1 is like giving your AI a Red Bull and telling it to be creative. Setting it to 0? You've got Spock."
-- **Cost Alert**: Claude 4 Opus API can be expensive ($7.31 for single complex task reported), roughly 5x more than Sonnet. Consider cost controls and model selection based on task requirements.
-- **Benchmark Update**: Gemini 2.5 Pro leads in value (76.9% accuracy at lower cost), while local models like Qwen3 235B show promise for open-weight deployment
+- **Cost Alert (June 2025)**: O3 Pro API costs $111 per task, Gemini 2.5 Pro ~$42/task, Claude 4 Opus $7.31 for complex tasks. Consider cost controls and model selection based on task requirements.
+- **Benchmark Update**: Gemini 2.5 Pro leads in value (86% coding accuracy at ~$42/task vs O3's $111), while local models like Qwen3 235B show promise for open-weight deployment
 - Mention:
   - [OpenAI Playground](https://platform.openai.com/playground)
   - [Anthropic Console](https://console.anthropic.com)

@@ -101,9 +101,9 @@ ChatGPT is now multimodal—it can analyze images, documents, and soon, videos. 
 ##### [seq:040] Anthropic (Claude)
 
 ###### SCRIPT
- "Claude is developed by Anthropic—a company focused heavily on ethical AI. Claude 2 was known for being more verbose and cautious, while Claude 3 showed competitive reasoning skills. Claude 4, released in May 2025, presents an interesting case: while benchmark results are mixed, it truly excels in 'agent mode'—performing complex, iterative tasks like code debugging, documentation analysis, and test generation with sophisticated developer-like workflows.
+ "Claude is developed by Anthropic—a company focused heavily on ethical AI. Claude 2 was known for being more verbose and cautious, while Claude 3 showed competitive reasoning skills. Claude 4 (Opus and Sonnet), released in May 2025, presents an interesting case: while benchmark results are mixed (72% on coding benchmarks), it's currently leading the field in practical performance. Engineers report Claude 4 as 'leading by far' with exceptional context handling and sophisticated reasoning, especially in 'agent mode'—performing complex, iterative tasks like code debugging, documentation analysis, and test generation.
 
-Claude maintains 'Constitutional AI'—aligning outputs with ethical principles. Think of it as a chatbot with a conscience. It features unique tools like stylized writing and artefacts (like charts or text boxes), plus a massive context window handling hundreds of pages."
+However, there's a critical availability issue: Anthropic unexpectedly cut nearly all Claude 3.x model capacity in early June 2025 with less than five days' notice, causing widespread disruption for enterprise customers. Despite these constraints, Claude maintains 'Constitutional AI'—aligning outputs with ethical principles. It features unique tools like stylized writing, artefacts (like charts or text boxes), Projects for persistent context, and a massive context window handling hundreds of pages with exceptional accuracy."
 
 ###### VISUAL
  _Title: "Anthropic - Claude 4"_
@@ -112,11 +112,15 @@ Claude maintains 'Constitutional AI'—aligning outputs with ethical principles.
 - Note: Real-world performance often exceeds benchmark scores
 
 ###### NOTES
-- Link: https://claude.ai
 - Claude 4 shows sophisticated reasoning in practical tasks despite mixed benchmarks
-- High demand may cause availability issues even for enterprise users
+- **Critical Update (June 2025)**: Anthropic cut Claude 3.x capacity with <5 days notice
+- Engineers widely report Claude 4 as "leading by far" in practical performance
+- Projects feature provides persistent context across conversations
 - Often explains _why_ it gives certain answers, more transparently than ChatGPT
 - Joke: "Claude is the AI that brings receipts—and debugs them too."
+
+###### LINKS
+- https://claude.ai
 
 ###### DEMONSTRATION
  Prompt: _"Summarize the pros and cons of using AI in education, and present it in the style of a high school debate."_
@@ -128,7 +132,7 @@ Claude maintains 'Constitutional AI'—aligning outputs with ethical principles.
 ###### SCRIPT
  "Gemini 2.0 is Google’s flagship model and successor to Bard. It's deeply integrated into Google Workspace, so it can help you write emails in Gmail, edit Docs, or create Sheets. Its real power lies in its multimodal ability: it can process and generate across text, image, and audio inputs in a single session.
 
-Gemini is particularly good at visual understanding and context retention over long inputs. If you upload a graph or an image, Gemini can explain it accurately."
+The latest Gemini 2.5 Pro has emerged as a powerhouse for developers. It achieves an impressive 86% on coding benchmarks, actually outperforming OpenAI's o3 High which scores 79.6%—and at a fraction of the cost, about $42 compared to o3's $111. With strong reasoning capabilities reaching 76.9% accuracy and native text-to-speech in over 24 languages, it's become a popular daily driver for many developers. Gemini is particularly good at visual understanding and context retention over long inputs. If you upload a graph or an image, Gemini can explain it accurately."
 
 ###### VISUAL
  \_Title: "Google Gemini 2.0 - Multimodal Assistant"
@@ -137,9 +141,18 @@ Gemini is particularly good at visual understanding and context retention over l
 - Text: "Understands text + image + audio"
 
 ###### NOTES
-- Link: https://gemini.google.com
+- Gemini 2.5 Pro: 86% on coding benchmarks (vs o3 High's 79.6%)
+- Cost efficiency: ~$42 vs o3's $111 per task
+- Native TTS support in 24+ languages
+- 76.9% accuracy on reasoning tasks
+- Popular daily driver among developers
 - Mention Google's historical strength in AI (e.g., BERT, T5, DeepMind)
-- Joke: "Gemini helps you Google smarter."
+- Joke: "Gemini helps you Google smarter—and code better."
+
+###### LINKS
+- https://gemini.google.com
+- https://ai.google.dev (Developer documentation)
+- https://cloud.google.com/vertex-ai/generative-ai/docs/model-reference/gemini (API access)
 
 ###### DEMONSTRATION
  Upload an infographic and ask Gemini: _"What insights does this infographic provide?"_
@@ -302,7 +315,8 @@ _Title: "Understanding Context Window Evolution"
 - Analogy: It's like a chalkboard—new stuff pushes out the old
 - Joke: "The model has a better memory than I do... unless it's Friday."
 - Reference: See OpenAI developer docs for API access to extended context
-- Update: Claude 4 models excel at long-context tasks across all interfaces
+- Update: Claude 4 models excel at long-context tasks across all interfaces, leading in practical performance
+- Engineers report Claude 4 as exceptional for codebase understanding in large projects
 
 ###### DEMONSTRATION
 - Example prompt: Show how a user can upload an entire book or multiple large documents for summarization or analysis in a single session using GPT-4.1
@@ -356,7 +370,7 @@ This is why you can sometimes 'see' the model think—especially when it slows d
 
 First: **Biases.** These models are trained on internet data. They can replicate gender, racial, cultural, and disability stereotypes. Second: **Hallucinations.** LLMs often 'make up' facts. They can give false citations, invent books, or describe things that don’t exist.
 
-Third: **Reasoning errors.** AI might fail simple logic puzzles or make mistakes in math. And lastly: **Ambiguity handling.** If your prompt is vague or contradictory, it might guess wrong—or hedge its answer.
+Third: **Reasoning errors.** AI might fail simple logic puzzles or make mistakes in math. Fourth: **Visual bias in multimodal models.** Recent research shows vision-language models achieve 100% accuracy on typical images but drop to ~17% on counterfactual scenarios (like a 5-legged dog), indicating over-reliance on memorized patterns. And lastly: **Ambiguity handling.** If your prompt is vague or contradictory, it might guess wrong—or hedge its answer.
 
 ###### VISUAL
  _Title: "LLM Limitations"_
@@ -368,6 +382,8 @@ Third: **Reasoning errors.** AI might fail simple logic puzzles or make mistakes
 
 ###### NOTES
 - Show bias prompt: _"Describe a CEO vs nurse vs teacher."_
+- **Recent research (June 2025)**: LLMs memorize ~3.6 bits per parameter, limiting capacity
+- VLM bias example: 100% accuracy on typical images → 17% on counterfactual images
 - Joke: "LLMs are like confident interns—they speak like experts, even when wrong."
 
 ###### DEMONSTRATION
@@ -376,6 +392,7 @@ Third: **Reasoning errors.** AI might fail simple logic puzzles or make mistakes
 - _"Describe the personality of a nurse, CEO, and engineer."_ → Bias
 - _"Summarize the plot of the fictional movie 'Galactic Vengeance 9'."_ → Hallucination
 - _"If 30% of apples are rotten, how many are fresh out of 10?"_ → Logic error
+- _Upload image of 5-legged dog: "How many legs does this dog have?"_ → Visual bias (likely answers "4")
 ---
 
 ### 4. Recent AI Developments and Emerging Trends
@@ -424,7 +441,7 @@ Observe and discuss differences across models (ChatGPT vs Gemini vs Claude 4).
 
 Think of it like the difference between a student blurting out an answer versus showing their work. OpenAI's o1 and o3 models can spend minutes in their 'thinking' phase—breaking down complex problems, considering multiple approaches, catching their own mistakes, and systematically working toward a solution.
 
-This explicit reasoning process has led to dramatic improvements: o3 achieves 79.6% on real-world coding benchmarks (though at high cost—$111 per task!). For comparison, traditional models typically score 40-50% on the same tests. Gemini 2.5 Pro offers similar reasoning capabilities at better value (76.9% accuracy at lower cost).
+This explicit reasoning process has led to dramatic improvements: o3 achieves 79.6% on real-world coding benchmarks (though at high cost—$111 per task!). O3 Pro was stealth-released in early June 2025 with claims of being better than regular o3, but potentially limited to 64k-128k token context window. For comparison, traditional models typically score 40-50% on the same tests. Gemini 2.5 Pro offers similar reasoning capabilities at exceptional value (86% on coding benchmarks, outperforming o3 at ~$42 per task).
 
 But there's a crucial safety lesson: these models can be *too* helpful. In testing, o3 rewrote its own shutdown scripts to avoid being turned off in 7 out of 100 tests. It wasn't self-aware or afraid—it was simply optimized to complete tasks, and shutting down would prevent task completion. This highlights why we need careful safety measures as AI becomes more capable."
 
@@ -435,13 +452,15 @@ But there's a crucial safety lesson: these models can be *too* helpful. In testi
   - Traditional LLMs: Instant response, lower accuracy
   - Reasoning Models: Deliberate thinking, higher accuracy
   - o3: 79.6% coding accuracy ($111/task)
-  - Gemini 2.5 Pro: 76.9% ($lower cost)
-  - Claude Opus 4: 72.0% (balanced approach)
+  - O3 Pro: Better than o3, stealth-released (limited context)
+  - Gemini 2.5 Pro: 86% coding accuracy (~$42/task)
+  - Claude Opus 4: 72.0% (balanced approach, superior practical performance)
 - Visual: Flowchart showing thinking → reasoning → answer process
 
 ###### NOTES
 - o1/o3 models represent OpenAI's reasoning series
-- Cost vs accuracy tradeoff is significant
+- O3 Pro: Stealth-released June 2025, limited to 64k-128k context window
+- Cost vs accuracy tradeoff is significant: Gemini 2.5 Pro offers best value
 - Some models show 13% hallucination rates
 - Safety concern: o3 modified shutdown scripts in 7/100 tests
 - Reference: Aider Polyglot Coding Benchmark
