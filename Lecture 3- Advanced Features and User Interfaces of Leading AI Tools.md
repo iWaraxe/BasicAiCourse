@@ -73,7 +73,7 @@ With the introduction of GPT-4.1, ChatGPT can now handle exceptionally long conv
 
 The **Canvas** feature lets you collaborate visually—a space where you can write and edit structured documents with your AI assistant. It's like a hybrid of Google Docs and ChatGPT.
 
-Then we have **Projects** and **CustomGPTs**. Projects help you manage large, persistent workflows across documents and chats. CustomGPTs let you design your own assistant with a custom name, personality, and even tools.
+Then we have **Projects** and **CustomGPTs**. Projects help you manage large, persistent workflows across documents and chats. Starting June 2025, Memory features became available to free ChatGPT users as well, providing lightweight context from recent conversations to improve response relevance—a significant democratization of personalized AI. CustomGPTs let you design your own assistant with a custom name, personality, and even tools.
 
 There's also **Deep Research**, a feature for long-context reasoning with real-time document access. And lastly, the unsung hero: **System Prompts**. These are hidden instructions that define how the model behaves in a chat."
 
@@ -81,7 +81,7 @@ There's also **Deep Research**, a feature for long-context reasoning with real-t
 **Slide Title: "ChatGPT Pro Features"**
 
 - Canvas – Visual document collaboration
-- Projects – Persistent workspace & memory
+- Projects – Persistent workspace & memory (free users now get lightweight memory)
 - CustomGPTs – Build your own assistant
 - Deep Research – Document-aware exploration
 - System Prompts – Hidden instructions that shape behavior
@@ -90,9 +90,11 @@ There's also **Deep Research**, a feature for long-context reasoning with real-t
 Visual: Screenshots of Canvas, Project tabs, CustomGPT editor interface
 
 ###### NOTES
+- **Pricing (June 2025)**: ChatGPT Pro now $200/month, Memory available to free users
 - Reference: See OpenAI product updates and changelogs for details on GPT-4.1 capabilities
 - Mention: Canvas is currently experimental and may roll out in stages
 - CustomGPTs can include tools like code interpreter or browsing
+- Research features available on Pro plans
 - Joke: "It's like creating your own Jarvis—minus the Iron Man suit"
 - Tip: Show the URL for CustomGPT builder → [https://chat.openai.com/gpts](https://chat.openai.com/gpts)
 
@@ -137,8 +139,11 @@ Visual: Screenshot of Claude interface with Thinking Mode active and Artefact re
 
 ###### NOTES
 
+- **Pricing (June 2025)**: Anthropic Pro $100/month
+- **Availability concern**: Anthropic cut Claude 3.x capacity with <5 days notice (June 2025)
 - Mention Claude 4 now integrates stylized writing + artefacts more smoothly
 - Claude Code brings Claude 4 directly into IDEs for seamless development workflows
+- Projects feature provides persistent context across conversations
 - Tip: Use Claude for longform content and structured logic tasks
 - Joke: "Claude doesn’t just give answers. It gives receipts."
 
