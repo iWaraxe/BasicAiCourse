@@ -132,7 +132,7 @@ However, there's a critical availability issue: Anthropic unexpectedly cut nearl
 ###### SCRIPT
  "Gemini 2.0 is Google’s flagship model and successor to Bard. It's deeply integrated into Google Workspace, so it can help you write emails in Gmail, edit Docs, or create Sheets. Its real power lies in its multimodal ability: it can process and generate across text, image, and audio inputs in a single session.
 
-The latest Gemini 2.5 Pro has emerged as a powerhouse for developers. It achieves an impressive 86% on coding benchmarks, actually outperforming OpenAI's o3 High which scores 79.6%—and at a fraction of the cost, about $42 compared to o3's $111. With strong reasoning capabilities reaching 76.9% accuracy and native text-to-speech in over 24 languages, it's become a popular daily driver for many developers. Gemini is particularly good at visual understanding and context retention over long inputs. If you upload a graph or an image, Gemini can explain it accurately."
+The latest Gemini 2.5 Pro is now generally available, with the 'Goldmane' version achieving an impressive 86% on the Aider webdev benchmark, actually outperforming OpenAI's o3 High which scores 79.6%—and at a fraction of the cost, about $42 compared to o3's $111. With strong reasoning capabilities reaching 76.9% accuracy and native text-to-speech in over 24 languages, it's become a popular daily driver for many developers. The model features a 65k context window and excels at spatial reasoning tasks. Gemini is particularly good at visual understanding and context retention over long inputs. If you upload a graph or an image, Gemini can explain it accurately."
 
 ###### VISUAL
  \_Title: "Google Gemini 2.0 - Multimodal Assistant"
@@ -141,11 +141,12 @@ The latest Gemini 2.5 Pro has emerged as a powerhouse for developers. It achieve
 - Text: "Understands text + image + audio"
 
 ###### NOTES
-- Gemini 2.5 Pro: 86% on coding benchmarks (vs o3 High's 79.6%)
+- Gemini 2.5 Pro GA with 'Goldmane' version: 86% on Aider webdev benchmark (vs o3 High's 79.6%)
 - Cost efficiency: ~$42 vs o3's $111 per task
+- 65k context window, excellent spatial reasoning
 - Native TTS support in 24+ languages
 - 76.9% accuracy on reasoning tasks
-- Popular daily driver among developers
+- Popular daily driver among developers, now generally available
 - Mention Google's historical strength in AI (e.g., BERT, T5, DeepMind)
 - Joke: "Gemini helps you Google smarter—and code better."
 
@@ -233,6 +234,49 @@ Prompt: _"Debug this Python function and explain your reasoning step by step."_
 
 ###### ARCHIVE
 Previous content archived on May 29, 2025: Original description positioned DeepSeek as "competitive" and "leading in specific domains." Updated to reflect breakthrough performance and industry leadership position confirmed by independent analysis.
+
+---
+
+##### [seq:075] Other Notable Open-Source Models
+
+###### SCRIPT
+"While DeepSeek-R1-0528 leads the open-source revolution, June 2025 has brought more remarkable developments in the open-source AI space. 
+
+First, Nvidia released Nemotron-Research-Reasoning-Qwen-1.5B, a tiny powerhouse that punches far above its weight. Despite being only 1.5 billion parameters, it uses novel Prolonged Reinforcement Learning (ProRL) techniques to achieve improvements of 14.7% in math, 13.9% in coding, and an impressive 54.8% in logic puzzles compared to previous models. It even matches or exceeds DeepSeek-R1-7B's performance in many tasks—remarkable for a model this small.
+
+Meanwhile, from Japan comes Shisa-v2 405B, claimed to be the most powerful model trained in Japan. With 405 billion parameters and performance comparable to GPT-4 and DeepSeek in both Japanese and English, it represents Asia's growing capabilities in AI development. The model runs on H200 nodes and showcases how AI expertise is becoming truly global.
+
+These models, along with established options like Mistral, LLaMA, and Gemma, create a rich ecosystem of open-source AI. Developers can now choose from tiny efficient models for edge devices to massive models rivaling commercial offerings—all with full transparency and control."
+
+###### VISUAL
+_Title: "June 2025 Open-Source Breakthroughs"
+
+- Nvidia Nemotron-1.5B:
+  - Uses ProRL (Prolonged Reinforcement Learning)
+  - Matches 7B model performance at 1.5B size
+  - Perfect for edge devices and mobile
+- Shisa-v2 405B (Japan):
+  - 405B parameters
+  - GPT-4 comparable performance
+  - Japanese + English excellence
+- Key trend: Efficient small models + powerful regional models
+
+###### NOTES
+- Nemotron uses innovative RL stabilization: entropy collapse mitigation, DAPO, KL regularization
+- Shisa-v2 represents Asia's AI independence movement
+- Both models available in quantized formats for local deployment
+- Criticism: Nvidia's CC-BY-NC-4.0 license limits commercial use
+- Technical breakthrough: Small models now rival much larger ones through better training
+
+###### LINKS
+- https://huggingface.co/nvidia/Nemotron-Research-Reasoning-Qwen-1.5B
+- https://chat.shisa.ai (Shisa-v2 405B demo)
+
+###### DEMONSTRATION
+Show size comparison: "A 1.5B model matching 7B performance means you can run AI on your phone that previously required a GPU."
+
+###### ARCHIVE
+Previous content archived on June 5, 2025: Original section only covered DeepSeek. Added Nemotron and Shisa-v2 to reflect June 2025's rapid expansion of open-source AI capabilities across different regions and parameter scales.
 
 ---
 
