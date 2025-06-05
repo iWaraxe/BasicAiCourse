@@ -75,7 +75,9 @@ The **Canvas** feature lets you collaborate visually—a space where you can wri
 
 Then we have **Projects** and **CustomGPTs**. Projects help you manage large, persistent workflows across documents and chats. Starting June 2025, Memory features became available to free ChatGPT users as well, providing lightweight context from recent conversations to improve response relevance—a significant democratization of personalized AI. CustomGPTs let you design your own assistant with a custom name, personality, and even tools.
 
-There's also **Deep Research**, a feature for long-context reasoning with real-time document access. And lastly, the unsung hero: **System Prompts**. These are hidden instructions that define how the model behaves in a chat."
+There's also **Deep Research**, a feature for long-context reasoning with real-time document access. In another major June 2025 update, **Codex** rolled out to ChatGPT Plus users with optional internet access, though it's disabled by default due to complex security tradeoffs. This brings advanced coding capabilities with real-time information access—though users should be cautious about potential security implications.
+
+And lastly, the unsung hero: **System Prompts**. These are hidden instructions that define how the model behaves in a chat."
 
 ###### VISUAL
 **Slide Title: "ChatGPT Pro Features"**
@@ -84,6 +86,7 @@ There's also **Deep Research**, a feature for long-context reasoning with real-t
 - Projects – Persistent workspace & memory (free users now get lightweight memory)
 - CustomGPTs – Build your own assistant
 - Deep Research – Document-aware exploration
+- Codex – Advanced coding with optional internet access (Plus users)
 - System Prompts – Hidden instructions that shape behavior
 - Chart illustrating context window size differences between model versions (GPT-3, GPT-4, GPT-4.1)
 
@@ -91,6 +94,8 @@ Visual: Screenshots of Canvas, Project tabs, CustomGPT editor interface
 
 ###### NOTES
 - **Pricing (June 2025)**: ChatGPT Pro now $200/month, Memory available to free users
+- **Major Update**: Codex now available to Plus users with optional internet access (disabled by default)
+- Security note: Codex internet access has complex tradeoffs, use with caution
 - Reference: See OpenAI product updates and changelogs for details on GPT-4.1 capabilities
 - Mention: Canvas is currently experimental and may roll out in stages
 - CustomGPTs can include tools like code interpreter or browsing
@@ -124,7 +129,9 @@ Visual: Screenshots of Canvas, Project tabs, CustomGPT editor interface
 
 **Stylized Writing** lets you request outputs in specific voices—from Shakespearean English to a middle school essay tone.
 
-**Artefacts** are structured outputs: Claude might generate tables, summaries, outlines, or visual layouts in a dedicated panel."
+**Artefacts** are structured outputs: Claude might generate tables, summaries, outlines, or visual layouts in a dedicated panel.
+
+**Research** is now available on Claude Pro plans as of June 2025—a BETA feature that provides integrated research assistance with synthesized information rather than direct answers. Users report that it deploys 3-4 subagents to tackle queries from multiple angles using a depth-first approach, citing '300 sources and counting' for comprehensive research tasks."
 
 ###### VISUAL
 
@@ -133,6 +140,7 @@ Visual: Screenshots of Canvas, Project tabs, CustomGPT editor interface
 - Thinking Mode – Transparent step-by-step reasoning
 - Stylized Writing – Personality-infused outputs
 - Artefacts – Tables, summaries, structured formats
+- Research – Multi-agent research with 300+ sources (Pro BETA)
 - Claude Code – IDE integration for development workflows
 
 Visual: Screenshot of Claude interface with Thinking Mode active and Artefact result panel
@@ -141,6 +149,8 @@ Visual: Screenshot of Claude interface with Thinking Mode active and Artefact re
 
 - **Pricing (June 2025)**: Anthropic Pro $100/month
 - **Availability concern**: Anthropic cut Claude 3.x capacity with <5 days notice (June 2025)
+- **New Feature**: Research mode (BETA) - deploys 3-4 subagents for comprehensive analysis
+- Research capability: Users report 300+ sources per query, depth-first approach
 - Mention Claude 4 now integrates stylized writing + artefacts more smoothly
 - Claude Code brings Claude 4 directly into IDEs for seamless development workflows
 - Projects feature provides persistent context across conversations
@@ -443,9 +453,9 @@ Discuss security implications and best practices
 
 "For developers, AI has moved beyond chat interfaces into our code editors. These environments don't just suggest code—they understand entire projects.
 
-**Cursor** pioneered AI-native development, but now faces competition. **Windsurf** offers similar features with Claude 4 support and better pricing. Both let AI see your entire codebase, suggest changes, and even implement features across multiple files.
+**Cursor** pioneered AI-native development and just released version 1.0 in June 2025, featuring enhanced code review capabilities that remember previous mistakes, improved error tracking, and the ability to handle multiple background tasks simultaneously. However, it now faces significant competition. **Windsurf** offers similar features with Claude 4 support and better pricing. Both let AI see your entire codebase, suggest changes, and even implement features across multiple files.
 
-**Claude Code** brings Anthropic's models directly into IDEs, excelling at understanding large codebases and maintaining context across complex projects.
+**Claude Code** brings Anthropic's models directly into IDEs, excelling at understanding large codebases and maintaining context across complex projects. The community has declared Claude Code superior to Cursor for specific tasks, with users reporting successful one-shot refactoring of large, complex codebases that pass thousands of tests without errors.
 
 The key innovation? These tools don't just complete lines of code—they understand architecture, suggest refactors, and can implement entire features with guidance."
 
@@ -455,13 +465,15 @@ The key innovation? These tools don't just complete lines of code—they underst
 
 - Feature comparison table:
   - VS Code + Copilot: Basic completion
-  - Cursor: Full codebase awareness
+  - Cursor 1.0: Enhanced code review, error tracking, background tasks
   - Windsurf: Claude 4 support, competitive pricing
-  - Claude Code: Superior context understanding
+  - Claude Code: Superior context understanding, one-shot refactoring
 - Workflow diagram: Code → AI Analysis → Suggestions → Implementation
 
 ###### NOTES
 
+- **June 2025**: Cursor 1.0 released with enhanced features, background tasks
+- Community verdict: Claude Code declared superior for specific refactoring tasks
 - Cursor subscription concerns: $20/month may not be profitable
 - Windsurf emerging as strong alternative
 - Privacy: Code sent to cloud for analysis
