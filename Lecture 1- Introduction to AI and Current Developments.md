@@ -242,41 +242,49 @@ Previous content archived on May 29, 2025: Original description positioned DeepS
 ###### SCRIPT
 "While DeepSeek-R1-0528 leads the open-source revolution, June 2025 has brought more remarkable developments in the open-source AI space. 
 
-First, Nvidia released Nemotron-Research-Reasoning-Qwen-1.5B, a tiny powerhouse that punches far above its weight. Despite being only 1.5 billion parameters, it uses novel Prolonged Reinforcement Learning (ProRL) techniques to achieve improvements of 14.7% in math, 13.9% in coding, and an impressive 54.8% in logic puzzles compared to previous models. It even matches or exceeds DeepSeek-R1-7B's performance in many tasks—remarkable for a model this small.
+A major breakthrough comes from China's Xiaohongshu (Rednote), which released dots.llm1—a massive 142B parameter Mixture-of-Experts model that's truly open-source. What makes this special? Unlike many 'open' models that use synthetic data or have restrictive licenses, dots.llm1 was trained on 11.2 trillion high-quality, non-synthetic tokens and released under a real open-source license. It even includes intermediate checkpoints every trillion tokens, allowing developers to fine-tune from different training stages. Despite activating only 14B parameters during inference, it achieves performance competitive with much larger models like Qwen3 235B.
 
-Meanwhile, from Japan comes Shisa-v2 405B, claimed to be the most powerful model trained in Japan. With 405 billion parameters and performance comparable to GPT-4 and DeepSeek in both Japanese and English, it represents Asia's growing capabilities in AI development. The model runs on H200 nodes and showcases how AI expertise is becoming truly global.
+Alibaba has also strengthened the open-source ecosystem with new Qwen3 releases. The Qwen3-Embedding-0.6B and Qwen3-Reranker-0.6B models support 119 languages for text embedding and ranking tasks. Meanwhile, MiniCPM4-8B demonstrates incredible efficiency—achieving 7x faster decoding speed than Qwen3-8B while maintaining quality through innovative sparse attention that processes less than 5% of tokens for long contexts.
 
-These models, along with established options like Mistral, LLaMA, and Gemma, create a rich ecosystem of open-source AI. Developers can now choose from tiny efficient models for edge devices to massive models rivaling commercial offerings—all with full transparency and control."
+For those needing tiny but capable models, Nvidia's Nemotron-Research-Reasoning-Qwen-1.5B uses Prolonged Reinforcement Learning to match 7B model performance at just 1.5B parameters—perfect for edge devices and mobile applications.
+
+These models create a rich ecosystem where developers can choose based on their needs: massive MoE models for research, efficient models for production, or tiny models for edge deployment—all with full transparency and control."
 
 ###### VISUAL
 _Title: "June 2025 Open-Source Breakthroughs"
 
-- Nvidia Nemotron-1.5B:
-  - Uses ProRL (Prolonged Reinforcement Learning)
-  - Matches 7B model performance at 1.5B size
-  - Perfect for edge devices and mobile
-- Shisa-v2 405B (Japan):
-  - 405B parameters
-  - GPT-4 comparable performance
-  - Japanese + English excellence
-- Key trend: Efficient small models + powerful regional models
+- dots.llm1 (Xiaohongshu/Rednote):
+  - 142B MoE model (14B active)
+  - 11.2T non-synthetic tokens
+  - True open-source with checkpoints
+  - Competitive with Qwen3 235B
+- MiniCPM4-8B:
+  - 7x faster than Qwen3-8B
+  - Sparse attention (<5% tokens)
+  - 128K context support
+- Qwen3 Embedding Series:
+  - 119 language support
+  - 0.6B to 8B sizes
+- Key trend: Transparency + efficiency + global contributions
 
 ###### NOTES
-- Nemotron uses innovative RL stabilization: entropy collapse mitigation, DAPO, KL regularization
-- Shisa-v2 represents Asia's AI independence movement
-- Both models available in quantized formats for local deployment
-- Criticism: Nvidia's CC-BY-NC-4.0 license limits commercial use
-- Technical breakthrough: Small models now rival much larger ones through better training
+- dots.llm1 is rare: truly open base model with no synthetic data
+- MiniCPM4 uses trainable sparse attention (InfLLM v2) for extreme efficiency
+- Qwen3 embeddings excel at multilingual retrieval and RAG applications
+- Community excitement: dots.llm1 called "underrated" despite strong benchmarks
+- Technical note: MoE design with 128 experts, top-6 routing provides flexibility
+- Efficiency breakthrough: Models getting both larger AND more efficient
 
 ###### LINKS
-- https://huggingface.co/nvidia/Nemotron-Research-Reasoning-Qwen-1.5B
-- https://chat.shisa.ai (Shisa-v2 405B demo)
+- https://github.com/hilab-rednote/dots.llm (dots.llm1)
+- https://huggingface.co/Qwen (Qwen3 models)
+- https://github.com/OpenBMB/MiniCPM (MiniCPM4)
 
 ###### DEMONSTRATION
-Show size comparison: "A 1.5B model matching 7B performance means you can run AI on your phone that previously required a GPU."
+Show efficiency comparison: "MiniCPM4 processes a 128K document 7x faster than standard models—imagine reading War and Peace in seconds."
 
 ###### ARCHIVE
-Previous content archived on June 5, 2025: Original section only covered DeepSeek. Added Nemotron and Shisa-v2 to reflect June 2025's rapid expansion of open-source AI capabilities across different regions and parameter scales.
+Previous content archived on June 6, 2025: Removed focus on Nemotron and Shisa-v2 to highlight dots.llm1 as the major open-source release. This truly open model with non-synthetic training data represents a new standard for transparency in AI development.
 
 ---
 
