@@ -186,6 +186,8 @@ Let’s begin with a simple example—generating a Python script for the Fibonac
 
 - Mention: Claude 4 often provides more detailed explanations and excels at codebase understanding; ChatGPT is faster and usually more concise.
 - **Breaking**: DeepSeek-R1-0528 (May 28, 2025) - First open-source model to outperform o3 on coding benchmarks
+- **June 2025**: Mistral Code launched - comprehensive IDE integration (JetBrains, VSCode), built on Continue project
+- Mistral Code advantages: Local deployment, enterprise tooling, Codestral models excel at specific tasks
 - Gemini may include code with a visual explanation or annotations.
 - Joke: "The only intern who never gets tired and doesn’t drink your coffee."
 - Tip: Highlight best use case—quick prototypes and boilerplate code
@@ -330,7 +332,9 @@ The democratization of professional video production is already happening. In a 
 
 The community response has been overwhelming, with widespread adoption across Discord servers and Reddit communities. While not perfect (AI-generated text in videos often contains errors, and consistency requires careful prompting), the progress has surprised even industry experts who didn't expect such a sudden quality leap.
 
-Looking ahead, infrastructure limitations—not algorithmic ones—are now the primary bottleneck. OpenAI's challenge isn't model quality but lacking sufficient GPUs and scalable infrastructure to match Veo 3's performance and generation length capabilities."
+Looking ahead, infrastructure limitations—not algorithmic ones—are now the primary bottleneck. OpenAI's challenge isn't model quality but lacking sufficient GPUs and scalable infrastructure to match Veo 3's performance and generation length capabilities.
+
+However, Microsoft has now brought OpenAI's Sora to the masses through Bing, offering free access via the 'Bing Video Creator' feature in the Bing app. While users report that Veo 3 still delivers superior results, the democratization of Sora through Bing represents a significant shift in accessibility. Early users note the ability to generate detailed, animated content, though they also encounter strict safety filters that can block many requests, limiting experimental use cases compared to less restrictive alternatives."
 
 ###### VISUAL
 
@@ -355,14 +359,16 @@ Looking ahead, infrastructure limitations—not algorithmic ones—are now the p
 - **Real-world example**: Ulianopolis City Hall (Brazil) - $52 vs $17,543 traditional cost
 - Advanced localization: Natural Portuguese with accurate local accents
 - Google's YouTube data advantage: massive multimedia training dataset unavailable to competitors
-- Community adoption: overwhelming discussion across Discord servers and Reddit communities
-- Industry surprise: quality leap exceeded expert expectations
+- **June 2025 Update**: Microsoft brings free Sora access via Bing Video Creator
+- Sora limitations: Aggressive safety filters reduce experimental use cases
+- Community verdict: Veo 3 still superior, but Sora democratizes access
 - Infrastructure reality: OpenAI's bottleneck is GPUs and scale, not algorithm quality
-- Access via Google Labs Flow for Gemini Pro users
+- Access: Veo 3 via Google Labs Flow; Sora via Bing app
 - Tip: Use consistent prompts for character/scene continuity
 
 ###### LINKS
-- https://labs.google.com/veo
+- https://labs.google.com/veo (Veo 3 access)
+- Bing app: Search for "Video Creator" (Sora access)
 - Ulianopolis commercial example: Real-world case study
 
 ###### DEMONSTRATION

@@ -562,6 +562,8 @@ Think of them like… domain-specific superpowers:
 - Have a brainstorm to organize visually? → Call Napkin.ai
 - Need to summarize a news article in Spanish? → Meet ReadPartner
 - Want to make a realistic AI avatar video? → Say hi to HeyGen
+- Need ethical AI guidance before deploying? → Try IBM's Responsible Prompting API
+- Want high-quality, detailed image generation? → Use Chroma v34
 
 You don’t need to know code to use any of them.
 Let’s walk through each one and see how they can amplify your thinking.
@@ -577,6 +579,8 @@ Let’s walk through each one and see how they can amplify your thinking.
 | Napkin.ai   | Organizes your ideas visually              | Brainstorms, note clustering   |
 | ReadPartner | Summarizes articles/videos (multi-lingual) | Learning, content research     |
 | HeyGen      | Creates talking-head AI videos             | Explainers, marketing, avatars |
+| IBM PromptAPI | Pre-inference responsible prompting guidance | Ethical AI, safety, accuracy  |
+| Chroma v34  | High-resolution image generation            | Art creation, detailed visuals |
 
 **Visuals:**
 - Logos/screenshots of each tool in action
@@ -592,6 +596,8 @@ Let’s walk through each one and see how they can amplify your thinking.
 	- [https://napkin.one](https://napkin.one)
 	- [https://readpartner.com](https://readpartner.com)
 	- [https://heygen.com](https://heygen.com)
+	- IBM Responsible Prompting API (HF Spaces demo available)
+	- Chroma v34 (available in detail-calibrated version)
 
 ---
 
@@ -1189,6 +1195,8 @@ Ready to future-proof your AI journey?"
 	- [https://www.theresanaiforthat.com](https://www.theresanaiforthat.com)
 	- [https://llmarena.com](https://llmarena.com)
 	- [https://futurepedia.io](https://futurepedia.io)
+- **June 2025 Resource**: Modal Labs launched The LLM Engineer's Almanac with thousands of inference benchmarks for open-weight models
+- **Coming Soon**: OpenAI preparing gpt-4o-audio-preview and gpt-4o-realtime-preview models with native audio support
 - **Industry Analysis**: Mary Meeker's 2025 AI Trends Report (340 slides) documents unprecedented tech cycle acceleration
   - ChatGPT adoption compared to early Google shows faster growth curves
   - Marked kink in compute curve indicates infrastructure inflection point
@@ -1253,6 +1261,7 @@ This isn't just about saving space. It's about privacy, control, and access. You
 - Community tools: Ollama for easy installation, HuggingFace for model access
 - Performance metrics: Perplexity (lower is better) used to measure quality
 - Real-world speed: 0.5 tokens/second → 8+ tokens/second with optimization
+- **June 2025 Breakthrough**: Parameter-efficient finetuning achieves ~4x more knowledge uptake and 30% less catastrophic forgetting compared to full finetuning and LoRA, using fewer parameters
 
 ###### LINKS
 - https://huggingface.co/deepseek-ai/DeepSeek-R1-0528-GGUF
