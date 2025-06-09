@@ -1290,7 +1290,134 @@ This isn't just about saving space. It's about privacy, control, and access. You
 
 ---
 
-#### 8.3. Hands-On Application
+#### 8.3. AI in Physical World: Robotics and Ethical Data
+
+##### [seq:368] The Future is Physical: AI-Powered Robotics
+
+###### SCRIPT
+
+"While we've focused on digital AI applications, one of the most exciting developments is AI entering the physical world through advanced robotics.
+
+Figure, a robotics company, is revolutionizing how we think about humanoid robots. Their Figure 02 robot, powered by the proprietary Helix VLA (Vision-Language-Action) model, demonstrates capabilities that seemed like science fiction just a year ago.
+
+What makes this remarkable? The robot has learned behaviors traditionally associated with human dexterity—like flipping packages to orient barcodes downward and flattening items for scanning. These aren't pre-programmed movements; they're learned behaviors that emerge from the AI understanding the task goal.
+
+The demonstration shows real-world challenges: failed grasp attempts, adaptive repositioning, and sophisticated error recovery. This isn't a perfectly choreographed demo—it's AI learning to handle the messy reality of physical tasks.
+
+The ultimate vision? These robots will emerge from Rivian electric vans to deliver packages directly to your door. Amazon is already testing this integration, potentially revolutionizing last-mile delivery while addressing safety concerns for human couriers in high-crime areas.
+
+Brett Adcock, Figure's CEO, revealed their revolutionary approach: all robots share a 'single brain.' When one robot learns something new—whether it's a better grasping technique or how to handle fragile items—that knowledge instantly propagates to every robot in the fleet. This collective learning creates an exponential improvement curve.
+
+However, this centralized intelligence raises critical security questions. If one robot can be taught malicious behavior through 'learning injection' attacks, the entire fleet could be compromised instantly. It's a powerful reminder that as AI becomes more capable, security and safety considerations become paramount."
+
+###### VISUAL
+
+**Slide Title: "AI Enters the Physical World: Figure Robotics"**
+
+- Figure 02 Robot Capabilities:
+  - Autonomous package manipulation
+  - Learned behaviors (not pre-programmed)
+  - Real-time error recovery
+  - Collective learning across fleet
+- Helix VLA Model:
+  - Vision-Language-Action integration
+  - Closed-loop sensorimotor control
+  - Task understanding from natural language
+- Real-World Applications:
+  - Last-mile delivery (Amazon + Rivian partnership)
+  - Warehouse automation
+  - Safety in dangerous environments
+- Security Considerations:
+  - Shared "brain" = shared vulnerabilities
+  - Need for robust safeguards
+  - Audit trails for learned behaviors
+
+Visual: Split screen showing Figure 02 manipulating packages + diagram of collective learning architecture
+
+###### NOTES
+
+- Figure's approach differs from traditional robotics: AI-first, learning-based
+- Failed grasp attempts in demos show genuine learning, not scripted actions
+- Community questions focus on tactile sensing and error detection mechanisms
+- Security experts warn about "learning injection" attacks on shared models
+- Cost reduction potential: Robot delivery vs human courier safety
+- Technical challenge: Integrating vision, language understanding, and physical action
+
+###### LINKS
+- https://figure.ai (Figure Robotics)
+- Video demonstrations on Figure's social media channels
+
+###### DEMONSTRATION
+
+**Discussion Prompt:** "As AI robots become more capable, how do we balance efficiency gains with security risks? What safeguards would you want for a fleet of intelligent delivery robots in your neighborhood?"
+
+---
+
+##### [seq:369] Ethical AI Training: The Common Pile Revolution
+
+###### SCRIPT
+
+"Now let's talk about something fundamental to AI development that often gets overlooked: where the training data comes from.
+
+EleutherAI just made a groundbreaking announcement that could reshape how we think about AI ethics. They've released Common Pile v0.1—an 8TB dataset comprising openly licensed and public domain text from 30 distinct sources. This represents 11.2 trillion tokens of training data, all ethically sourced.
+
+Why is this revolutionary? Most large language models are trained on data of questionable origin—scraped websites, copyrighted books, private communications. Common Pile proves you can build competitive AI using only ethically sourced, transparent data.
+
+The results speak for themselves. Models trained on Common Pile—called Comma v0.1-1T and Comma v0.1-2T—achieve performance comparable to Meta's Llama models. This demolishes the myth that you need 'dirty' data to build good AI.
+
+What makes Common Pile special:
+- Complete transparency: Every data source is documented
+- No copyright violations: Only openly licensed content
+- Community ownership: Available for anyone to use and improve
+- Ethical foundation: Respects content creators' rights
+
+This isn't just about legality—it's about building an AI ecosystem we can trust. When you know exactly what data trained a model, you can better understand its biases, limitations, and appropriate uses.
+
+The community response has been overwhelming. Developers are already building specialized models for healthcare, education, and research using this ethical foundation. It's proof that we can have both powerful AI and respect for intellectual property."
+
+###### VISUAL
+
+**Slide Title: "Common Pile: Building Ethical AI from the Ground Up"**
+
+- Dataset Statistics:
+  - 8TB of ethically sourced text
+  - 11.2 trillion tokens
+  - 30 diverse sources
+  - 100% transparent documentation
+- Performance Results:
+  - Comma models match Llama 1 & 2
+  - No performance penalty for ethics
+  - Community-driven improvements
+- Why It Matters:
+  - No copyright violations
+  - Traceable data sources
+  - Reduced legal risks
+  - Better bias understanding
+- Visual: Flowchart showing data sources → cleaning → model training → open release
+
+###### NOTES
+
+- EleutherAI known for democratizing AI research
+- Common Pile addresses growing copyright lawsuits against AI companies
+- Models show synthetic data isn't necessary for good performance
+- Community already creating domain-specific versions
+- Could become standard for academic and research AI
+- Represents shift toward "clean room" AI development
+
+###### LINKS
+- https://github.com/EleutherAI/common-pile
+- https://huggingface.co/EleutherAI
+- Paper: https://arxiv.org/abs/2506.XXXXX
+
+###### DEMONSTRATION
+
+**Activity:** "Compare two models—one trained on Common Pile, one on traditional web scrapes. Can you detect differences in their responses? What biases might each carry?"
+
+**Discussion:** "Should all AI models disclose their training data? How would transparency change how we use and trust AI systems?"
+
+---
+
+#### 8.4. Hands-On Application
 
 ##### [seq:370] Hands-On Activity: AI Tool Integration Workshop
 

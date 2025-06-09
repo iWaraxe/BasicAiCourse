@@ -131,7 +131,9 @@ Visual: Screenshots of Canvas, Project tabs, CustomGPT editor interface
 
 **Artefacts** are structured outputs: Claude might generate tables, summaries, outlines, or visual layouts in a dedicated panel.
 
-**Research** is now available on Claude Pro plans as of June 2025—a BETA feature that provides integrated research assistance with synthesized information rather than direct answers. Users report that it deploys 3-4 subagents to tackle queries from multiple angles using a depth-first approach, citing '300 sources and counting' for comprehensive research tasks."
+**Research** is now available on Claude Pro plans as of June 2025—a BETA feature that provides integrated research assistance with synthesized information rather than direct answers. Users report that it deploys 3-4 subagents to tackle queries from multiple angles using a depth-first approach, citing '300 sources and counting' for comprehensive research tasks.
+
+**Projects** just received a massive expansion. As of June 6, 2025, Claude Projects now supports 10 times more content and activated a new retrieval mode. This update is rolling out to all paid Claude plans and has been called a 'game changer' by the community. Projects provide persistent context across conversations, allowing you to maintain ongoing workspaces with documents, code, and research materials. The new retrieval mode enhances how Claude accesses and references information within your project, making it significantly more powerful for complex, long-term work."
 
 ###### VISUAL
 
@@ -141,9 +143,10 @@ Visual: Screenshots of Canvas, Project tabs, CustomGPT editor interface
 - Stylized Writing – Personality-infused outputs
 - Artefacts – Tables, summaries, structured formats
 - Research – Multi-agent research with 300+ sources (Pro BETA)
+- **Projects (10x expansion!)** – Massive persistent workspaces
 - Claude Code – IDE integration for development workflows
 
-Visual: Screenshot of Claude interface with Thinking Mode active and Artefact result panel
+Visual: Screenshot of Claude interface with expanded Projects sidebar showing multiple documents and new retrieval mode indicator
 
 ###### NOTES
 
@@ -151,9 +154,10 @@ Visual: Screenshot of Claude interface with Thinking Mode active and Artefact re
 - **Availability concern**: Anthropic cut Claude 3.x capacity with <5 days notice (June 2025)
 - **New Feature**: Research mode (BETA) - deploys 3-4 subagents for comprehensive analysis
 - Research capability: Users report 300+ sources per query, depth-first approach
+- **Breaking June 6**: Projects now support 10x more content + new retrieval mode
+- Projects update rolling out to all paid plans - called "game changer" by users
 - Mention Claude 4 now integrates stylized writing + artefacts more smoothly
 - Claude Code brings Claude 4 directly into IDEs for seamless development workflows
-- Projects feature provides persistent context across conversations
 - Tip: Use Claude for longform content and structured logic tasks
 - Joke: "Claude doesn’t just give answers. It gives receipts."
 

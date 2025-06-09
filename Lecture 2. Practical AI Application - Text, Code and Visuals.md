@@ -686,7 +686,69 @@ Prompt 2: "Now solve a similar problem: Find all triplets in an array that sum t
 
 ---
 
-### 8. Hands-On Activity: Interactive AI Exploration
+### 8. Privacy-First AI: Running Models Locally
+
+#### 8.1. On-Device AI Applications
+
+##### [seq:108] Local AI for Complete Privacy
+
+###### SCRIPT
+
+"Let's talk about something increasingly important in 2025: privacy. Not everyone wants their data sent to cloud servers, especially when dealing with sensitive information. The good news? AI has come to your device.
+
+We're seeing a surge in applications that run AI entirely on your phone or computer—no internet connection needed, complete privacy guaranteed. These aren't toy models either; they're delivering professional-grade results while keeping your data exactly where it belongs: with you.
+
+Take Fullpack, an iOS app that turns photos into smart packing lists using Apple's VisionKit. You snap photos of items as you pack, and the app identifies everything locally on your iPhone. No cloud APIs, no data collection—just pure on-device intelligence. Users are finding creative applications beyond travel, like home inventory for insurance or cataloging items for resale.
+
+Another breakthrough is real-time character conversation with voice. Projects like MousyHub let you have natural conversations with AI characters entirely on your local machine. While current text-to-speech engines like Kokoro TTS lack emotional expression compared to cloud services, the privacy and offline capability make them invaluable for sensitive use cases.
+
+The key enabler? Efficient models like MiniCPM4 that achieve 7x faster decoding than standard models while running on consumer hardware. With Apple's recent advancements in on-device AI and frameworks like CoreML, we're entering an era where professional AI capabilities don't require an internet connection."
+
+###### VISUAL
+
+**Title: "AI That Respects Your Privacy"**
+
+- **On-Device Applications**:
+  - Fullpack (iOS): Photo → Packing list, 100% private
+  - Real-time voice characters: Local conversation
+  - Document analysis: Sensitive data stays local
+- **Key Benefits**:
+  - No internet required
+  - Complete data privacy
+  - Zero monthly fees
+  - Works anywhere
+- **Technical enablers**:
+  - Apple VisionKit & CoreML
+  - Efficient models (MiniCPM4: 7x faster)
+  - Hardware acceleration (Neural Engine, GPUs)
+- Visual: Phone showing local AI processing with "No Cloud" icon
+
+###### NOTES
+
+- Fullpack uses Apple's VisionKit for object detection—all processing on-device
+- MousyHub provides lightweight alternative to SillyTavern for local character AI
+- Current limitation: Local TTS lacks emotional prosody vs cloud solutions
+- Trend: Users repurposing apps creatively (packing → inventory → eBay cataloging)
+- Privacy becoming major differentiator as AI handles more sensitive data
+- Technical note: 20GB RAM now sufficient for powerful local models
+
+###### LINKS
+- https://apps.apple.com/app/fullpack (Fullpack iOS app)
+- https://github.com/MousyHub/MousyHub (Local character conversation)
+
+###### DEMONSTRATION
+
+**Demo - Privacy Comparison:**
+
+1. Show a cloud-based AI service privacy policy
+2. Contrast with on-device app: "Your data never leaves your device"
+3. Demonstrate offline functionality: Turn on airplane mode, app still works
+
+**Discussion:** "What sensitive tasks would you prefer to keep completely private? Medical notes? Financial planning? Personal journaling?"
+
+---
+
+### 9. Hands-On Activity: Interactive AI Exploration
 
 #### 8.1. Activity Framework
 
