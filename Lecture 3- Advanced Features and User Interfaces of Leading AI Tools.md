@@ -220,12 +220,15 @@ Visual: Perplexity response screenshot with citation numbers, space example on a
 
 "So far, we’ve looked at what these tools _can do_ through their interfaces. Now, let’s peel back the curtain to understand _how_ they work.
 
-There are four essential concepts that power every interaction you have with a language model:
+There are five essential concepts that power every interaction you have with a language model:
 
 1. **Tokens**
 2. **Context Windows**
 3. **Temperature Settings**
 4. **Recursive Prediction**
+5. **Advanced Architectures (MoE, Edge Computing)**
+
+A breakthrough development is Apple's Parallel-Track MoE (Mixture of Experts) architecture, which enables high-quality AI inference on edge devices like phones and laptops. This innovation allows local processing without cloud dependency, ensuring privacy while maintaining performance—a significant step toward truly personal AI assistants.
 
 Grasping these concepts will help you write smarter prompts, troubleshoot strange outputs, and fine-tune models for specific tasks."
 
@@ -237,8 +240,9 @@ Grasping these concepts will help you write smarter prompts, troubleshoot strang
 - Context = Memory limit for input/output
 - Temperature = Creativity control
 - Recursive Prediction = Word-by-word construction
+- MoE Architecture = Smart routing for efficient processing
 
-Visual: Infographic with each term illustrated
+Visual: Infographic with each term illustrated, including Apple's edge computing diagram
 
 ###### NOTES
 
