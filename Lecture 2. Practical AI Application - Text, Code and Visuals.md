@@ -185,7 +185,7 @@ Let’s begin with a simple example—generating a Python script for the Fibonac
 ###### NOTES
 
 - Mention: Claude 4 often provides more detailed explanations and excels at codebase understanding; ChatGPT is faster and usually more concise.
-- **Breaking**: DeepSeek-R1-0528 (May 28, 2025) - First open-source model to outperform o3 on coding benchmarks
+- **Breaking**: DeepSeek-R1-0528 (May 28, 2025) - First open-source model to achieve 71% on Aider Polyglot Coding Benchmark (14.5pp improvement)
 - **Pricing revolution**: OpenAI o3 reduced 80% in price (June 2025) - now $2/$8 per 1M tokens
 - **June 2025**: Mistral Code launched - comprehensive IDE integration (JetBrains, VSCode), built on Continue project
 - Mistral Code advantages: Local deployment, enterprise tooling, Codestral models excel at specific tasks
@@ -706,7 +706,9 @@ Take Fullpack, an iOS app that turns photos into smart packing lists using Apple
 
 Another breakthrough is real-time character conversation with voice. Projects like MousyHub let you have natural conversations with AI characters entirely on your local machine. While current text-to-speech engines like Kokoro TTS lack emotional expression compared to cloud services, the privacy and offline capability make them invaluable for sensitive use cases.
 
-The key enabler? Efficient models like MiniCPM4 that achieve 7x faster decoding than standard models while running on consumer hardware. With Apple's recent advancements in on-device AI and frameworks like CoreML, we're entering an era where professional AI capabilities don't require an internet connection."
+The key enabler? Efficient models like MiniCPM4 that achieve 7x faster decoding than standard models while running on consumer hardware. With Apple's recent advancements in on-device AI and frameworks like CoreML, we're entering an era where professional AI capabilities don't require an internet connection.
+
+Apple has taken this further with their Foundation Models API (June 2025), providing iOS developers with on-device AI capabilities for natural language processing, image understanding, and more—all running locally on iPhone hardware. This democratizes AI development while maintaining Apple's privacy-first approach."
 
 ###### VISUAL
 
@@ -730,6 +732,7 @@ The key enabler? Efficient models like MiniCPM4 that achieve 7x faster decoding 
 ###### NOTES
 
 - Fullpack uses Apple's VisionKit for object detection—all processing on-device
+- Apple Foundation Models API (June 2025) enables iOS developers to build AI apps with local processing
 - MousyHub provides lightweight alternative to SillyTavern for local character AI
 - Current limitation: Local TTS lacks emotional prosody vs cloud solutions
 - Trend: Users repurposing apps creatively (packing → inventory → eBay cataloging)

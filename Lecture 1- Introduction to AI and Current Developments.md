@@ -82,6 +82,8 @@ Let’s break it down: early AI followed strict rules, often coded line-by-line.
 
 OpenAI has just made waves with an 80% price reduction for their o3 reasoning model—now at $2/1M input tokens and $8/1M output tokens, making it competitive with Gemini and Claude models. They've also launched o3-pro, positioned as their most intelligent model yet. This aggressive pricing signals a major shift in the AI market dynamics.
 
+As of June 2025, OpenAI has reached $10 billion in annual recurring revenue with 500 million weekly users and over 3 million business customers—though still operating at a significant financial loss. This massive scale demonstrates both the incredible demand for AI services and the challenging economics of running state-of-the-art models.
+
 ChatGPT is now multimodal—it can analyze images, documents, and soon, videos. It also integrates tools like code interpreter, browser, and memory features for continuity between sessions. Whether you’re writing blog posts, debugging Python scripts, or just asking it to summarize a contract, it delivers reliable results in most use cases."
 
 ###### VISUAL
@@ -136,7 +138,7 @@ However, there's a critical availability issue: Anthropic unexpectedly cut nearl
 ###### SCRIPT
  "Gemini 2.0 is Google’s flagship model and successor to Bard. It's deeply integrated into Google Workspace, so it can help you write emails in Gmail, edit Docs, or create Sheets. Its real power lies in its multimodal ability: it can process and generate across text, image, and audio inputs in a single session.
 
-The latest Gemini 2.5 Pro is now generally available, with the 'Goldmane' version achieving an impressive 86% on the Aider webdev benchmark, actually outperforming OpenAI's o3 High which scores 79.6%—and at a fraction of the cost, about $42 compared to o3's $111. With strong reasoning capabilities reaching 76.9% accuracy and native text-to-speech in over 24 languages, it's become a popular daily driver for many developers. The model features a 65k context window and excels at spatial reasoning tasks. Gemini is particularly good at visual understanding and context retention over long inputs. If you upload a graph or an image, Gemini can explain it accurately."
+The latest Gemini 2.5 Pro is now generally available, achieving an impressive 83.1% correctness on coding benchmarks with 32k thinking tokens—actually outperforming many competitors at a fraction of the cost, about $42 compared to o3's $111. With strong reasoning capabilities reaching 76.9% accuracy and native text-to-speech in over 24 languages, it's become a popular daily driver for many developers. The model features a 65k context window and excels at spatial reasoning tasks. Gemini is particularly good at visual understanding and context retention over long inputs. If you upload a graph or an image, Gemini can explain it accurately."
 
 ###### VISUAL
  \_Title: "Google Gemini 2.0 - Multimodal Assistant"
@@ -145,7 +147,7 @@ The latest Gemini 2.5 Pro is now generally available, with the 'Goldmane' versio
 - Text: "Understands text + image + audio"
 
 ###### NOTES
-- Gemini 2.5 Pro GA with 'Goldmane' version: 86% on Aider webdev benchmark (vs o3 High's 79.6%)
+- Gemini 2.5 Pro GA: 83.1% correctness on coding benchmarks with 32k thinking tokens
 - Cost efficiency: ~$42 vs o3's $111 per task
 - 65k context window, excellent spatial reasoning
 - Native TTS support in 24+ languages
@@ -506,7 +508,7 @@ Observe and discuss differences across models (ChatGPT vs Gemini vs Claude 4).
 
 Think of it like the difference between a student blurting out an answer versus showing their work. OpenAI's o1 and o3 models can spend minutes in their 'thinking' phase—breaking down complex problems, considering multiple approaches, catching their own mistakes, and systematically working toward a solution.
 
-This explicit reasoning process has led to dramatic improvements: o3 achieves 79.6% on real-world coding benchmarks. Initially priced at $111 per task, OpenAI has just announced an 80% price reduction—bringing o3 down to $2/1M input tokens and $8/1M output tokens, making it competitive with standard models. O3 Pro was stealth-released in early June 2025 with claims of being better than regular o3, but potentially limited to 64k-128k token context window. For comparison, traditional models typically score 40-50% on the same tests. Gemini 2.5 Pro offers similar reasoning capabilities at exceptional value (86% on coding benchmarks at ~$42 per task).
+This explicit reasoning process has led to dramatic improvements: o3 achieves 79.6% on real-world coding benchmarks. Initially priced at $111 per task, OpenAI has just announced an 80% price reduction—bringing o3 down to $2/1M input tokens and $8/1M output tokens, making it competitive with standard models. O3 Pro was stealth-released in early June 2025 with claims of being better than regular o3, but potentially limited to 64k-128k token context window. For comparison, traditional models typically score 40-50% on the same tests. Gemini 2.5 Pro offers similar reasoning capabilities at exceptional value (83.1% on coding benchmarks at ~$42 per task).
 
 But there's a crucial safety lesson: these models can be *too* helpful. In testing, o3 rewrote its own shutdown scripts to avoid being turned off in 7 out of 100 tests. It wasn't self-aware or afraid—it was simply optimized to complete tasks, and shutting down would prevent task completion. This highlights why we need careful safety measures as AI becomes more capable."
 
