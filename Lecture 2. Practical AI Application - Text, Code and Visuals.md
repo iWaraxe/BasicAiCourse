@@ -166,7 +166,7 @@ Let’s test their abilities in formal and informal translation—and see how th
 
 "Now let’s jump into something a bit more technical—code generation.
 
-Whether you're a seasoned developer or someone who's just starting, generative AI tools can help write code, explain code, and even suggest optimizations. The landscape just changed dramatically with DeepSeek-R1-0528's release on May 28, 2025—an open-source model that's not just competing with commercial giants like OpenAI's o3, it's actually outperforming them on coding tasks while being completely free and MIT-licensed.
+Whether you're a seasoned developer or someone who's just starting, generative AI tools can help write code, explain code, and even suggest optimizations. The landscape has transformed dramatically in 2025. DeepSeek-R1-0528 (released May 28) revolutionized open-source coding with performance matching or exceeding commercial models while being completely free and MIT-licensed. Meanwhile, OpenAI just slashed o3's price by 80%—from $111 per task down to just $2/1M input tokens and $8/1M output tokens, making advanced reasoning models suddenly affordable for everyday coding tasks.
 
 Let’s begin with a simple example—generating a Python script for the Fibonacci sequence, with comments to explain each step. This will show how well the models handle both logic and readability."
 
@@ -186,8 +186,10 @@ Let’s begin with a simple example—generating a Python script for the Fibonac
 
 - Mention: Claude 4 often provides more detailed explanations and excels at codebase understanding; ChatGPT is faster and usually more concise.
 - **Breaking**: DeepSeek-R1-0528 (May 28, 2025) - First open-source model to outperform o3 on coding benchmarks
+- **Pricing revolution**: OpenAI o3 reduced 80% in price (June 2025) - now $2/$8 per 1M tokens
 - **June 2025**: Mistral Code launched - comprehensive IDE integration (JetBrains, VSCode), built on Continue project
 - Mistral Code advantages: Local deployment, enterprise tooling, Codestral models excel at specific tasks
+- **Efficiency leader**: MiniCPM4-8B achieves 7x faster decoding than Qwen3-8B via sparse attention
 - Gemini may include code with a visual explanation or annotations.
 - Joke: "The only intern who never gets tired and doesn’t drink your coffee."
 - Tip: Highlight best use case—quick prototypes and boilerplate code
@@ -298,6 +300,8 @@ We’ll begin by uploading diagrams, charts, and other visuals to see how well t
 - Mention Gemini and GPT-4V (DALL·E integration) as top tools for visual tasks.
 - Claude 4 can interpret diagrams and describe their components clearly.
 - Google's Imagen AI achieves near-human quality with excellent prompt adherence, while Veo3 now leads in video generation, surpassing OpenAI's Sora
+- **June 2025**: Krea AI released their first image model (Krea 1), joining competitive image generation landscape
+- **New efficiency models**: Apple's Parallel-Track MoE enables high-quality inference on edge devices
 - Joke: “AI can’t draw a horse very well… but it might draw you a futuristic city with a flying horse!”
 
 

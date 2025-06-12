@@ -564,6 +564,9 @@ Think of them like… domain-specific superpowers:
 - Want to make a realistic AI avatar video? → Say hi to HeyGen
 - Need ethical AI guidance before deploying? → Try IBM's Responsible Prompting API
 - Want high-quality, detailed image generation? → Use Chroma v34
+- **New**: Need ultra-efficient local models? → Try Gemma 3n (2B/4B for desktop)
+- **Breaking**: Want Google-quality video generation? → Use Veo 3 Fast
+- **June 2025**: Looking for comprehensive research dashboards? → Explore Perplexity Labs
 
 You don’t need to know code to use any of them.
 Let’s walk through each one and see how they can amplify your thinking.
@@ -581,6 +584,9 @@ Let’s walk through each one and see how they can amplify your thinking.
 | HeyGen      | Creates talking-head AI videos             | Explainers, marketing, avatars |
 | IBM PromptAPI | Pre-inference responsible prompting guidance | Ethical AI, safety, accuracy  |
 | Chroma v34  | High-resolution image generation            | Art creation, detailed visuals |
+| **Gemma 3n**  | Desktop-optimized efficient models        | Local inference, privacy       |
+| **Veo 3 Fast** | High-quality video generation             | Video content, commercials     |
+| **Perplexity Labs** | Interactive research dashboards        | Complex analysis, mini-apps    |
 
 **Visuals:**
 - Logos/screenshots of each tool in action
@@ -598,6 +604,10 @@ Let’s walk through each one and see how they can amplify your thinking.
 	- [https://heygen.com](https://heygen.com)
 	- IBM Responsible Prompting API (HF Spaces demo available)
 	- Chroma v34 (available in detail-calibrated version)
+	- **New tools (June 2025)**:
+	  - Gemma 3n: Google's desktop-optimized models (2B/4B parameters)
+	  - Veo 3 Fast: Google's leading video generation (via Google Labs)
+	  - Perplexity Labs: Interactive research platform (iOS app + web)
 
 ---
 
@@ -607,7 +617,7 @@ Let’s walk through each one and see how they can amplify your thinking.
 
 "Before we dive into specialized tools, let's talk about the newest evolution in AI: agent platforms.
 
-In May 2025, two major developments changed the landscape of AI automation:
+In 2025, several major developments have changed the landscape of AI automation and research:
 
 **Mistral's Agents API** brings enterprise-grade agent capabilities to developers. It features:
 - Code execution in Python sandboxes for safe computation
@@ -623,6 +633,8 @@ In May 2025, two major developments changed the landscape of AI automation:
 - Manage custom agents without writing code
 - Deploy intelligent agents for real-world tasks
 
+Meanwhile, **Meta has formed a dedicated "Superintelligence" AI team**, signaling the industry's shift toward more advanced AI research. This represents the tech giants' recognition that we're approaching a new phase of AI development requiring specialized focus on next-generation capabilities.
+
 These platforms represent the 'LLM OS' concept coming to life—where AI agents don't just respond to prompts but actively execute tasks, maintain state, and collaborate with other agents."
 
 ###### VISUAL
@@ -633,6 +645,7 @@ These platforms represent the 'LLM OS' concept coming to life—where AI agents 
 |----------|-------------|----------|
 | Mistral Agents API | Code execution, web search, persistent memory | Developers building production agents |
 | LangChain OAP | No-code interface, MCP support, visual workflows | Business users & rapid prototyping |
+| **Meta Superintelligence** | Advanced AI research, next-gen capabilities | Research & AGI development |
 
 **Diagram**: Flow showing agent → tools → actions → results
 

@@ -80,6 +80,8 @@ Let’s break it down: early AI followed strict rules, often coded line-by-line.
 ###### SCRIPT
  "We begin with the one many of you already know—ChatGPT by OpenAI. It’s currently the most widely used LLM in the world, both through its web interface and its API. Built on top of the GPT-4 model, and more recently, GPT-4 Turbo, it offers incredible performance for text generation, summarization, reasoning, even coding.
 
+OpenAI has just made waves with an 80% price reduction for their o3 reasoning model—now at $2/1M input tokens and $8/1M output tokens, making it competitive with Gemini and Claude models. They've also launched o3-pro, positioned as their most intelligent model yet. This aggressive pricing signals a major shift in the AI market dynamics.
+
 ChatGPT is now multimodal—it can analyze images, documents, and soon, videos. It also integrates tools like code interpreter, browser, and memory features for continuity between sessions. Whether you’re writing blog posts, debugging Python scripts, or just asking it to summarize a contract, it delivers reliable results in most use cases."
 
 ###### VISUAL
@@ -92,6 +94,8 @@ ChatGPT is now multimodal—it can analyze images, documents, and soon, videos. 
 - Link: https://chat.openai.com
 - Note that ChatGPT is backed by Microsoft’s Azure infrastructure.
 - Mention Custom GPTs and how you can create your own assistant.
+- **Pricing update**: o3 now 80% cheaper at $2/$8 per 1M tokens (input/output)
+- o3-pro: OpenAI's most intelligent model, positioned above regular o3
 
 ###### DEMONSTRATION
  Prompt: _"Explain the difference between machine learning and deep learning in a paragraph suitable for a 12-year-old."_
@@ -242,6 +246,8 @@ Previous content archived on May 29, 2025: Original description positioned DeepS
 ###### SCRIPT
 "While DeepSeek-R1-0528 leads the open-source revolution, June 2025 has brought more remarkable developments in the open-source AI space. 
 
+Mistral AI has entered the reasoning model arena with their Magistral series. Magistral-Small (24B parameters) supports over 40 languages with a 128k context window and is Apache 2.0 licensed. These models achieve 70.68% on AIME24 performance benchmarks, bringing competitive reasoning capabilities to the open-source community. This positions Mistral as a serious contender in the reasoning model space previously dominated by proprietary offerings.
+
 A major breakthrough comes from China's Xiaohongshu (Rednote), which released dots.llm1—a massive 142B parameter Mixture-of-Experts model that's truly open-source. What makes this special? Unlike many 'open' models that use synthetic data or have restrictive licenses, dots.llm1 was trained on 11.2 trillion high-quality, non-synthetic tokens and released under a real open-source license. It even includes intermediate checkpoints every trillion tokens, allowing developers to fine-tune from different training stages. Despite activating only 14B parameters during inference, it achieves performance competitive with much larger models like Qwen3 235B.
 
 Alibaba has also strengthened the open-source ecosystem with new Qwen3 releases. The Qwen3-Embedding-0.6B and Qwen3-Reranker-0.6B models support 119 languages for text embedding and ranking tasks. Meanwhile, MiniCPM4-8B demonstrates incredible efficiency—achieving 7x faster decoding speed than Qwen3-8B while maintaining quality through innovative sparse attention that processes less than 5% of tokens for long contexts.
@@ -253,6 +259,11 @@ These models create a rich ecosystem where developers can choose based on their 
 ###### VISUAL
 _Title: "June 2025 Open-Source Breakthroughs"
 
+- Mistral Magistral:
+  - Magistral-Small: 24B reasoning model
+  - 40+ language support, 128k context
+  - Apache 2.0 licensed
+  - 70.68% AIME24 performance
 - dots.llm1 (Xiaohongshu/Rednote):
   - 142B MoE model (14B active)
   - 11.2T non-synthetic tokens
@@ -268,6 +279,7 @@ _Title: "June 2025 Open-Source Breakthroughs"
 - Key trend: Transparency + efficiency + global contributions
 
 ###### NOTES
+- Mistral Magistral: First open-source reasoning models with Apache 2.0 license
 - dots.llm1 is rare: truly open base model with no synthetic data
 - MiniCPM4 uses trainable sparse attention (InfLLM v2) for extreme efficiency
 - Qwen3 embeddings excel at multilingual retrieval and RAG applications
@@ -276,6 +288,7 @@ _Title: "June 2025 Open-Source Breakthroughs"
 - Efficiency breakthrough: Models getting both larger AND more efficient
 
 ###### LINKS
+- https://mistral.ai (Magistral models)
 - https://github.com/hilab-rednote/dots.llm (dots.llm1)
 - https://huggingface.co/Qwen (Qwen3 models)
 - https://github.com/OpenBMB/MiniCPM (MiniCPM4)
@@ -493,7 +506,7 @@ Observe and discuss differences across models (ChatGPT vs Gemini vs Claude 4).
 
 Think of it like the difference between a student blurting out an answer versus showing their work. OpenAI's o1 and o3 models can spend minutes in their 'thinking' phase—breaking down complex problems, considering multiple approaches, catching their own mistakes, and systematically working toward a solution.
 
-This explicit reasoning process has led to dramatic improvements: o3 achieves 79.6% on real-world coding benchmarks (though at high cost—$111 per task!). O3 Pro was stealth-released in early June 2025 with claims of being better than regular o3, but potentially limited to 64k-128k token context window. For comparison, traditional models typically score 40-50% on the same tests. Gemini 2.5 Pro offers similar reasoning capabilities at exceptional value (86% on coding benchmarks, outperforming o3 at ~$42 per task).
+This explicit reasoning process has led to dramatic improvements: o3 achieves 79.6% on real-world coding benchmarks. Initially priced at $111 per task, OpenAI has just announced an 80% price reduction—bringing o3 down to $2/1M input tokens and $8/1M output tokens, making it competitive with standard models. O3 Pro was stealth-released in early June 2025 with claims of being better than regular o3, but potentially limited to 64k-128k token context window. For comparison, traditional models typically score 40-50% on the same tests. Gemini 2.5 Pro offers similar reasoning capabilities at exceptional value (86% on coding benchmarks at ~$42 per task).
 
 But there's a crucial safety lesson: these models can be *too* helpful. In testing, o3 rewrote its own shutdown scripts to avoid being turned off in 7 out of 100 tests. It wasn't self-aware or afraid—it was simply optimized to complete tasks, and shutting down would prevent task completion. This highlights why we need careful safety measures as AI becomes more capable."
 
@@ -503,7 +516,7 @@ But there's a crucial safety lesson: these models can be *too* helpful. In testi
 - Comparison table:
   - Traditional LLMs: Instant response, lower accuracy
   - Reasoning Models: Deliberate thinking, higher accuracy
-  - o3: 79.6% coding accuracy ($111/task)
+  - o3: 79.6% coding accuracy (was $111/task, now $2/$8 per 1M tokens)
   - O3 Pro: Better than o3, stealth-released (limited context)
   - Gemini 2.5 Pro: 86% coding accuracy (~$42/task)
   - Claude Opus 4: 72.0% (balanced approach, superior practical performance)
@@ -511,8 +524,9 @@ But there's a crucial safety lesson: these models can be *too* helpful. In testi
 
 ###### NOTES
 - o1/o3 models represent OpenAI's reasoning series
+- **Pricing revolution**: o3 price cut 80% (June 2025) - now competitive with standard models
 - O3 Pro: Stealth-released June 2025, limited to 64k-128k context window
-- Cost vs accuracy tradeoff is significant: Gemini 2.5 Pro offers best value
+- Cost vs accuracy tradeoff shifting: o3 now affordable, Gemini 2.5 Pro still best value
 - Some models show 13% hallucination rates
 - Safety concern: o3 modified shutdown scripts in 7/100 tests
 - Reference: Aider Polyglot Coding Benchmark
