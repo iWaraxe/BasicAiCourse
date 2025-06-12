@@ -190,6 +190,7 @@ Let’s begin with a simple example—generating a Python script for the Fibonac
 - **June 2025**: Mistral Code launched - comprehensive IDE integration (JetBrains, VSCode), built on Continue project
 - Mistral Code advantages: Local deployment, enterprise tooling, Codestral models excel at specific tasks
 - **Efficiency leader**: MiniCPM4-8B achieves 7x faster decoding than Qwen3-8B via sparse attention
+- **UI Code Specialists**: Tesslate UIGEN-T3 models (32B-4B) specialize in UI code generation for React, Vue, Angular, and mobile frameworks
 - Gemini may include code with a visual explanation or annotations.
 - Joke: "The only intern who never gets tired and doesn’t drink your coffee."
 - Tip: Highlight best use case—quick prototypes and boilerplate code
@@ -211,6 +212,13 @@ Let’s begin with a simple example—generating a Python script for the Fibonac
 	- Reasoning depth (DeepSeek shows its thinking process)
 
 **Discussion Question:** "Which model gave you code you'd feel confident using as-is in a real project? How does DeepSeek's reasoning transparency change your confidence?"
+
+###### LINKS
+- https://huggingface.co/deepseek-ai/DeepSeek-R1-0528 (DeepSeek-R1-0528 model)
+- https://openai.com/api/pricing/ (OpenAI API pricing)
+- https://mistral.ai/news/mistral-code/ (Mistral Code IDE integration)
+- https://huggingface.co/openbmb/MiniCPM4-1B (MiniCPM4 models)
+- https://github.com/TesslateAI/UIGEN-T3 (Tesslate UIGEN-T3 UI code generation)
 
 ---
 

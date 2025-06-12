@@ -248,7 +248,7 @@ Previous content archived on May 29, 2025: Original description positioned DeepS
 ###### SCRIPT
 "While DeepSeek-R1-0528 leads the open-source revolution, June 2025 has brought more remarkable developments in the open-source AI space. 
 
-Mistral AI has entered the reasoning model arena with their Magistral series. Magistral-Small (24B parameters) supports over 40 languages with a 128k context window and is Apache 2.0 licensed. These models achieve 70.68% on AIME24 performance benchmarks, bringing competitive reasoning capabilities to the open-source community. This positions Mistral as a serious contender in the reasoning model space previously dominated by proprietary offerings.
+Mistral AI has entered the reasoning model arena with their Magistral series. The lineup includes Magistral-Small (24B parameters) and Magistral-Medium, both supporting over 40 languages with a 128k context window and Apache 2.0 licensing. These models achieve 70.68% on AIME24 performance benchmarks, bringing competitive reasoning capabilities to the open-source community. This positions Mistral as a serious contender in the reasoning model space previously dominated by proprietary offerings.
 
 A major breakthrough comes from China's Xiaohongshu (Rednote), which released dots.llm1—a massive 142B parameter Mixture-of-Experts model that's truly open-source. What makes this special? Unlike many 'open' models that use synthetic data or have restrictive licenses, dots.llm1 was trained on 11.2 trillion high-quality, non-synthetic tokens and released under a real open-source license. It even includes intermediate checkpoints every trillion tokens, allowing developers to fine-tune from different training stages. Despite activating only 14B parameters during inference, it achieves performance competitive with much larger models like Qwen3 235B.
 
@@ -263,6 +263,7 @@ _Title: "June 2025 Open-Source Breakthroughs"
 
 - Mistral Magistral:
   - Magistral-Small: 24B reasoning model
+  - Magistral-Medium: Advanced reasoning model
   - 40+ language support, 128k context
   - Apache 2.0 licensed
   - 70.68% AIME24 performance
