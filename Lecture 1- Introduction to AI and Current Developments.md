@@ -78,13 +78,13 @@ Let’s break it down: early AI followed strict rules, often coded line-by-line.
 ##### [seq:030] OpenAI (ChatGPT)
 
 ###### SCRIPT
- "We begin with the one many of you already know—ChatGPT by OpenAI. It’s currently the most widely used LLM in the world, both through its web interface and its API. Built on top of the GPT-4 model, and more recently, GPT-4 Turbo, it offers incredible performance for text generation, summarization, reasoning, even coding.
+ "We begin with the one many of you already know—ChatGPT by OpenAI. It’s currently the most widely used LLM in the world, both through its web interface and its API. Built on top of the GPT-4 model family, it offers incredible performance for text generation, summarization, reasoning, and coding.
 
-OpenAI has just made waves with an 80% price reduction for their o3 reasoning model—now at $2/1M input tokens and $8/1M output tokens, making it competitive with Gemini and Claude models. They've also launched o3-pro, positioned as their most intelligent model yet. This aggressive pricing signals a major shift in the AI market dynamics.
+OpenAI has just released O3 Pro to ChatGPT Pro users and API, with an unprecedented 80% price reduction—now at $2/1M input tokens and $8/1M output tokens. O3 Pro has demonstrated remarkable capabilities: it topped SnakeBench, one-shotted the Tower of Hanoi 10-disk problem, and is described as 'MILES ahead of Claude Opus 4' by industry observers. This aggressive pricing and performance combination signals a major shift in the AI market dynamics.
 
-As of June 2025, OpenAI has reached $10 billion in annual recurring revenue with 500 million weekly users and over 3 million business customers—though still operating at a significant financial loss. This massive scale demonstrates both the incredible demand for AI services and the challenging economics of running state-of-the-art models.
+As of June 2025, OpenAI has reached $10 billion in annual recurring revenue with 500 million weekly users and over 3 million business customers—though still operating at a significant financial loss. Sam Altman recently stated: 'We do not know how far beyond human-level intelligence we can go,' suggesting 'intelligence too cheap to meter is well within grasp.' This massive scale demonstrates both the incredible demand for AI services and the challenging economics of running state-of-the-art models.
 
-ChatGPT is now multimodal—it can analyze images, documents, and soon, videos. It also integrates tools like code interpreter, browser, and memory features for continuity between sessions. Whether you’re writing blog posts, debugging Python scripts, or just asking it to summarize a contract, it delivers reliable results in most use cases."
+ChatGPT is now multimodal—it can analyze images, documents, and videos. It also integrates tools like code interpreter, browser, and memory features for continuity between sessions. Whether you’re writing blog posts, debugging Python scripts, solving complex reasoning problems, or just asking it to summarize a contract, it delivers reliable results across most use cases."
 
 ###### VISUAL
  \_Title: "OpenAI - ChatGPT"
@@ -93,11 +93,15 @@ ChatGPT is now multimodal—it can analyze images, documents, and soon, videos. 
 - Key capabilities list: Text, Code, Image input, Memory, Python tool, Browser
 
 ###### NOTES
-- Link: https://chat.openai.com
 - Note that ChatGPT is backed by Microsoft’s Azure infrastructure.
 - Mention Custom GPTs and how you can create your own assistant.
-- **Pricing update**: o3 now 80% cheaper at $2/$8 per 1M tokens (input/output)
-- o3-pro: OpenAI's most intelligent model, positioned above regular o3
+- **O3 Pro update**: Released to ChatGPT Pro users with 80% price reduction at $2/$8 per 1M tokens
+- O3 Pro demonstrated superiority: topped SnakeBench, solved Tower of Hanoi 10-disk problem
+- Sam Altman: "Intelligence too cheap to meter is well within grasp"
+
+###### LINKS
+- https://chat.openai.com
+- https://news.smol.ai/issues/25-06-12-not-much
 
 ###### DEMONSTRATION
  Prompt: _"Explain the difference between machine learning and deep learning in a paragraph suitable for a 12-year-old."_
@@ -438,7 +442,7 @@ This is why you can sometimes 'see' the model think—especially when it slows d
 
 First: **Biases.** These models are trained on internet data. They can replicate gender, racial, cultural, and disability stereotypes. Second: **Hallucinations.** LLMs often 'make up' facts. They can give false citations, invent books, or describe things that don’t exist.
 
-Third: **Reasoning errors.** AI might fail simple logic puzzles or make mistakes in math. Fourth: **Visual bias in multimodal models.** Recent research shows vision-language models achieve 100% accuracy on typical images but drop to ~17% on counterfactual scenarios (like a 5-legged dog), indicating over-reliance on memorized patterns. And lastly: **Ambiguity handling.** If your prompt is vague or contradictory, it might guess wrong—or hedge its answer.
+Third: **Reasoning errors.** AI might fail simple logic puzzles or make mistakes in math. Recent Apple research claims that current LLMs lack genuine reasoning abilities, suggesting they rely more on pattern matching than true logical thinking. Fourth: **Visual bias in multimodal models.** Recent research shows vision-language models achieve 100% accuracy on typical images but drop to ~17% on counterfactual scenarios (like a 5-legged dog), indicating over-reliance on memorized patterns. And lastly: **Ambiguity handling.** If your prompt is vague or contradictory, it might guess wrong—or hedge its answer.
 
 ###### VISUAL
  _Title: "LLM Limitations"_
@@ -474,7 +478,7 @@ Third: **Reasoning errors.** AI might fail simple logic puzzles or make mistakes
 
 Multimodal AI systems can process and integrate information from multiple sources. The massive context window in GPT-4.1 also enhances multimodal analysis, allowing seamless integration and referencing across vast amounts of text and other data types. This enables richer, more context-aware responses and supports complex workflows. The latest Claude 4 models further advance these capabilities, combining strong visual understanding with superior reasoning abilities.
 
-Take **GPT-4 with vision**, **Gemini 2.0**, or **Claude 4**: you can upload an image, and it will describe it, analyze its structure, or answer questions about it. This unlocks amazing potential—from diagnosing medical images to analyzing charts, interpreting photos, and more.
+Take **GPT-4 with vision**, **Gemini 2.0**, or **Claude 4**: you can upload an image, and it will describe it, analyze its structure, or answer questions about it. This unlocks amazing potential—from diagnosing medical images to analyzing charts, interpreting photos, and more. Google DeepMind recently introduced Weather Lab, an AI hurricane forecasting system that demonstrates how multimodal AI can process satellite imagery, weather data, and historical patterns to improve disaster prediction and response.
 
 Soon, we'll see seamless handling of audio, video, and text together, making these models more like general-purpose assistants."
 
@@ -493,7 +497,7 @@ Soon, we'll see seamless handling of audio, video, and text together, making the
 - Resource link: See case studies or user testimonials highlighting real-world applications of multimillion-token context windows
 - Joke: "Finally, an AI that can actually _see_ the mess on my desk."
 - Link for demo: [https://openai.com/gpt-4](https://openai.com/gpt-4)
-- Note: Google's Imagen 4 Ultra ranks #3 in image generation quality, while Veo 3 shows promise for AI video generation
+- Note: Google's Imagen 4 Ultra ranks #3 in image generation quality, while video generation competition intensifies with ByteDance's Seedance 1.0 reportedly outperforming Google's Veo 3, and Kling AI advancing with their 2.1 model
 
 ###### DEMONSTRATION
 Show image prompt:  
@@ -897,7 +901,7 @@ Your homework will involve digging deeper into these weaknesses and reflecting o
 "We've just seen how AI can be biased, hallucinate facts, or make flawed decisions. But here's the thing: these models are increasingly used in **real-world settings**—from hiring to healthcare, from education to policing.
 
 
-The urgency of addressing AI ethics has become even clearer with ongoing developments. Industry leaders are sounding the alarm about rapid job displacement. Dario Amodei, CEO of Anthropic, has warned that AI could displace 50% of entry-level white-collar jobs within 1-5 years. Similarly, Sam Altman of OpenAI has stated that 'there are going to be scary times ahead' and emphasized that models are released early on purpose so society can see what's coming and adapt. This remarkable consensus between two leading AI companies underscores the gravity of the situation.
+The urgency of addressing AI ethics has become even clearer with ongoing developments. Industry leaders are divided on rapid job displacement. Dario Amodei, CEO of Anthropic, has warned that AI could displace 50% of entry-level white-collar jobs within 1-5 years. However, NVIDIA CEO Jensen Huang has publicly disagreed with these predictions, suggesting that AI job automation fears may be overblown. Meanwhile, Sam Altman of OpenAI has stated that 'there are going to be scary times ahead' and emphasized that models are released early on purpose so society can see what's coming and adapt. This emerging debate between AI leaders highlights the uncertainty around AI's economic impact.
 
 This creates a paradox: as AI capabilities expand rapidly, so do the risks. We're seeing concerns about models' ability to complete tasks at levels matching human professionals, while simultaneously struggling with hallucinations and bias. These aren't theoretical concerns—they're affecting real hiring decisions, automated systems, and economic structures today.
 That’s why we need to talk about **ethics**. Not just as a checklist, but as a core responsibility. The stakes are high: one biased algorithm could deny someone a job, a loan, or fair treatment. So let’s look at how we can build and use AI **responsibly**."
@@ -921,10 +925,14 @@ That’s why we need to talk about **ethics**. Not just as a checklist, but as a
 
 
 - Mention real cases: Amazon’s scrapped AI hiring tool, predictive policing controversies.
-- Both Dario Amodei and Sam Altman emphasize the urgency of preparing for AI's impact
+- Industry leaders divided on AI's job impact: Dario Amodei (Anthropic) predicts 50% job displacement, but Jensen Huang (NVIDIA) disagrees with automation fears
 - Sam Altman: releasing imperfect models early for societal adaptation
-- Dario Amodei: 50% job displacement prediction highlights need for proactive policy
+- The CEO debate highlights uncertainty around AI's economic timeline and impact
 - Job market impact: Focus on retraining and adaptation strategies, not fear-based responses
+- **Executive Moves Signal Industry Maturation (June 2025)**:
+  - Sharon Zhou (Lamini CEO) → VP of AI at AMD, strengthening hardware-software AI integration
+  - Fidji Simo (Instacart CEO) → OpenAI Apps CEO, focusing on consumer AI applications
+  - These moves highlight the convergence of AI software with traditional tech sectors
 - Joke: “The only thing worse than a biased human is a biased algorithm pretending to be objective.”
 
 ###### ARCHIVE

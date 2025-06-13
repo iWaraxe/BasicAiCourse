@@ -595,6 +595,7 @@ Let’s walk through each one and see how they can amplify your thinking.
 ###### NOTES
 
 - **Tip**: Emphasize these are *low-barrier tools*. Most use drag & drop, uploads, or text boxes—*no code required*.
+- **June 2025 Innovation**: Sakana AI's Text-to-LoRA (T2L) enables automatic generation of task-specific adapters, making specialized AI more accessible by eliminating manual fine-tuning requirements.
 - **Joke**: “If ChatGPT is your generalist AI, these are like the weirdly talented friends who only do one thing—*but do it brilliantly*.”
 - Mention:
 	- [https://notebooklm.google](https://notebooklm.google)
@@ -633,9 +634,15 @@ In 2025, several major developments have changed the landscape of AI automation 
 - Manage custom agents without writing code
 - Deploy intelligent agents for real-world tasks
 
-Meanwhile, **Meta has formed a dedicated "Superintelligence" AI team**, signaling the industry's shift toward more advanced AI research. This represents the tech giants' recognition that we're approaching a new phase of AI development requiring specialized focus on next-generation capabilities.
+**DSPy Framework** from Stanford is revolutionizing how we build AI agents by introducing programming abstractions for LLMs. Unlike traditional prompt engineering, DSPy:
+- Compiles declarative language model programs into optimized prompts
+- Enables systematic optimization of agent behavior
+- Provides modules for retrieval, reasoning, and multi-hop question answering
+- Integrates seamlessly with existing ML pipelines
 
-These platforms represent the 'LLM OS' concept coming to life—where AI agents don't just respond to prompts but actively execute tasks, maintain state, and collaborate with other agents."
+Meanwhile, **Meta has formed a dedicated "Superintelligence" AI team** led by Alexandr Wang (formerly of Scale AI), signaling the industry's shift toward more advanced AI research. In parallel, Meta released **V-JEPA 2**, a groundbreaking 1.2 billion-parameter world model trained on video that enables zero-shot planning in robotics—a critical step toward agents that can understand and interact with the physical world.
+
+These platforms represent the 'LLM OS' concept coming to life—where AI agents don't just respond to prompts but actively execute tasks, maintain state, understand physical environments, and collaborate with other agents. The trend is clear: we're moving from chatbots to autonomous systems that can reason, plan, and act."
 
 ###### VISUAL
 
@@ -645,7 +652,9 @@ These platforms represent the 'LLM OS' concept coming to life—where AI agents 
 |----------|-------------|----------|
 | Mistral Agents API | Code execution, web search, persistent memory | Developers building production agents |
 | LangChain OAP | No-code interface, MCP support, visual workflows | Business users & rapid prototyping |
-| **Meta Superintelligence** | Advanced AI research, next-gen capabilities | Research & AGI development |
+| DSPy Framework | Declarative LLM programming, systematic optimization | Research & advanced agent development |
+| Meta V-JEPA 2 | Video world model, zero-shot robotics planning | Physical AI & embodied agents |
+| **Meta Superintelligence** | Advanced AI research, Alexandr Wang leadership | Research & AGI development |
 
 **Diagram**: Flow showing agent → tools → actions → results
 
@@ -653,8 +662,15 @@ These platforms represent the 'LLM OS' concept coming to life—where AI agents 
 
 - These platforms are part of the emerging "LLM OS" stack
 - MCP (Model Context Protocol) is becoming a standard for tool integration
-- Both platforms support multi-agent workflows
-- Links: mistral.ai/agents, langchain.com/open-agent-platform
+- Agent frameworks gaining traction: DSPy, LangChain, Mistral Agents
+- World models like V-JEPA 2 enable physical environment understanding
+- Executive move: Alexandr Wang (Scale AI) → Meta Superintelligence lead
+
+###### LINKS
+- https://mistral.ai/agents
+- https://langchain.com/open-agent-platform
+- https://github.com/stanfordnlp/dspy
+- https://news.smol.ai/issues/25-06-11-execuhires-2
 
 ###### DEMONSTRATION
 
@@ -1215,6 +1231,7 @@ Ready to future-proof your AI journey?"
   - Marked kink in compute curve indicates infrastructure inflection point
   - AWS Trainium already half the size of Google's TPU business
   - Enterprise traction showing significant real-world deployment
+  - **June 2025 Infrastructure Alert**: Major outages affecting Cloudflare and Google Cloud Platform disrupted multiple AI platforms including OpenRouter, Cursor, and Cohere, highlighting dependency risks in AI infrastructure
 - **Breakthrough Watch**: Isomorphic Labs (DeepMind) aims to reduce drug discovery from 10 years to weeks using AI, with AlphaFold advances enabling rapid protein structure prediction and AI-driven compound screening
 - **Local Model Update**: DeepSeek V3 rumors suggest open-source models matching GPT-4.5/Claude 4 performance; dual GPU setups (3090/4090) increasingly viable for local deployment
 
@@ -1274,7 +1291,7 @@ This isn't just about saving space. It's about privacy, control, and access. You
 - Community tools: Ollama for easy installation, HuggingFace for model access
 - Performance metrics: Perplexity (lower is better) used to measure quality
 - Real-world speed: 0.5 tokens/second → 8+ tokens/second with optimization
-- **June 2025 Breakthrough**: Parameter-efficient finetuning achieves ~4x more knowledge uptake and 30% less catastrophic forgetting compared to full finetuning and LoRA, using fewer parameters
+- **June 2025 Breakthrough**: Parameter-efficient finetuning achieves ~4x more knowledge uptake and 30% less catastrophic forgetting compared to full finetuning and LoRA, using fewer parameters. The new ABBA architecture for Parameter-Efficient Fine-Tuning now outperforms traditional LoRA methods, offering better performance with similar computational efficiency
 
 ###### LINKS
 - https://huggingface.co/deepseek-ai/DeepSeek-R1-0528-GGUF
@@ -1313,7 +1330,9 @@ This isn't just about saving space. It's about privacy, control, and access. You
 
 Figure, a robotics company, is revolutionizing how we think about humanoid robots. Their Figure 02 robot, powered by the proprietary Helix VLA (Vision-Language-Action) model, demonstrates capabilities that seemed like science fiction just a year ago.
 
-What makes this remarkable? The robot has learned behaviors traditionally associated with human dexterity—like flipping packages to orient barcodes downward and flattening items for scanning. These aren't pre-programmed movements; they're learned behaviors that emerge from the AI understanding the task goal.
+But Figure isn't alone in pushing the boundaries. Meta's V-JEPA 2, released in June 2025, represents a breakthrough in world modeling for robotics. This 1.2 billion-parameter model trained on video data enables zero-shot planning—robots can understand and plan actions in environments they've never seen before. V-JEPA 2 introduces three new benchmarks for physical world reasoning, setting a new standard for how AI understands spatial relationships and physical dynamics.
+
+What makes these advances remarkable? The robots have learned behaviors traditionally associated with human dexterity—like flipping packages to orient barcodes downward and flattening items for scanning. These aren't pre-programmed movements; they're learned behaviors that emerge from the AI understanding the task goal through world models that predict physical outcomes.
 
 The demonstration shows real-world challenges: failed grasp attempts, adaptive repositioning, and sophisticated error recovery. This isn't a perfectly choreographed demo—it's AI learning to handle the messy reality of physical tasks.
 
@@ -1332,6 +1351,11 @@ However, this centralized intelligence raises critical security questions. If on
   - Learned behaviors (not pre-programmed)
   - Real-time error recovery
   - Collective learning across fleet
+- World Models for Robotics:
+  - Meta V-JEPA 2: 1.2B parameters
+  - Zero-shot planning in new environments
+  - Video-based physical world understanding
+  - Three new benchmarks for physical reasoning
 - Helix VLA Model:
   - Vision-Language-Action integration
   - Closed-loop sensorimotor control
@@ -1359,6 +1383,7 @@ Visual: Split screen showing Figure 02 manipulating packages + diagram of collec
 ###### LINKS
 - https://figure.ai (Figure Robotics)
 - Video demonstrations on Figure's social media channels
+- https://news.smol.ai/issues/25-06-11-execuhires-2 (Meta V-JEPA 2 announcement)
 
 ###### DEMONSTRATION
 
