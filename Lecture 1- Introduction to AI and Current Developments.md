@@ -113,7 +113,9 @@ ChatGPT is now multimodal—it can analyze images, documents, and videos. It als
 ###### SCRIPT
  "Claude is developed by Anthropic—a company focused heavily on ethical AI. Claude 2 was known for being more verbose and cautious, while Claude 3 showed competitive reasoning skills. Claude 4 (Opus and Sonnet), released in May 2025, presents an interesting case: while benchmark results are mixed (72% on coding benchmarks), it's currently leading the field in practical performance. Engineers report Claude 4 as 'leading by far' with exceptional context handling and sophisticated reasoning, especially in 'agent mode'—performing complex, iterative tasks like code debugging, documentation analysis, and test generation.
 
-However, there's a critical availability issue: Anthropic unexpectedly cut nearly all Claude 3.x model capacity in early June 2025 with less than five days' notice, causing widespread disruption for enterprise customers. Despite these constraints, Claude maintains 'Constitutional AI'—aligning outputs with ethical principles. It features unique tools like stylized writing, artefacts (like charts or text boxes), Projects for persistent context, and a massive context window handling hundreds of pages with exceptional accuracy."
+However, there's a critical availability issue: Anthropic unexpectedly cut nearly all Claude 3.x model capacity in early June 2025 with less than five days' notice, causing widespread disruption for enterprise customers. Despite these constraints, Claude maintains 'Constitutional AI'—aligning outputs with ethical principles. It features unique tools like stylized writing, artefacts (like charts or text boxes), Projects for persistent context, and a massive context window handling hundreds of pages with exceptional accuracy.
+
+On the research front, Anthropic is pioneering innovative approaches to AI development. Their latest work includes Internal Coherence Maximization (ICM), an unsupervised fine-tuning technique that improves model performance by rewarding internal logical consistency. This approach focuses on self-improvement, where models learn to maintain coherent reasoning patterns across complex tasks. Additionally, Anthropic is exploring multi-agent research architectures, contrasting with other companies' approaches to AI system design."
 
 ###### VISUAL
  _Title: "Anthropic - Claude 4"_
@@ -127,6 +129,8 @@ However, there's a critical availability issue: Anthropic unexpectedly cut nearl
 - Engineers widely report Claude 4 as "leading by far" in practical performance
 - Projects feature provides persistent context across conversations
 - Often explains _why_ it gives certain answers, more transparently than ChatGPT
+- **Research Update**: ICM (Internal Coherence Maximization) focuses on model self-improvement
+- Multi-agent research: Anthropic exploring different architectural approaches
 - Joke: "Claude is the AI that brings receipts—and debugs them too."
 
 ###### LINKS
@@ -260,7 +264,9 @@ Alibaba has also strengthened the open-source ecosystem with new Qwen3 releases.
 
 For those needing tiny but capable models, Nvidia's Nemotron-Research-Reasoning-Qwen-1.5B uses Prolonged Reinforcement Learning to match 7B model performance at just 1.5B parameters—perfect for edge devices and mobile applications.
 
-These models create a rich ecosystem where developers can choose based on their needs: massive MoE models for research, efficient models for production, or tiny models for edge deployment—all with full transparency and control."
+Meanwhile, European AI research has made significant strides with EuroLLM's latest release of multilingual models. The lineup includes a 22B parameter LLM designed specifically for European languages, along with two vision-language models at 1.7B and 9B parameters. Most notably, their Mixture-of-Experts model achieves strong performance with just 2.6B total parameters. This represents Europe's growing commitment to developing region-specific AI capabilities that can handle local languages and cultural contexts more effectively than global models.
+
+These models create a rich ecosystem where developers can choose based on their needs: massive MoE models for research, efficient models for production, tiny models for edge deployment, or region-specific models for local applications—all with full transparency and control."
 
 ###### VISUAL
 _Title: "June 2025 Open-Source Breakthroughs"
@@ -283,7 +289,12 @@ _Title: "June 2025 Open-Source Breakthroughs"
 - Qwen3 Embedding Series:
   - 119 language support
   - 0.6B to 8B sizes
-- Key trend: Transparency + efficiency + global contributions
+- EuroLLM (European AI):
+  - 22B multilingual LLM
+  - Vision-language models: 1.7B, 9B
+  - MoE model: 2.6B parameters
+  - Focus on European languages
+- Key trend: Transparency + efficiency + regional specialization
 
 ###### NOTES
 - Mistral Magistral: First open-source reasoning models with Apache 2.0 license
@@ -292,6 +303,8 @@ _Title: "June 2025 Open-Source Breakthroughs"
 - Qwen3 embeddings excel at multilingual retrieval and RAG applications
 - Community excitement: dots.llm1 called "underrated" despite strong benchmarks
 - Technical note: MoE design with 128 experts, top-6 routing provides flexibility
+- EuroLLM breakthrough: First major European-focused multilingual AI model series
+- Regional AI trend: Models optimized for specific geographic and linguistic needs
 - Efficiency breakthrough: Models getting both larger AND more efficient
 
 ###### LINKS
@@ -947,7 +960,7 @@ Previous content archived on June 3, 2025: Removed specific Claude Opus 4 safety
 
 "Ethical AI is built on a few key principles.
 
-First: **Fairness**—treating all groups equally. That means detecting and correcting for systemic biases in training data.
+First: **Fairness**—treating all groups equally. That means detecting and correcting for systemic biases in training data. Recent research has revealed new challenges: studies show that adding realistic details to AI prompts can inadvertently trigger race and gender bias, making bias detection and mitigation even more complex.
 
 Second: **Transparency**—users deserve to know how decisions are made. Black-box models can be powerful but dangerous.
 
