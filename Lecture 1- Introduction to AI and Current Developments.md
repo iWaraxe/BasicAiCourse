@@ -266,6 +266,8 @@ For those needing tiny but capable models, Nvidia's Nemotron-Research-Reasoning-
 
 Meanwhile, European AI research has made significant strides with EuroLLM's latest release of multilingual models. The lineup includes a 22B parameter LLM designed specifically for European languages, along with two vision-language models at 1.7B and 9B parameters. Most notably, their Mixture-of-Experts model achieves strong performance with just 2.6B total parameters. This represents Europe's growing commitment to developing region-specific AI capabilities that can handle local languages and cultural contexts more effectively than global models.
 
+Additionally, recent developments in AI bias evaluation have revealed important insights about how adding realistic details to prompts can amplify race and gender bias in LLMs. This research underscores the importance of diverse training data and careful evaluation practices, particularly as open-source models democratize AI access globally.
+
 These models create a rich ecosystem where developers can choose based on their needs: massive MoE models for research, efficient models for production, tiny models for edge deployment, or region-specific models for local applications—all with full transparency and control."
 
 ###### VISUAL
