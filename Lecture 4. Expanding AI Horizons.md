@@ -133,6 +133,8 @@ Whether you're building a startup or a hobby project, understanding these contro
 - **Joke**: "Setting temperature to 1 is like giving your AI a Red Bull and telling it to be creative. Setting it to 0? You've got Spock."
 - **Cost Alert (June 2025)**: O3 Pro API costs $111 per task, Gemini 2.5 Pro ~$42/task, Claude 4 Opus $7.31 for complex tasks. Consider cost controls and model selection based on task requirements.
 - **Benchmark Update**: Gemini 2.5 Pro leads in value (83.1% coding accuracy at ~$42/task vs O3's $111), while local models like Qwen3 235B show promise for open-weight deployment
+- **Infrastructure challenges**: Recent cloud provider outages (Cloudflare, Google Cloud) have disrupted AI services, highlighting the importance of backup plans and infrastructure diversity
+- **Hardware developments**: AMD GPUs gaining traction as alternatives to NVIDIA, with growing support from AI frameworks and tools like Unsloth exploring AMD GPU compatibility
 - Mention:
   - [OpenAI Playground](https://platform.openai.com/playground)
   - [Anthropic Console](https://console.anthropic.com)
