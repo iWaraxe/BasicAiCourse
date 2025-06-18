@@ -795,7 +795,47 @@ Summarize this article in 200 words and translate it into Spanish.
 
 ---
 
-#### 5.2. Integrated Workflows
+#### 5.2. Cutting-Edge Research & Future Directions
+
+##### [seq:248] Self-Improving AI Systems & Advanced Techniques
+
+###### SCRIPT
+
+Before we explore tool combinations, let's peek into the future of AI with some groundbreaking research that's happening right now.
+
+The SEAL framework represents a major breakthrough in AI self-improvement. It's a Large Language Model that can literally write its own updates, achieving 72.5% success on ARC-AGI tasks—one of the most challenging reasoning benchmarks. This is significant because it suggests AI systems may soon be able to continuously improve themselves without human intervention.
+
+Anthropic has developed Internal Coherence Maximization (ICM) for unsupervised fine-tuning, allowing models to improve their reasoning without requiring labeled training data. This technique helps models become more consistent and reliable in their outputs.
+
+Another fascinating development is Text-to-LoRA (T2L), a hypernetwork system that enables on-the-fly adaptation of LLMs to specific tasks. Instead of retraining entire models, T2L can quickly adjust a model's behavior for specialized use cases in real-time.
+
+These advances point toward a future where AI systems are not just tools we use, but adaptive partners that continuously evolve and improve based on their interactions and tasks. The implications for productivity workflows are profound—imagine AI that learns and optimizes itself specifically for your work patterns.
+
+###### VISUAL
+
+**Slide Title: "Self-Improving AI: The Next Frontier"**
+
+- SEAL Framework: 72.5% ARC-AGI success rate
+- ICM: Unsupervised reasoning improvement  
+- T2L: Real-time model adaptation
+- Implication: AI that evolves with your needs
+
+**Visual:** Diagram showing traditional AI (static) vs. self-improving AI (dynamic feedback loop)
+
+###### NOTES
+
+- SEAL: Self-writing code represents a paradigm shift in AI development
+- ICM: No labeled data needed for improvement—AI learns from consistency
+- T2L: Think of it as AI wearing different "hats" for different tasks instantly
+- Future outlook: AI assistants that become more personalized over time
+
+###### LINKS
+
+- https://news.smol.ai/issues/25-06-13-cognition-vs-anthropic
+
+---
+
+#### 5.3. Integrated Workflows
 
 ##### [seq:250] Combining Tools for Extraordinary Results
 
@@ -1118,6 +1158,44 @@ Reviewer: Check tone and consistency.
 	- Output full repo
 
 **If live demo not possible**, walk through screenshots or video clips.
+
+---
+
+#### 7.4. AI Infrastructure & Hardware Developments
+
+##### [seq:352] The Changing Landscape of AI Hardware
+
+###### SCRIPT
+
+While we focus on using AI tools, it's worth understanding the infrastructure that powers them—especially as it affects availability and cost.
+
+AMD GPUs are gaining significant traction in the AI space with the MI355X GPU, offering competitive alternatives to NVIDIA's dominance. This competition is driving down costs and improving access to AI computational resources, which directly benefits end users through lower API costs and better performance.
+
+However, the infrastructure remains fragile. Recent major outages from Cloudflare and Google Cloud highlighted how dependent our AI tools are on robust internet infrastructure. When these services go down, it affects everything from ChatGPT to Gemini to smaller AI services.
+
+There's also growing interest in local, on-device AI models. This trend toward edge computing means less dependency on cloud infrastructure and better privacy control. We're seeing powerful models that can run on consumer hardware, reducing the need for constant internet connectivity.
+
+Understanding these infrastructure trends helps you make better decisions about which AI tools to rely on and when to have backup plans.
+
+###### VISUAL
+
+**Title: "AI Infrastructure: Competition & Resilience"**
+
+- Hardware competition: AMD MI355X vs NVIDIA dominance
+- Infrastructure risks: Cloudflare/Google Cloud outages affect AI services
+- Edge computing trend: Local models reducing cloud dependency
+- User benefits: Lower costs, better privacy, more reliability
+
+###### NOTES
+
+- AMD's MI355X represents serious competition to NVIDIA in AI compute
+- Major cloud outages show single points of failure in AI infrastructure
+- Local AI models becoming increasingly viable for everyday tasks
+- Tip: Consider which AI tools have offline capabilities for critical workflows
+
+###### LINKS
+
+- https://news.smol.ai/issues/25-06-13-cognition-vs-anthropic
 
 ---
 
