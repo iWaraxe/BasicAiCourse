@@ -209,6 +209,8 @@ This is unprecedented. DeepSeek-R1-0528 achieves performance that places DeepSee
 
 What makes this revolutionary? The community response has been overwhelming. On SWE-bench Verified coding benchmarks, DeepSeek-R1-0528 scores 33% (±2%), competitive with strong commercial models. On GPQA Diamond PhD-level science questions, it achieves 76% (±2%), outperforming the previous R1's 72%. For coding specifically, it reached 50% on advanced benchmarks, jumping from 20% in just one iteration.
 
+Meanwhile, another Chinese breakthrough in coding AI comes from Moonshot with their Kimi-Dev-72B model. This 72B parameter model achieved an impressive 60.4% on SWE-Bench Verified, actually outperforming DeepSeek R1 on coding benchmarks. However, unlike DeepSeek, Moonshot hasn't released detailed technical documentation, making the comparison more complex but demonstrating the competitive coding capabilities emerging from Chinese AI labs.
+
 The model is now available through multiple channels: the free version can be accessed via OpenRouter (deepseek/deepseek-r1-0528:free), and quantized versions allow it to run locally. The distilled 8B version (DeepSeek-R1-0528-Qwen3-8B) delivers remarkable performance for its size, requiring only 20GB RAM and achieving 8 tokens/second on modest hardware.
 
 Combined with existing models like Mistral, LLaMA, and others available through tools like Ollama, developers now have access to truly powerful AI that runs locally. No internet connection needed, full privacy control, and in DeepSeek's case, performance that often exceeds commercial offerings."
@@ -220,6 +222,7 @@ _Title: "DeepSeek-R1-0528: The Open-Source Game Changer"
   - SWE-bench Verified: 33% (competitive with commercial models)
   - GPQA Diamond: 76% (outperforms previous versions)
   - Coding benchmarks: 20% → 50% improvement
+- Chinese coding competition: Moonshot Kimi-Dev-72B achieves 60.4% on SWE-Bench Verified
 - Key features: MIT License, visible reasoning process, free API access
 - Release impact: DeepSeek now #2 AI lab globally (tied with OpenAI)
 - Community adoption: Available on OpenRouter, Ollama, multiple platforms
@@ -238,6 +241,7 @@ _Title: "DeepSeek-R1-0528: The Open-Source Game Changer"
 ###### LINKS
 - https://ollama.com
 - https://openrouter.ai (deepseek/deepseek-r1-0528:free)
+- https://news.smol.ai/issues/25-06-16-chinese-models
 
 ###### DEMONSTRATION
 Show DeepSeek-R1-0528 via Ollama or web interface:
@@ -265,6 +269,8 @@ Alibaba has also strengthened the open-source ecosystem with new Qwen3 releases.
 For those needing tiny but capable models, Nvidia's Nemotron-Research-Reasoning-Qwen-1.5B uses Prolonged Reinforcement Learning to match 7B model performance at just 1.5B parameters—perfect for edge devices and mobile applications.
 
 Meanwhile, European AI research has made significant strides with EuroLLM's latest release of multilingual models. The lineup includes a 22B parameter LLM designed specifically for European languages, along with two vision-language models at 1.7B and 9B parameters. Most notably, their Mixture-of-Experts model achieves strong performance with just 2.6B total parameters. This represents Europe's growing commitment to developing region-specific AI capabilities that can handle local languages and cultural contexts more effectively than global models.
+
+MiniMax has also entered the open-source arena with their MiniMax-M1 model, featuring 456B parameters with only 46B active per token. This model demonstrates remarkable cost efficiency, having been trained for just $534,700 using innovative techniques like "lightning attention" and CISPO (a GRPO variant). With a massive 1M token input context and 80k token output capacity, MiniMax-M1 showcases how Chinese AI labs are pushing boundaries in both performance and resource efficiency while maintaining full Apache 2.0 open-source licensing.
 
 Additionally, recent developments in AI bias evaluation have revealed important insights about how adding realistic details to prompts can amplify race and gender bias in LLMs. This research underscores the importance of diverse training data and careful evaluation practices, particularly as open-source models democratize AI access globally.
 
@@ -296,6 +302,12 @@ _Title: "June 2025 Open-Source Breakthroughs"
   - Vision-language models: 1.7B, 9B
   - MoE model: 2.6B parameters
   - Focus on European languages
+- MiniMax-M1:
+  - 456B parameters (46B active)
+  - 1M token input, 80k output
+  - Cost-efficient training: $534,700
+  - Lightning attention + CISPO
+  - Apache 2.0 licensed
 - Key trend: Transparency + efficiency + regional specialization
 
 ###### NOTES
@@ -513,6 +525,7 @@ Soon, we'll see seamless handling of audio, video, and text together, making the
 - Joke: "Finally, an AI that can actually _see_ the mess on my desk."
 - Link for demo: [https://openai.com/gpt-4](https://openai.com/gpt-4)
 - Note: Google's Imagen 4 Ultra ranks #3 in image generation quality, while video generation competition intensifies with ByteDance's Seedance 1.0 reportedly outperforming Google's Veo 3, and Kling AI advancing with their 2.1 model
+- MiniMax's Hailuo 02 "Kangaroo" ranked #2 on Artificial Analysis Video Arena, though currently slow (20 minutes per video) with no public API
 
 ###### DEMONSTRATION
 Show image prompt:  
